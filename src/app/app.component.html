@@ -1,0 +1,288 @@
+<main>
+  <div class="mx-auto p-6">
+    <div class="flex flex-wrap gap-6">
+      <h3 class="w-full text-xl font-semibold mb-4">
+        Automation Execution Report
+      </h3>
+
+      <!-- Test Suite Name -->
+      <div>
+        <label for="testSuiteName" class="font-medium block"
+          >Test Suite Name</label
+        >
+        <p-dropdown
+          [options]="testSuiteOptions"
+          [(ngModel)]="report.testSuite"
+          optionLabel="name"
+          placeholder="Select Test Suite"
+        ></p-dropdown>
+      </div>
+
+      <!-- Environment -->
+      <div>
+        <label for="environment" class="font-medium block">Environment</label>
+        <p-dropdown
+          [options]="environmentOptions"
+          [(ngModel)]="report.environment"
+          optionLabel="name"
+          placeholder="Select Environment"
+        ></p-dropdown>
+      </div>
+
+      <!-- Local Company -->
+      <div>
+        <label for="localCompany" class="font-medium block"
+          >Local Company</label
+        >
+        <input
+          pInputText
+          [(ngModel)]="report.localCompany"
+          id="localCompany"
+          placeholder="Enter Local Company"
+          class="p-2 border rounded"
+        />
+      </div>
+
+      <!-- Execution Date -->
+      <div>
+        <label for="executionDate" class="font-medium block"
+          >Execution Date</label
+        >
+        <p-calendar [(ngModel)]="report.date" id="executionDate"></p-calendar>
+      </div>
+
+      <!-- Total Test Case Count -->
+      <div>
+        <label for="totalTestCaseCount" class="font-medium block"
+          >Total Test Case Count</label
+        >
+        <input
+          pInputText
+          [(ngModel)]="report.totalTestCaseCount"
+          id="totalTestCaseCount"
+          placeholder="Enter Total Test Case Count"
+          class="p-2 border rounded"
+        />
+      </div>
+
+      <!-- Executed Test Cases Count -->
+      <div>
+        <label for="executedTestCaseCount" class="font-medium block"
+          >Executed Test Cases Count</label
+        >
+        <input
+          pInputText
+          [(ngModel)]="report.executedTestCaseCount"
+          id="executedTestCaseCount"
+          placeholder="Enter Executed Test Cases Count"
+          class="p-2 border rounded"
+        />
+      </div>
+
+      <!-- Passed Test Cases Count -->
+      <div>
+        <label for="passedTestCaseCount" class="font-medium block"
+          >Passed Test Cases Count</label
+        >
+        <input
+          pInputText
+          [(ngModel)]="report.passedTestCaseCount"
+          id="passedTestCaseCount"
+          placeholder="Enter Passed Test Cases Count"
+          class="p-2 border rounded"
+        />
+      </div>
+
+      <!-- Pass % -->
+      <div>
+        <label for="passPercentage" class="font-medium block">Pass %</label>
+        <input
+          pInputText
+          [(ngModel)]="report.passPercentage"
+          id="passPercentage"
+          placeholder="Enter Pass %"
+          readonly
+          class="p-2 border rounded bg-gray-200 cursor-not-allowed"
+          [value]="
+            calculatePassPercentage(
+              report.totalTestCaseCount,
+              report.passedTestCaseCount
+            )
+          "
+        />
+      </div>
+
+      <!-- Status -->
+      <div>
+        <label for="status" class="font-medium block">Status</label>
+        <p-dropdown
+          [options]="statusOptions"
+          [(ngModel)]="report.status"
+          optionLabel="name"
+          placeholder="Select Status"
+        ></p-dropdown>
+      </div>
+
+      <!-- Executed By -->
+      <div>
+        <label for="executedBy" class="font-medium block">Executed By</label>
+        <p-dropdown
+          [options]="executedByOptions"
+          [(ngModel)]="report.executedBy"
+          optionLabel="name"
+          placeholder="Select Executor"
+        ></p-dropdown>
+      </div>
+
+      <!-- Comments -->
+      <div>
+        <label for="comments" class="font-medium block">Comments</label>
+        <textarea
+          [(ngModel)]="report.comments"
+          id="comments"
+          placeholder="Enter Comments"
+          rows="4"
+          class="p-2 border rounded"
+        ></textarea>
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex justify-between mt-4 w-full">
+        <button
+          pButton
+          type="button"
+          label="Add"
+          (click)="addReport()"
+          class="bg-blue-500 text-white rounded py-2 px-4 hover:bg-blue-600"
+        ></button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <p-table
+      #dt2
+      [value]="jobs"
+      dataKey="id"
+      [rows]="10"
+      [rowsPerPageOptions]="[10, 25, 50]"
+      [paginator]="true"
+      [globalFilterFields]="[
+        'testSuite.name',
+        'environment.name',
+        'status.name',
+        'executedBy.name',
+        'localCompany'
+      ]"
+      [tableStyle]="{ 'min-width': '75rem' }"
+    >
+      <ng-template pTemplate="header">
+        <tr>
+          <th>
+            Test Suite
+            <p-columnFilter
+              field="testSuite.name"
+              type="text"
+              placeholder="Search by Test Suite"
+              ariaLabel="Filter Test Suite"
+              showMenu="false"
+              matchMode="contains"
+            />
+          </th>
+          <th>
+            Environment
+            <p-columnFilter
+              field="environment.name"
+              type="text"
+              placeholder="Search by Environment"
+              ariaLabel="Filter Environment"
+              showMenu="false"
+              matchMode="contains"
+            />
+          </th>
+          <th>
+            Local Company
+            <p-columnFilter
+              field="localCompany"
+              type="text"
+              placeholder="Search by Company"
+              ariaLabel="Filter Local Company"
+              showMenu="false"
+              matchMode="contains"
+            />
+          </th>
+          <th>Total Test Cases</th>
+          <th>Executed Test Cases</th>
+          <th>Pass Percentage</th>
+          <th>
+            Status
+            <p-columnFilter
+              field="status.value"
+              matchMode="equals"
+              [showMenu]="false"
+            >
+              <ng-template
+                pTemplate="filter"
+                let-value
+                let-filter="filterCallback"
+              >
+                <p-dropdown
+                  [options]="statusOptions"
+                  [filter]="true"
+                  field="status.name"
+                  optionLabel="name"
+                  placeholder="Select Status"
+                  ariaLabel="Filter Status"
+                  (onChange)="filter($event.value)"
+                ></p-dropdown>
+              </ng-template>
+            </p-columnFilter>
+          </th>
+          <th>
+            Executed By
+            <p-dropdown
+              [options]="executedByOptions"
+              [filter]="true"
+              field="executedBy.name"
+              optionLabel="name"
+              placeholder="Select Executed By"
+              ariaLabel="Filter Executed By"
+            ></p-dropdown>
+          </th>
+          <th>
+            Date
+            <p-columnFilter
+              field="date"
+              type="date"
+              placeholder="Search by Date"
+              ariaLabel="Filter Date"
+            />
+          </th>
+        </tr>
+      </ng-template>
+
+      <!-- Table Body -->
+      <ng-template pTemplate="body" let-job>
+        <tr>
+          <td>{{ job.testSuite?.name || "N/A" }}</td>
+          <td>{{ job.environment?.name || "N/A" }}</td>
+          <td>{{ job.localCompany || "N/A" }}</td>
+          <td>{{ job.totalTestCaseCount }}</td>
+          <td>{{ job.executedTestCaseCount }}</td>
+          <td>{{ job.passPercentage }}%</td>
+          <td>{{ job.status?.name || "N/A" }}</td>
+          <td>{{ job.executedBy?.name || "N/A" }}</td>
+          <td>{{ job.date ? (job.date | date : "short") : "N/A" }}</td>
+        </tr>
+      </ng-template>
+
+      <!-- No Data Message -->
+      <ng-template pTemplate="emptymessage">
+        <tr>
+          <td colspan="9">No jobs found.</td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+</main>
+
+<router-outlet />

@@ -1,0 +1,5 @@
+[
+  { "name": "Production", "code": "PROD" },
+  { "name": "Staging", "code": "STAGE" },
+  { "name": "Development", "code": "DEV" }
+]

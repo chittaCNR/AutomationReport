@@ -1,0 +1,5 @@
+[
+  { "name": "Passed", "code": "PASSED" },
+  { "name": "Failed", "code": "FAILED" },
+  { "name": "In Progress", "code": "IN_PROGRESS" }
+]

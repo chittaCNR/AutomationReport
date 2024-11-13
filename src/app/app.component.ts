@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ServicesService } from '../services/services.service';
 import { JobReport } from '../models/report';
 import { DropdownItem } from 'primeng/dropdown';
+import { DomainStatus } from '../models/domain-status';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,10 @@ export class AppComponent implements OnInit {
   environmentOptions: DropdownItem[] = [];
   statusOptions: DropdownItem[] = [];
   executedByOptions: DropdownItem[] = [];
+  applicationTypes: DropdownItem[] = [];
+  applicationStatus: DropdownItem[] = [];
   jobs:JobReport[]=[];
+  domainStatus:DomainStatus[] = [];
 
   report: JobReport = {
     id: 0,
@@ -31,7 +35,9 @@ export class AppComponent implements OnInit {
     status: null,
     executedBy: null,
     comments: '',
-    date: null
+    date: null,
+    applicationTypes: null,
+    applicationStatus: null
   }
   ngOnInit() {
     this.loadOptions();
@@ -42,6 +48,9 @@ export class AppComponent implements OnInit {
     const environmentUrl = 'assets/environment-options.json';
     const statusUrl = 'assets/status-options.json';
     const executedByUrl = 'assets/executed-by-options.json';
+    const applicationStatus = 'assets/application-status.json';
+    const applicationType = 'assets/application-type.json';
+    const domainStatus = 'assets/domain-status.json';
 
     this.jobService.getJobs(testSuiteUrl).subscribe((data) => {
       this.testSuiteOptions = data;
@@ -54,6 +63,15 @@ export class AppComponent implements OnInit {
     });
     this.jobService.getJobs(executedByUrl).subscribe((data) => {
       this.executedByOptions = data;
+    });
+    this.jobService.getJobs(applicationStatus).subscribe((data) => {
+      this.applicationStatus = data;
+    });
+    this.jobService.getJobs(applicationType).subscribe((data) => {
+      this.applicationTypes = data;
+    });
+    this.jobService.getJobs(domainStatus).subscribe((data) => {
+      this.domainStatus = data;
     });
     this.jobService.getJobs('service/jobs.json').subscribe((data) => {
       this.jobs = data;
@@ -79,7 +97,9 @@ export class AppComponent implements OnInit {
       status: null,
       executedBy: null,
       comments: '',
-      date: null
+      date: null,
+      applicationTypes: null,
+      applicationStatus: null
     }
   }
 
@@ -95,6 +115,7 @@ export class AppComponent implements OnInit {
     this.jobService.addJob(modifiedReport).subscribe(data => {
       console.log(data)
     });
+    this.resetReport();
   }
 
   searchReport() {

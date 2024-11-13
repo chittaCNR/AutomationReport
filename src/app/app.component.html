@@ -7,255 +7,149 @@
 
       <!-- Test Suite Name -->
       <div>
-        <label for="testSuiteName" class="font-medium block"
-          >Test Suite Name</label
-        >
-        <p-dropdown
-          [options]="testSuiteOptions"
-          [(ngModel)]="report.testSuite"
-          optionLabel="name"
-          placeholder="Select Test Suite"
-        ></p-dropdown>
+        <label for="testSuiteName" class="font-medium block">Test Suite Name</label>
+        <p-dropdown [options]="testSuiteOptions" [(ngModel)]="report.testSuite" optionLabel="name"
+          ></p-dropdown>
       </div>
 
       <!-- Environment -->
       <div>
         <label for="environment" class="font-medium block">Environment</label>
-        <p-dropdown
-          [options]="environmentOptions"
-          [(ngModel)]="report.environment"
-          optionLabel="name"
-          placeholder="Select Environment"
-        ></p-dropdown>
+        <p-dropdown [options]="environmentOptions" [(ngModel)]="report.environment" optionLabel="name"
+          ></p-dropdown>
       </div>
 
       <!-- Local Company -->
       <div>
-        <label for="localCompany" class="font-medium block"
-          >Local Company</label
-        >
-        <input
-          pInputText
-          [(ngModel)]="report.localCompany"
-          id="localCompany"
-          placeholder="Enter Local Company"
-          class="p-2 border rounded"
-        />
+        <label for="localCompany" class="font-medium block">Local Company</label>
+        <input pInputText [(ngModel)]="report.localCompany" id="localCompany"
+          class="p-2 border rounded" />
       </div>
 
       <!-- Execution Date -->
       <div>
-        <label for="executionDate" class="font-medium block"
-          >Execution Date</label
-        >
+        <label for="executionDate" class="font-medium block">Execution Date</label>
         <p-calendar [(ngModel)]="report.date" id="executionDate"></p-calendar>
       </div>
 
       <!-- Total Test Case Count -->
       <div>
-        <label for="totalTestCaseCount" class="font-medium block"
-          >Total Test Case Count</label
-        >
-        <input
-          pInputText
-          [(ngModel)]="report.totalTestCaseCount"
-          id="totalTestCaseCount"
-          placeholder="Enter Total Test Case Count"
-          class="p-2 border rounded"
-        />
+        <label for="totalTestCaseCount" class="font-medium block">Total Test Case Count</label>
+        <input pInputText [(ngModel)]="report.totalTestCaseCount" id="totalTestCaseCount"
+           class="p-2 border rounded" />
       </div>
 
       <!-- Executed Test Cases Count -->
       <div>
-        <label for="executedTestCaseCount" class="font-medium block"
-          >Executed Test Cases Count</label
-        >
-        <input
-          pInputText
-          [(ngModel)]="report.executedTestCaseCount"
-          id="executedTestCaseCount"
-          placeholder="Enter Executed Test Cases Count"
-          class="p-2 border rounded"
-        />
+        <label for="executedTestCaseCount" class="font-medium block">Executed Test Cases Count</label>
+        <input pInputText [(ngModel)]="report.executedTestCaseCount" id="executedTestCaseCount"
+          class="p-2 border rounded" />
       </div>
 
       <!-- Passed Test Cases Count -->
       <div>
-        <label for="passedTestCaseCount" class="font-medium block"
-          >Passed Test Cases Count</label
-        >
-        <input
-          pInputText
-          [(ngModel)]="report.passedTestCaseCount"
-          id="passedTestCaseCount"
-          placeholder="Enter Passed Test Cases Count"
-          class="p-2 border rounded"
-        />
+        <label for="passedTestCaseCount" class="font-medium block">Passed Test Cases Count</label>
+        <input pInputText [(ngModel)]="report.passedTestCaseCount" id="passedTestCaseCount"
+           class="p-2 border rounded" />
       </div>
 
       <!-- Pass % -->
       <div>
         <label for="passPercentage" class="font-medium block">Pass %</label>
-        <input
-          pInputText
-          [(ngModel)]="report.passPercentage"
-          id="passPercentage"
-          placeholder="Enter Pass %"
-          readonly
-          class="p-2 border rounded bg-gray-200 cursor-not-allowed"
-          [value]="
+        <input pInputText [(ngModel)]="report.passPercentage" id="passPercentage" readonly
+          class="p-2 border rounded bg-gray-200 cursor-not-allowed" [value]="
             calculatePassPercentage(
-              report.totalTestCaseCount,
+              report.executedTestCaseCount,
               report.passedTestCaseCount
             )
-          "
-        />
+          " />
       </div>
 
       <!-- Status -->
       <div>
-        <label for="status" class="font-medium block">Status</label>
-        <p-dropdown
-          [options]="statusOptions"
-          [(ngModel)]="report.status"
-          optionLabel="name"
-          placeholder="Select Status"
-        ></p-dropdown>
+        <label for="status" class="font-medium block">Test Status</label>
+        <p-dropdown [options]="statusOptions" [(ngModel)]="report.status" optionLabel="name"
+          ></p-dropdown>
       </div>
 
       <!-- Executed By -->
       <div>
         <label for="executedBy" class="font-medium block">Executed By</label>
-        <p-dropdown
-          [options]="executedByOptions"
-          [(ngModel)]="report.executedBy"
-          optionLabel="name"
-          placeholder="Select Executor"
-        ></p-dropdown>
+        <p-dropdown [options]="executedByOptions" [(ngModel)]="report.executedBy" optionLabel="name"
+          ></p-dropdown>
+      </div>
+      <!-- Application Type -->
+      <div>
+        <label for="applicationType" class="font-medium block">Application Type</label>
+        <p-dropdown [options]="applicationTypes" [(ngModel)]="report.applicationTypes" optionLabel="name"
+          ></p-dropdown>
+      </div>
+      <!-- Application Status -->
+      <div>
+        <label for="applicationStatus" class="font-medium block">Application Status</label>
+        <p-dropdown [options]="applicationStatus" [(ngModel)]="report.applicationStatus" optionLabel="name"
+         ></p-dropdown>
       </div>
 
       <!-- Comments -->
       <div>
         <label for="comments" class="font-medium block">Comments</label>
-        <textarea
-          [(ngModel)]="report.comments"
-          id="comments"
-          placeholder="Enter Comments"
-          rows="4"
-          class="p-2 border rounded"
-        ></textarea>
+        <textarea [(ngModel)]="report.comments" id="comments" placeholder="Enter Comments" rows="4"
+          class="p-2 border rounded"></textarea>
       </div>
 
       <!-- Buttons -->
       <div class="flex justify-between mt-4 w-full">
-        <button
-          pButton
-          type="button"
-          label="Add"
-          (click)="addReport()"
-          class="bg-blue-500 text-white rounded py-2 px-4 hover:bg-blue-600"
-        ></button>
+        <button pButton type="button" label="Add" (click)="addReport()"
+          class="bg-blue-500 text-white rounded py-2 px-4 hover:bg-blue-600"></button>
       </div>
     </div>
   </div>
   <div>
-    <p-table
-      #dt2
-      [value]="jobs"
-      dataKey="id"
-      [rows]="10"
-      [rowsPerPageOptions]="[10, 25, 50]"
-      [paginator]="true"
-      [globalFilterFields]="[
+    <p-table #dt2 [value]="jobs" dataKey="id" [rows]="10" [paginator]="false" [globalFilterFields]="[
         'testSuite.name',
         'environment.name',
         'status.name',
         'executedBy.name',
         'localCompany'
-      ]"
-      [tableStyle]="{ 'min-width': '75rem' }"
-    >
+      ]" [tableStyle]="{ 'min-width': '75rem' }">
       <ng-template pTemplate="header">
         <tr>
           <th>
             Test Suite
-            <p-columnFilter
-              field="testSuite.name"
-              type="text"
-              placeholder="Search by Test Suite"
-              ariaLabel="Filter Test Suite"
-              showMenu="false"
-              matchMode="contains"
-            />
+            <p-columnFilter field="testSuite.name" type="text" placeholder="Search by Test Suite"
+              ariaLabel="Filter Test Suite" showMenu="false" matchMode="contains" />
           </th>
           <th>
             Environment
-            <p-columnFilter
-              field="environment.name"
-              type="text"
-              placeholder="Search by Environment"
-              ariaLabel="Filter Environment"
-              showMenu="false"
-              matchMode="contains"
-            />
+            <p-columnFilter field="environment.name" type="text" placeholder="Search by Environment"
+              ariaLabel="Filter Environment" showMenu="false" matchMode="contains" />
           </th>
           <th>
             Local Company
-            <p-columnFilter
-              field="localCompany"
-              type="text"
-              placeholder="Search by Company"
-              ariaLabel="Filter Local Company"
-              showMenu="false"
-              matchMode="contains"
-            />
+            <p-columnFilter field="localCompany" type="text" placeholder="Search by Company"
+              ariaLabel="Filter Local Company" showMenu="false" matchMode="contains" />
           </th>
           <th>Total Test Cases</th>
           <th>Executed Test Cases</th>
           <th>Pass Percentage</th>
           <th>
             Status
-            <p-columnFilter
-              field="status.value"
-              matchMode="equals"
-              [showMenu]="false"
-            >
-              <ng-template
-                pTemplate="filter"
-                let-value
-                let-filter="filterCallback"
-              >
-                <p-dropdown
-                  [options]="statusOptions"
-                  [filter]="true"
-                  field="status.name"
-                  optionLabel="name"
-                  placeholder="Select Status"
-                  ariaLabel="Filter Status"
-                  (onChange)="filter($event.value)"
-                ></p-dropdown>
+            <p-columnFilter field="status.value" matchMode="equals" [showMenu]="false">
+              <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                <p-dropdown [options]="statusOptions" [filter]="true" field="status.name" optionLabel="name"
+                  placeholder="Select Status" ariaLabel="Filter Status" (onChange)="filter($event.value)"></p-dropdown>
               </ng-template>
             </p-columnFilter>
           </th>
           <th>
             Executed By
-            <p-dropdown
-              [options]="executedByOptions"
-              [filter]="true"
-              field="executedBy.name"
-              optionLabel="name"
-              placeholder="Select Executed By"
-              ariaLabel="Filter Executed By"
-            ></p-dropdown>
+            <p-dropdown [options]="executedByOptions" [filter]="true" field="executedBy.name" optionLabel="name"
+              placeholder="Select Executed By" ariaLabel="Filter Executed By"></p-dropdown>
           </th>
           <th>
             Date
-            <p-columnFilter
-              field="date"
-              type="date"
-              placeholder="Search by Date"
-              ariaLabel="Filter Date"
-            />
+            <p-columnFilter field="date" type="date" placeholder="Search by Date" ariaLabel="Filter Date" />
           </th>
         </tr>
       </ng-template>
@@ -283,6 +177,27 @@
       </ng-template>
     </p-table>
   </div>
+  <div class=" w- full p-20 flex flex-col justify-center">
+    <div>
+    <h2>Automation Status By Domain</h2>
+    <p-table [value]="domainStatus" [tableStyle]="{ 'width': '50rem' }">
+      <ng-template pTemplate="header">
+          <tr>
+              <th>Domain Name</th>
+              <th>Test Case Count</th>
+              <th>Pass Percentage</th>
+          </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-domain>
+          <tr>
+              <td>{{ domain.domainName }}</td>
+              <td>{{ domain.testCaseCount }}</td>
+              <td>{{ domain.passPercentage }}</td>
+          </tr>
+      </ng-template>
+  </p-table>
+  </div>
+</div>
 </main>
 
 <router-outlet />

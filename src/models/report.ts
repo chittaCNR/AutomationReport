@@ -1,7 +1,7 @@
-import { DropdownItem } from "./dropdown-item";
+import { DropdownItem } from './dropdown-item';
 
 export interface JobReport {
-  id:number;
+  id: number;
   testSuite: DropdownItem | null;
   environment: DropdownItem | null;
   localCompany: string;
@@ -11,6 +11,8 @@ export interface JobReport {
   passPercentage: number; // Readonly (shouldn't be updated by user)
   status: DropdownItem | null;
   executedBy: DropdownItem | null;
+  applicationTypes: DropdownItem[] | null;
+  applicationStatus: DropdownItem[] | null;
   comments: string;
   date: Date | null;
 }

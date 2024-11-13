@@ -1,0 +1,27 @@
+[
+  {
+    "domainName":"PM",
+    "testCaseCount":"80",
+    "passPercentage":"50%"
+  },
+  {
+    "domainName":"PM",
+    "testCaseCount":"80",
+    "passPercentage":"50%"
+  },
+  {
+    "domainName":"PM",
+    "testCaseCount":"80",
+    "passPercentage":"50%"
+  },
+  {
+    "domainName":"PM",
+    "testCaseCount":"80",
+    "passPercentage":"50%"
+  },
+  {
+    "domainName":"PM",
+    "testCaseCount":"80",
+    "passPercentage":"50%"
+  }
+]

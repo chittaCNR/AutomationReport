@@ -1,0 +1,4 @@
+[
+  { "name": "Legacy", "code": "PROD" },
+  { "name": "In-Sprint", "code": "STAGE" }
+]

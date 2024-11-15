@@ -43,6 +43,8 @@ app.post('/add-job', (req, res) => {
     passPercentage,
     status,
     executedBy,
+    applicationType,
+    applicationStatus,
     comments,
     date,
     id
@@ -61,9 +63,11 @@ app.post('/add-job', (req, res) => {
     totalTestCaseCount,
     executedTestCaseCount,
     passedTestCaseCount,
-    passPercentage, // This can be calculated dynamically or handled as readonly in frontend
+    passPercentage,
     status,
     executedBy,
+    applicationType,
+    applicationStatus,
     comments,
     date,
     id

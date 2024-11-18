@@ -1,9 +1,9 @@
 <main>
   <div class="mx-auto p-6">
     <div class="flex flex-wrap gap-6">
-      <h3 class="w-full text-xl font-semibold mb-4">
-        Automation Execution Report
-      </h3>
+      <h2 class="w-full text-xl font-semibold mb-4" style="text-align: center">
+        Automation Test Execution Report
+      </h2>
 
       <!-- Test Suite Name -->
       <div>
@@ -336,13 +336,13 @@
   </div>
   <div class="w- full p-20 flex flex-col justify-center">
     <div>
-      <h2>Automation Status By Domain</h2>
+      <h2 style="text-align: center;">Automation Run Summary - By Domain</h2>
       <p-table [value]="domainStatus" [tableStyle]="{ width: '50rem' }">
         <ng-template pTemplate="header">
           <tr>
             <th>Domain Name</th>
             <th>Test Case Count</th>
-            <th>Pass Percentage</th>
+            <th>Pass %</th>
           </tr>
         </ng-template>
         <ng-template pTemplate="body" let-domain>
@@ -354,6 +354,9 @@
         </ng-template>
       </p-table>
     </div>
+    <br><br><br>
+    
+    <h6 style="text-align: right;"> Last updated Date : </h6>
   </div>
 </main>
 

@@ -1,26 +1,36 @@
 [
   {
-    "domainName":"PM",
+    "domainName":"Inventory",
     "testCaseCount":"80",
     "passPercentage":"50%"
   },
   {
-    "domainName":"PM",
+    "domainName":"Sales",
     "testCaseCount":"80",
     "passPercentage":"50%"
   },
   {
-    "domainName":"PM",
+    "domainName":"Pricing",
     "testCaseCount":"80",
     "passPercentage":"50%"
   },
   {
-    "domainName":"PM",
+    "domainName":"Purchasing",
     "testCaseCount":"80",
     "passPercentage":"50%"
   },
   {
-    "domainName":"PM",
+    "domainName":"AR",
+    "testCaseCount":"80",
+    "passPercentage":"50%"
+  },
+  {
+    "domainName":"AP",
+    "testCaseCount":"80",
+    "passPercentage":"50%"
+  },
+  {
+    "domainName":"LCW",
     "testCaseCount":"80",
     "passPercentage":"50%"
   }

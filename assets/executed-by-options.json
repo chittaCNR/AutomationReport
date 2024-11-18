@@ -1,5 +1,8 @@
 [
-  { "name": "John Doe", "code": "JD" },
-  { "name": "Jane Smith", "code": "JS" },
-  { "name": "David Lee", "code": "DL" }
+  { "name": "CNR", "code": "CNR" },
+  { "name": "Prabhath", "code": "kiran" },
+  { "name": "Abram", "code": "Abram" },
+  { "name": "Gopesh", "code": "Gopesh" },
+  { "name": "Mahender", "code": "Mahender" },
+  { "name": "Shiva", "code": "Shiva" }
 ]

@@ -1,4 +1,4 @@
 [
-  { "name": "Legacy", "code": "PROD" },
-  { "name": "In-Sprint", "code": "STAGE" }
+  { "name": "non-Sprint", "code": "nonSprint" },
+  { "name": "In-Sprint", "code": "inSprint" }
 ]

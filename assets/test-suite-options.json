@@ -1,5 +1,24 @@
 [
-  { "name": "Test Suite 1", "code": "TS1" },
-  { "name": "Test Suite 2", "code": "TS2" },
-  { "name": "Test Suite 3", "code": "TS3" }
+  { "name": "SalesIT - Project Management", "code": "TS1" },
+  { "name": "SalesIT - Quote to Cash", "code": "TS2" },
+  { "name": "Pricing - Cost Price Sheets", "code": "TS3" },
+  { "name": "Pricing - Pricing Matrix Rewrite", "code": "TS4" },
+  { "name": "Pricing - Special Pricing Allowance", "code": "TS5" },
+  { "name": "LCW - Item Maintenance Quick Entry", "code": "TS6" },
+  { "name": "LCW - Item Bin Maintenance", "code": "TS7" },
+  { "name": "LCW - Item Bin Ledger", "code": "TS8" },
+  { "name": "LCW - Picking In Process", "code": "TS9" },
+  { "name": "LCW - Customer Returns in Process", "code": "TS10" },
+  { "name": "LCW - Zones", "code": "TS11" },
+  { "name": "LCW - Shipping Manifest", "code": "TS12" },
+  { "name": "LCW - Mass Bin Creation", "code": "TS13" },
+  { "name": "LCW - TMS", "code": "TS14" },
+  { "name": "Purchasing - Purchase Orders", "code": "TS15" },
+  { "name": "Purchasing - Suggested Purchase Orders", "code": "TS16" },
+  { "name": "Inventory - Item Ledger", "code": "TS17" },
+  { "name": "Inventory - WinVision", "code": "TS18" },
+  { "name": "EDI - EDI", "code": "TS19" },
+  { "name": "AR - Credit Management App", "code": "TS20" },
+  { "name": "AF - Target Bonus", "code": "TS21" }
+
 ]

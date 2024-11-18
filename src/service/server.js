@@ -30,6 +30,31 @@ app.get('/jobs', (req, res) => {
   const jobs = readJobs();
   res.json(jobs);
 });
+app.post('/otherData', (req, res) => {
+  const { lastUpdateDate } = req.body;
+
+  if (!lastUpdateDate) {
+    return res.status(400).json({ error: 'lastUpdateDate is required' });
+  }
+
+  try {
+    fs.writeFileSync(path.join(__dirname, 'otherData.json'), JSON.stringify(lastUpdateDate, null, 2), 'utf8');
+    res.status(201).json({ message: 'Data successfully saved' });
+  } catch (err) {
+    console.error('Error writing to file:', err);
+    res.status(500).json({ error: 'Failed to save data' });
+  }
+});
+
+app.get('/otherData', (req, res) => {
+  try {
+    const data = fs.readFileSync(path.join(__dirname, 'otherData.json'), 'utf8');
+    return res.json(JSON.parse(data));
+  } catch (err) {
+    console.error('Error reading file:', err);
+    res.status(500).json({ error: 'Failed to read data' });
+  }
+});
 
 // API route to add a new job
 app.post('/add-job', (req, res) => {

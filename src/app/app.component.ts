@@ -1,15 +1,11 @@
 import {
   Component,
-  OnChanges,
   OnInit,
-  SimpleChanges,
-  ViewChild,
 } from '@angular/core';
 import { ServicesService } from '../services/services.service';
 import { JobReport } from '../models/report';
 import { DropdownItem } from 'primeng/dropdown';
 import { DomainStatus } from '../models/domain-status';
-import { Table } from 'primeng/table';
 
 @Component({
   selector: 'app-root',
@@ -30,6 +26,7 @@ export class AppComponent implements OnInit {
   jobs: JobReport[] = [];
   jobsData: JobReport[] = [];
   domainStatus: DomainStatus[] = [];
+  lastUpdateDate:string = '';
 
   jobFilter: JobReport = {
     id: 0,
@@ -57,7 +54,7 @@ export class AppComponent implements OnInit {
     executedTestCaseCount: 0,
     passedTestCaseCount: 0,
     passPercentage: 0,
-    status: null,
+    status: null, 
     executedBy: null,
     comments: '',
     date: null,
@@ -66,6 +63,12 @@ export class AppComponent implements OnInit {
   };
   ngOnInit() {
     this.loadOptions();
+    this.addOtherData();
+  }
+  addOtherData(){
+    this.jobService.addOtherData({ 'lastUpdateDate': new Date().toLocaleDateString()}).subscribe((data)=>{
+      console.log(data);
+    });
   }
   updatePassPercentage() {
     this.report.passPercentage = this.calculatePassPercentage(
@@ -108,6 +111,9 @@ export class AppComponent implements OnInit {
       this.jobs = data;
       this.jobsData = data;
     });
+    this.jobService.getJobs('service/otherData.json').subscribe((data) => {
+      this.lastUpdateDate = data as unknown as string;
+     });
   }
   calculatePassPercentage(
     totalTestCaseCount: number,
@@ -116,7 +122,7 @@ export class AppComponent implements OnInit {
     if (totalTestCaseCount === 0) {
       return 0; // Avoid division by zero
     }
-    return (passedTestCaseCount / totalTestCaseCount) * 100;
+    return parseFloat(((passedTestCaseCount / totalTestCaseCount) * 100).toFixed(2));
   }
 
   resetReport() {

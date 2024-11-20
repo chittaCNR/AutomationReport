@@ -21,11 +21,11 @@
       "name": "CNR",
       "code": "CNR"
     },
-    "applicationType": {
+    "applicationMode": {
       "name": "In-Sprint",
       "code": "inSprint"
     },
-    "applicationStatus": {
+    "applicationType": {
       "name": "Angular",
       "code": "ANGULAR"
     },
@@ -55,11 +55,11 @@
       "name": "CNR",
       "code": "CNR"
     },
-    "applicationType": {
+    "applicationMode": {
       "name": "In-Sprint",
       "code": "inSprint"
     },
-    "applicationStatus": {
+    "applicationType": {
       "name": "Angular",
       "code": "ANGULAR"
     },
@@ -89,11 +89,11 @@
       "name": "CNR",
       "code": "CNR"
     },
-    "applicationType": {
+    "applicationMode": {
       "name": "In-Sprint",
       "code": "inSprint"
     },
-    "applicationStatus": {
+    "applicationType": {
       "name": "Angular",
       "code": "ANGULAR"
     },
@@ -123,11 +123,11 @@
       "name": "CNR",
       "code": "CNR"
     },
-    "applicationType": {
+    "applicationMode": {
       "name": "In-Sprint",
       "code": "inSprint"
     },
-    "applicationStatus": {
+    "applicationType": {
       "name": "Angular",
       "code": "ANGULAR"
     },

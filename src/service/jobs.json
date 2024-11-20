@@ -1,1 +1,138 @@
-[]
+[
+  {
+    "testSuite": {
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "6",
+    "passedTestCaseCount": "3",
+    "passPercentage": 50,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "Com",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 677
+  },
+  {
+    "testSuite": {
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "6",
+    "passedTestCaseCount": "3",
+    "passPercentage": 50,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "Com",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 9452
+  },
+  {
+    "testSuite": {
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "20",
+    "executedTestCaseCount": "15",
+    "passedTestCaseCount": "10",
+    "passPercentage": 66.66666666666666,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "c",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 4407
+  },
+  {
+    "testSuite": {
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "20",
+    "executedTestCaseCount": "15",
+    "passedTestCaseCount": "10",
+    "passPercentage": 66.66666666666666,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "c",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 6846
+  }
+]

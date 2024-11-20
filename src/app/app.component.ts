@@ -21,8 +21,8 @@ export class AppComponent implements OnInit {
   environmentOptions: DropdownItem[] = [];
   statusOptions: DropdownItem[] = [];
   executedByOptions: DropdownItem[] = [];
-  applicationTypes: DropdownItem[] = [];
-  applicationStatus: DropdownItem[] = [];
+  applicationModes: DropdownItem[] = [];
+  applicationType: DropdownItem[] = [];
   jobs: JobReport[] = [];
   jobsData: JobReport[] = [];
   domainStatus: DomainStatus[] = [];
@@ -39,8 +39,8 @@ export class AppComponent implements OnInit {
     passPercentage: 0,
     status: null,
     executedBy: null,
+    applicationMode: null,
     applicationType: null,
-    applicationStatus: null,
     comments: '',
     date: null,
   };
@@ -58,8 +58,8 @@ export class AppComponent implements OnInit {
     executedBy: null,
     comments: '',
     date: null,
+    applicationMode: null,
     applicationType: null,
-    applicationStatus: null,
   };
   ngOnInit() {
     this.loadOptions();
@@ -80,10 +80,10 @@ export class AppComponent implements OnInit {
   loadOptions() {
     const testSuiteUrl = 'assets/test-suite-options.json';
     const environmentUrl = 'assets/environment-options.json';
-    const statusUrl = 'assets/status-options.json';
+    const statusUrl = 'assets/type-options.json';
     const executedByUrl = 'assets/executed-by-options.json';
-    const applicationStatus = 'assets/application-status.json';
     const applicationType = 'assets/application-type.json';
+    const applicationMode = 'assets/application-mode.json';
     const domainStatus = 'assets/domain-status.json';
 
     this.jobService.getJobs(testSuiteUrl).subscribe((data) => {
@@ -98,11 +98,11 @@ export class AppComponent implements OnInit {
     this.jobService.getJobs(executedByUrl).subscribe((data) => {
       this.executedByOptions = data;
     });
-    this.jobService.getJobs(applicationStatus).subscribe((data) => {
-      this.applicationStatus = data;
-    });
     this.jobService.getJobs(applicationType).subscribe((data) => {
-      this.applicationTypes = data;
+      this.applicationType = data;
+    });
+    this.jobService.getJobs(applicationMode).subscribe((data) => {
+      this.applicationModes = data;
     });
     this.jobService.getJobs(domainStatus).subscribe((data) => {
       this.domainStatus = data;
@@ -139,8 +139,8 @@ export class AppComponent implements OnInit {
       executedBy: null,
       comments: '',
       date: null,
+      applicationMode: null,
       applicationType: null,
-      applicationStatus: null,
     };
   }
 
@@ -222,6 +222,19 @@ export class AppComponent implements OnInit {
         }
       }
 
+      // Filter by Application Mode (if applicationMode is selected)
+      if (
+        this.jobFilter.applicationMode &&
+        this.jobFilter.applicationMode.name
+      ) {
+        if (
+          !job.applicationMode ||
+          job.applicationMode.name !== this.jobFilter.applicationMode.name
+        ) {
+          match = false;
+        }
+      }
+
       // Filter by Application Type (if applicationType is selected)
       if (
         this.jobFilter.applicationType &&
@@ -230,19 +243,6 @@ export class AppComponent implements OnInit {
         if (
           !job.applicationType ||
           job.applicationType.name !== this.jobFilter.applicationType.name
-        ) {
-          match = false;
-        }
-      }
-
-      // Filter by Application Status (if applicationStatus is selected)
-      if (
-        this.jobFilter.applicationStatus &&
-        this.jobFilter.applicationStatus.name
-      ) {
-        if (
-          !job.applicationStatus ||
-          job.applicationStatus.name !== this.jobFilter.applicationStatus.name
         ) {
           match = false;
         }

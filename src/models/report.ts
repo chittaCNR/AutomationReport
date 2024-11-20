@@ -11,8 +11,8 @@ export interface JobReport {
   passPercentage: number; // Readonly (shouldn't be updated by user)
   status: DropdownItem | null;
   executedBy: DropdownItem | null;
+  applicationMode: DropdownItem | null;
   applicationType: DropdownItem | null;
-  applicationStatus: DropdownItem | null;
   comments: string;
   date: Date | null;
 }

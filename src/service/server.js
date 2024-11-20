@@ -68,8 +68,8 @@ app.post('/add-job', (req, res) => {
     passPercentage,
     status,
     executedBy,
+    applicationMode,
     applicationType,
-    applicationStatus,
     comments,
     date,
     id
@@ -91,8 +91,8 @@ app.post('/add-job', (req, res) => {
     passPercentage,
     status,
     executedBy,
+    applicationMode,
     applicationType,
-    applicationStatus,
     comments,
     date,
     id

@@ -51,7 +51,7 @@
       </div>
 
       <!-- Pass % -->
-      <div>
+      <!-- <div>
         <label for="passPercentage" class="font-medium block">Pass %</label>
         <input pInputText [(ngModel)]="report.passPercentage" id="passPercentage" readonly
           class="p-2 border rounded bg-gray-200 cursor-not-allowed" [value]="
@@ -60,11 +60,11 @@
               report.passedTestCaseCount
             )
           " />
-      </div>
+      </div> -->
 
       <!-- Status -->
       <div>
-        <label for="status" class="font-medium block">Test Status</label>
+        <label for="status" class="font-medium block">Test Run Status</label>
         <p-dropdown [options]="statusOptions" [(ngModel)]="report.status" optionLabel="name"></p-dropdown>
       </div>
 
@@ -73,15 +73,15 @@
         <label for="executedBy" class="font-medium block">Executed By</label>
         <p-dropdown [options]="executedByOptions" [(ngModel)]="report.executedBy" optionLabel="name"></p-dropdown>
       </div>
+      <!-- Application Mode -->
+      <div>
+        <label for="applicationMode" class="font-medium block">Application Mode</label>
+        <p-dropdown [options]="applicationModes" [(ngModel)]="report.applicationMode" optionLabel="name"></p-dropdown>
+      </div>
       <!-- Application Type -->
       <div>
         <label for="applicationType" class="font-medium block">Application Type</label>
-        <p-dropdown [options]="applicationTypes" [(ngModel)]="report.applicationType" optionLabel="name"></p-dropdown>
-      </div>
-      <!-- Application Status -->
-      <div>
-        <label for="applicationStatus" class="font-medium block">Application Status</label>
-        <p-dropdown [options]="applicationStatus" [(ngModel)]="report.applicationStatus"
+        <p-dropdown [options]="applicationType" [(ngModel)]="report.applicationType"
           optionLabel="name"></p-dropdown>
       </div>
 
@@ -104,18 +104,18 @@
         <!-- Table Header with Column Titles -->
         <ng-template pTemplate="header">
           <tr>
-            <th>Date</th>
-            <th>Test Suite</th>
+            <th>Run Date</th>
+            <th>Test Suite Name</th>
             <th>Environment</th>
             <th>Local Company</th>
-            <th>Status</th>
+            <th>Test Run Status</th>
             <th>Executed By</th>
+            <th>Application Mode</th>
             <th>Application Type</th>
-            <th>Application Status</th>
             <th>Total Test Cases</th>
             <th>Executed Test Cases</th>
             <th>Passed Test Cases</th>
-            <th>Pass Percentage</th>
+            <th>Pass %</th>
             <th>Comments</th>
           </tr>
           <!-- Filter Row with Dropdowns -->
@@ -145,11 +145,11 @@
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
             <th>
-              <p-dropdown [options]="applicationTypes" [(ngModel)]="jobFilter.applicationType" showClear="true"
+              <p-dropdown [options]="applicationModes" [(ngModel)]="jobFilter.applicationMode" showClear="true"
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
             <th>
-              <p-dropdown [options]="applicationStatus" [(ngModel)]="jobFilter.applicationStatus" showClear="true"
+              <p-dropdown [options]="applicationType" [(ngModel)]="jobFilter.applicationType" showClear="true"
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
             <th></th>
@@ -163,14 +163,14 @@
         <!-- Table Body - Job Data Rows -->
         <ng-template pTemplate="body" let-job>
           <tr>
-            <td>{{ job.date ? (job.date | date : "MM/dd/yyyy") : "N/A" }}</td>
+            <td>{{ job.date ? (job.date | date : "dd-MMM-yyyy") : "N/A" }}</td>
             <td class="m-w-350">{{ job.testSuite?.name || "N/A" }}</td>
             <td>{{ job.environment?.name || "N/A" }}</td>
             <td>{{ job.localCompany || "N/A" }}</td>
             <td>{{ job.status?.name || "N/A" }}</td>
             <td>{{ job.executedBy?.name || "N/A" }}</td>
+            <td>{{ job.applicationMode?.name || "N/A" }}</td>
             <td>{{ job.applicationType?.name || "N/A" }}</td>
-            <td>{{ job.applicationStatus?.name || "N/A" }}</td>
             <td>{{ job.totalTestCaseCount }}</td>
             <td>{{ job.executedTestCaseCount }}</td>
             <td>{{ job.passedTestCaseCount }}</td>
@@ -209,9 +209,9 @@
         </ng-template>
       </p-table>
     </div>
-    <br><br><br>
+    <br><br>
 
-    <h6 class="text-right"> Last updated Date : {{lastUpdateDate | date : "MM/dd/yyyy" }} </h6>
+    <h6 class="text-right"> Last updated date : {{lastUpdateDate | date : "dd-MMM-yyyy hh:mm" }} </h6>
   </div>
 </main>
 

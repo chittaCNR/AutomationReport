@@ -1,4 +1,4 @@
 [
-  { "name": "not In-Sprint", "code": "notInSprint" },
+  { "name": "Not In-Sprint", "code": "notInSprint" },
   { "name": "In-Sprint", "code": "inSprint" }
 ]

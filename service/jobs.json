@@ -1,240 +1,138 @@
 [
   {
     "testSuite": {
-      "name": "Test Suite 1",
+      "name": "SalesIT - Project Management",
       "code": "TS1"
     },
     "environment": {
-      "name": "Production",
-      "code": "PROD"
+      "name": "Development",
+      "code": "DEV"
     },
-    "localCompany": "355",
-    "totalTestCaseCount": "100",
-    "executedTestCaseCount": "100",
-    "passedTestCaseCount": "100",
-    "passPercentage": 0,
+    "localCompany": "155",
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "6",
+    "passedTestCaseCount": "3",
+    "passPercentage": 50,
     "status": {
       "name": "Passed",
       "code": "PASSED"
     },
     "executedBy": {
-      "name": "John Doe",
-      "code": "JD"
-    },
-    "applicationType": {
-      "name": "Legacy",
-      "code": "PROD"
-    },
-    "applicationStatus": {
-      "name": "WISE Menu",
-      "code": "WISE"
-    },
-    "comments": "testing passed successfully.",
-    "date": "2024-11-04T18:30:00.000Z",
-    "id": 5676
-  },
-  {
-    "testSuite": {
-      "name": "Test Suite 2",
-      "code": "TS2"
-    },
-    "environment": {
-      "name": "Staging",
-      "code": "STAGE"
-    },
-    "localCompany": "542",
-    "totalTestCaseCount": "50",
-    "executedTestCaseCount": "40",
-    "passedTestCaseCount": "32",
-    "passPercentage": 0,
-    "status": {
-      "name": "Failed",
-      "code": "FAILED"
-    },
-    "executedBy": {
-      "name": "Jane Smith",
-      "code": "JS"
+      "name": "CNR",
+      "code": "CNR"
     },
     "applicationType": {
       "name": "In-Sprint",
-      "code": "STAGE"
+      "code": "inSprint"
     },
     "applicationStatus": {
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "test suite 2 failed.",
-    "date": "2024-09-09T18:30:00.000Z",
-    "id": 6440
+    "comments": "Com",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 677
   },
   {
     "testSuite": {
-      "name": "Test Suite 3",
-      "code": "TS3"
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
     },
     "environment": {
       "name": "Development",
       "code": "DEV"
     },
-    "localCompany": "622",
-    "totalTestCaseCount": "85",
-    "executedTestCaseCount": "60",
-    "passedTestCaseCount": "50",
-    "passPercentage": 0,
-    "status": {
-      "name": "In Progress",
-      "code": "IN_PROGRESS"
-    },
-    "executedBy": {
-      "name": "David Lee",
-      "code": "DL"
-    },
-    "applicationType": {
-      "name": "In-Sprint",
-      "code": "STAGE"
-    },
-    "applicationStatus": {
-      "name": "API",
-      "code": "API"
-    },
-    "comments": "testing is in progress",
-    "date": "2024-07-08T18:30:00.000Z",
-    "id": 93
-  },
-  {
-    "testSuite": {
-      "name": "Test Suite 2",
-      "code": "TS2"
-    },
-    "environment": {
-      "name": "Production",
-      "code": "PROD"
-    },
-    "localCompany": "532",
-    "totalTestCaseCount": "85",
-    "executedTestCaseCount": "75",
-    "passedTestCaseCount": "50",
-    "passPercentage": 0,
-    "status": {
-      "name": "In Progress",
-      "code": "IN_PROGRESS"
-    },
-    "executedBy": {
-      "name": "John Doe",
-      "code": "JD"
-    },
-    "applicationType": {
-      "name": "In-Sprint",
-      "code": "STAGE"
-    },
-    "applicationStatus": {
-      "name": "Angular",
-      "code": "ANGULAR"
-    },
-    "comments": "testing is in progress",
-    "date": "2024-07-18T18:30:00.000Z",
-    "id": 2426
-  },
-  {
-    "testSuite": {
-      "name": "Test Suite 3",
-      "code": "TS3"
-    },
-    "environment": {
-      "name": "Production",
-      "code": "PROD"
-    },
-    "localCompany": "633",
-    "totalTestCaseCount": "85",
-    "executedTestCaseCount": "80",
-    "passedTestCaseCount": "8",
-    "passPercentage": 0,
-    "status": {
-      "name": "Failed",
-      "code": "FAILED"
-    },
-    "executedBy": {
-      "name": "David Lee",
-      "code": "DL"
-    },
-    "applicationType": {
-      "name": "In-Sprint",
-      "code": "STAGE"
-    },
-    "applicationStatus": {
-      "name": "WISE Menu",
-      "code": "WISE"
-    },
-    "comments": "testing is failed.",
-    "date": "2024-08-22T18:30:00.000Z",
-    "id": 9047
-  },
-  {
-    "testSuite": {
-      "name": "Test Suite 2",
-      "code": "TS2"
-    },
-    "environment": {
-      "name": "Development",
-      "code": "DEV"
-    },
-    "localCompany": "322",
-    "totalTestCaseCount": "40",
-    "executedTestCaseCount": "40",
-    "passedTestCaseCount": "40",
-    "passPercentage": 0,
+    "localCompany": "155",
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "6",
+    "passedTestCaseCount": "3",
+    "passPercentage": 50,
     "status": {
       "name": "Passed",
       "code": "PASSED"
     },
     "executedBy": {
-      "name": "John Doe",
-      "code": "JD"
+      "name": "CNR",
+      "code": "CNR"
     },
     "applicationType": {
-      "name": "Legacy",
-      "code": "PROD"
+      "name": "In-Sprint",
+      "code": "inSprint"
     },
     "applicationStatus": {
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "passed.",
-    "date": "2024-11-26T18:30:00.000Z",
-    "id": 5674
+    "comments": "Com",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 9452
   },
   {
     "testSuite": {
-      "name": "Test Suite 2",
-      "code": "TS2"
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
     },
     "environment": {
-      "name": "Staging",
-      "code": "STAGE"
+      "name": "Development",
+      "code": "DEV"
     },
-    "localCompany": "922",
-    "totalTestCaseCount": "40",
-    "executedTestCaseCount": "30",
-    "passedTestCaseCount": "20",
+    "localCompany": "155",
+    "totalTestCaseCount": "20",
+    "executedTestCaseCount": "15",
+    "passedTestCaseCount": "10",
     "passPercentage": 66.66666666666666,
     "status": {
       "name": "Failed",
       "code": "FAILED"
     },
     "executedBy": {
-      "name": "Jane Smith",
-      "code": "JS"
+      "name": "CNR",
+      "code": "CNR"
     },
     "applicationType": {
       "name": "In-Sprint",
-      "code": "STAGE"
+      "code": "inSprint"
     },
     "applicationStatus": {
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "failed.",
-    "date": "2024-09-16T18:30:00.000Z",
-    "id": 6919
+    "comments": "c",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 4407
+  },
+  {
+    "testSuite": {
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "20",
+    "executedTestCaseCount": "15",
+    "passedTestCaseCount": "10",
+    "passPercentage": 66.66666666666666,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationType": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationStatus": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "c",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 6846
   }
 ]

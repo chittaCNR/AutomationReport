@@ -338,5 +338,311 @@
     "comments": "",
     "date": "2024-11-01T18:30:00.000Z",
     "id": 4846
+  },
+  {
+    "testSuite": {
+      "name": "AR - AR2WISE",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "73",
+    "executedTestCaseCount": "41",
+    "passedTestCaseCount": "28",
+    "passPercentage": 68.29,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-19T18:30:00.000Z",
+    "id": 8684
+  },
+  {
+    "testSuite": {
+      "name": "MarketingIT - Enterprise Product Search",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "67",
+    "executedTestCaseCount": "67",
+    "passedTestCaseCount": "42",
+    "passPercentage": 62.69,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 4761
+  },
+  {
+    "testSuite": {
+      "name": "MarketingIT - Digital Commerce",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "15",
+    "executedTestCaseCount": "15",
+    "passedTestCaseCount": "14",
+    "passPercentage": 93.33,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-14T18:30:00.000Z",
+    "id": 5859
+  },
+  {
+    "testSuite": {
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "10",
+    "passedTestCaseCount": "5",
+    "passPercentage": 50,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-09-17T18:30:00.000Z",
+    "id": 7467
+  },
+  {
+    "testSuite": {
+      "name": "SalesIT - Project Management",
+      "code": "TS1"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "8",
+    "executedTestCaseCount": "8",
+    "passedTestCaseCount": "8",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "API",
+      "code": "API"
+    },
+    "comments": "",
+    "date": "2024-11-07T18:30:00.000Z",
+    "id": 807
+  },
+  {
+    "testSuite": {
+      "name": "SalesIT - Quotes to Cash",
+      "code": "TS3"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "308",
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "10",
+    "passedTestCaseCount": "10",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-10-01T18:30:00.000Z",
+    "id": 6760
+  },
+  {
+    "testSuite": {
+      "name": "BI - SPW",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "746",
+    "totalTestCaseCount": "8",
+    "executedTestCaseCount": "8",
+    "passedTestCaseCount": "8",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Shiva",
+      "code": "Shiva"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-18T18:30:00.000Z",
+    "id": 6971
+  },
+  {
+    "testSuite": {
+      "name": "Purchasing - Purchase Orders",
+      "code": "TS15"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "110",
+    "totalTestCaseCount": "15",
+    "executedTestCaseCount": "15",
+    "passedTestCaseCount": "15",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "API",
+      "code": "API"
+    },
+    "comments": "",
+    "date": "2024-11-04T18:30:00.000Z",
+    "id": 6999
+  },
+  {
+    "testSuite": {
+      "name": "AR - Collection Management App",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "695",
+    "totalTestCaseCount": "8",
+    "executedTestCaseCount": "8",
+    "passedTestCaseCount": "8",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-12T18:30:00.000Z",
+    "id": 2726
   }
 ]

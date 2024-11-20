@@ -156,6 +156,9 @@ export class AppComponent implements OnInit {
 
   addReport() {
     this.updatePassPercentage();
+    if(!this.report.passPercentage){
+      this.report.passPercentage = 0;
+    }
     const modifiedReport: any = {
       ...this.report,
       id: Math.floor(Math.random() * 10000),
@@ -168,7 +171,7 @@ export class AppComponent implements OnInit {
     this.jobService.addJob(modifiedReport).subscribe((data) => {
       console.log(data);
     });
-    // this.resetReport();
+    this.resetReport();
   }
 
   searchReport() {

@@ -1,11 +1,8 @@
-import {
-  Component,
-  OnInit,
-} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ServicesService } from '../services/services.service';
 import { JobReport } from '../models/report';
-import { DropdownItem } from 'primeng/dropdown';
 import { DomainStatus } from '../models/domain-status';
+import { DropdownItem } from '../models/dropdown-item';
 
 @Component({
   selector: 'app-root',
@@ -26,7 +23,7 @@ export class AppComponent implements OnInit {
   jobs: JobReport[] = [];
   jobsData: JobReport[] = [];
   domainStatus: DomainStatus[] = [];
-  lastUpdateDate:string = '';
+  lastUpdateDate: string = '';
 
   jobFilter: JobReport = {
     id: 0,
@@ -54,7 +51,7 @@ export class AppComponent implements OnInit {
     executedTestCaseCount: 0,
     passedTestCaseCount: 0,
     passPercentage: 0,
-    status: null, 
+    status: null,
     executedBy: null,
     comments: '',
     date: null,
@@ -65,10 +62,12 @@ export class AppComponent implements OnInit {
     this.loadOptions();
     this.addOtherData();
   }
-  addOtherData(){
-    this.jobService.addOtherData({ 'lastUpdateDate': new Date().toLocaleDateString()}).subscribe((data)=>{
-      console.log(data);
-    });
+  addOtherData() {
+    this.jobService
+      .addOtherData({ lastUpdateDate: new Date().toLocaleDateString() })
+      .subscribe((data) => {
+        console.log(data);
+      });
   }
   updatePassPercentage() {
     this.report.passPercentage = this.calculatePassPercentage(
@@ -88,6 +87,15 @@ export class AppComponent implements OnInit {
 
     this.jobService.getJobs(testSuiteUrl).subscribe((data) => {
       this.testSuiteOptions = data;
+      this.testSuiteOptions.sort((a: DropdownItem, b: DropdownItem) => {
+        if (a.name > b.name) {
+          return 1;
+        } else if (a.name < b.name) {
+          return -1;
+        } else {
+          return 0;
+        }
+      });
     });
     this.jobService.getJobs(environmentUrl).subscribe((data) => {
       this.environmentOptions = data;
@@ -113,7 +121,7 @@ export class AppComponent implements OnInit {
     });
     this.jobService.getJobs('service/otherData.json').subscribe((data) => {
       this.lastUpdateDate = data as unknown as string;
-     });
+    });
   }
   calculatePassPercentage(
     totalTestCaseCount: number,
@@ -122,7 +130,9 @@ export class AppComponent implements OnInit {
     if (totalTestCaseCount === 0) {
       return 0; // Avoid division by zero
     }
-    return parseFloat(((passedTestCaseCount / totalTestCaseCount) * 100).toFixed(2));
+    return parseFloat(
+      ((passedTestCaseCount / totalTestCaseCount) * 100).toFixed(2)
+    );
   }
 
   resetReport() {

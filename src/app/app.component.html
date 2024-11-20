@@ -128,10 +128,7 @@
               <p-dropdown [options]="statusOptions" showClear="true" [(ngModel)]="jobFilter.status"
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
-            <th>
-              <p-dropdown [options]="executedByOptions" [(ngModel)]="jobFilter.executedBy" showClear="true"
-                (onChange)="filter()" optionLabel="name"></p-dropdown>
-            </th>
+            <th></th>
             <th>
               <p-dropdown [options]="applicationModes" [(ngModel)]="jobFilter.applicationMode" showClear="true"
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
@@ -140,7 +137,10 @@
             <th></th>
             <th></th>
             <th></th>
-            <th></th>
+            <th>
+              <p-dropdown [options]="executedByOptions" [(ngModel)]="jobFilter.executedBy" showClear="true"
+                (onChange)="filter()" optionLabel="name"></p-dropdown>
+            </th>
           </tr>
         </ng-template>
 

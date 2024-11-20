@@ -69,8 +69,7 @@
       <!-- Application Type -->
       <div>
         <label for="applicationType" class="font-medium block">Application Type</label>
-        <p-dropdown [options]="applicationType" [(ngModel)]="report.applicationType"
-          optionLabel="name"></p-dropdown>
+        <p-dropdown [options]="applicationType" [(ngModel)]="report.applicationType" optionLabel="name"></p-dropdown>
       </div>
 
       <!-- Comments -->
@@ -113,8 +112,20 @@
                 appendTo="body"></p-calendar>
             </th>
             <th>
-              <p-dropdown styleClass="m-w-350" [options]="testSuiteOptions" [(ngModel)]="jobFilter.testSuite"
-                showClear="true" (onChange)="filter()" optionLabel="name"></p-dropdown>
+              <p-dropdown styleClass="m-w-350" [options]="testSuiteOptions" [filter]="true" filterBy="name"
+                [(ngModel)]="jobFilter.testSuite" showClear="true" (onChange)="filter()" optionLabel="name">
+                <ng-template pTemplate="selectedItem" let-selectedOption>
+                  <div class="flex align-items-center gap-2">
+                    <div>{{ selectedOption.name }}</div>
+                  </div>
+                </ng-template>
+                <ng-template let-country pTemplate="item">
+                  <div class="flex align-items-center gap-2">
+
+                    <div>{{ country.name }}</div>
+                  </div>
+                </ng-template>
+              </p-dropdown>
             </th>
             <th>
               <p-dropdown [options]="environmentOptions" [(ngModel)]="jobFilter.environment" showClear="true"

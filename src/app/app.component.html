@@ -50,18 +50,6 @@
           class="p-2 border rounded" />
       </div>
 
-      <!-- Pass % -->
-      <!-- <div>
-        <label for="passPercentage" class="font-medium block">Pass %</label>
-        <input pInputText [(ngModel)]="report.passPercentage" id="passPercentage" readonly
-          class="p-2 border rounded bg-gray-200 cursor-not-allowed" [value]="
-            calculatePassPercentage(
-              report.executedTestCaseCount,
-              report.passedTestCaseCount
-            )
-          " />
-      </div> -->
-
       <!-- Status -->
       <div>
         <label for="status" class="font-medium block">Test Run Status</label>
@@ -107,15 +95,15 @@
             <th>Run Date</th>
             <th>Test Suite Name</th>
             <th>Environment</th>
-            <th>Local Company</th>
-            <th>Test Run Status</th>
-            <th>Executed By</th>
-            <th>Application Mode</th>
             <th>Application Type</th>
+            <th>Test Run Status</th>
+            <th>Pass %</th>
+            <th>Application Mode</th>
             <th>Total Test Cases</th>
             <th>Executed Test Cases</th>
             <th>Passed Test Cases</th>
-            <th>Pass %</th>
+            <th>Local Company</th>
+            <th>Executed By</th>
             <th>Comments</th>
           </tr>
           <!-- Filter Row with Dropdowns -->
@@ -166,15 +154,15 @@
             <td>{{ job.date ? (job.date | date : "dd-MMM-yyyy") : "N/A" }}</td>
             <td class="m-w-350">{{ job.testSuite?.name || "N/A" }}</td>
             <td>{{ job.environment?.name || "N/A" }}</td>
-            <td>{{ job.localCompany || "N/A" }}</td>
-            <td>{{ job.status?.name || "N/A" }}</td>
-            <td>{{ job.executedBy?.name || "N/A" }}</td>
-            <td>{{ job.applicationMode?.name || "N/A" }}</td>
             <td>{{ job.applicationType?.name || "N/A" }}</td>
+            <td>{{ job.status?.name || "N/A" }}</td>
+            <td>{{ job.passPercentage }}%</td>
+            <td>{{ job.applicationMode?.name || "N/A" }}</td>
             <td>{{ job.totalTestCaseCount }}</td>
             <td>{{ job.executedTestCaseCount }}</td>
             <td>{{ job.passedTestCaseCount }}</td>
-            <td>{{ job.passPercentage }}%</td>
+            <td>{{ job.localCompany || "N/A" }}</td>
+            <td>{{ job.executedBy?.name || "N/A" }}</td>
             <td class="m-w-350">{{ job.comments }}</td>
 
           </tr>
@@ -191,7 +179,7 @@
   </div>
   <div class="w- full p-20 flex flex-col justify-center">
     <div>
-      <h2 style="text-align: center;">Automation Run Summary - By Domain</h2>
+      <h2 style="text-align: center;">Test Automation Run Summary - By Domain</h2>
       <p-table [value]="domainStatus" [tableStyle]="{ width: '50rem' }">
         <ng-template pTemplate="header">
           <tr>

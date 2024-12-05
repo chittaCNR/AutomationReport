@@ -141,14 +141,14 @@
       "code": "TS12"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Development",
+      "code": "DEV"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "42",
-    "executedTestCaseCount": "0",
-    "passedTestCaseCount": "0",
-    "passPercentage": null,
+    "totalTestCaseCount": "20",
+    "executedTestCaseCount": "20",
+    "passedTestCaseCount": "16",
+    "passPercentage": 80,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -158,14 +158,14 @@
       "code": "CNR"
     },
     "applicationMode": {
-      "name": "Not In-Sprint",
-      "code": "notInSprint"
+      "name": "In-Sprint",
+      "code": "inSprint"
     },
     "applicationType": {
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "",
+    "comments": "Work In Progress",
     "date": "2024-11-10T18:30:00.000Z",
     "id": 4920
   },
@@ -199,7 +199,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "",
+    "comments": "10 More tests to be added - AUTO-682",
     "date": "2024-11-10T18:30:00.000Z",
     "id": 2098
   },
@@ -233,7 +233,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "",
+    "comments": "5 more tests to be added - AUTO-743-747",
     "date": "2024-11-10T18:30:00.000Z",
     "id": 7834
   },
@@ -301,7 +301,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "",
+    "comments": "More tests to be added - AUTO-725",
     "date": "2024-11-10T18:30:00.000Z",
     "id": 872
   },
@@ -349,7 +349,7 @@
       "code": "qa"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "73",
+    "totalTestCaseCount": "71",
     "executedTestCaseCount": "41",
     "passedTestCaseCount": "28",
     "passPercentage": 68.29,
@@ -366,8 +366,8 @@
       "code": "notInSprint"
     },
     "applicationType": {
-      "name": "WISE Menu",
-      "code": "WISE"
+      "name": "Angular",
+      "code": "ANGULAR"
     },
     "comments": "",
     "date": "2024-11-19T18:30:00.000Z",
@@ -383,10 +383,10 @@
       "code": "qa"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "67",
-    "executedTestCaseCount": "67",
-    "passedTestCaseCount": "42",
-    "passPercentage": 62.69,
+    "totalTestCaseCount": "40",
+    "executedTestCaseCount": "40",
+    "passedTestCaseCount": "22",
+    "passPercentage": 55,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -403,7 +403,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "",
+    "comments": "Require a user credential having the access for all the tab. ",
     "date": "2024-11-10T18:30:00.000Z",
     "id": 4761
   },
@@ -417,10 +417,10 @@
       "code": "qa"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "15",
-    "executedTestCaseCount": "15",
-    "passedTestCaseCount": "14",
-    "passPercentage": 93.33,
+    "totalTestCaseCount": "12",
+    "executedTestCaseCount": "12",
+    "passedTestCaseCount": "12",
+    "passPercentage": 100,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -437,7 +437,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "",
+    "comments": "The app is being rewritten entirely next year, further automation would not be helpful",
     "date": "2024-11-14T18:30:00.000Z",
     "id": 5859
   },
@@ -553,9 +553,9 @@
       "code": "DEV"
     },
     "localCompany": "746",
-    "totalTestCaseCount": "8",
-    "executedTestCaseCount": "8",
-    "passedTestCaseCount": "8",
+    "totalTestCaseCount": "6",
+    "executedTestCaseCount": "6",
+    "passedTestCaseCount": "6",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -579,33 +579,33 @@
   },
   {
     "testSuite": {
-      "name": "Purchasing - Purchase Orders",
-      "code": "TS15"
+      "name": "Pricing - Pricing Matrix",
+      "code": "TS4"
     },
     "environment": {
       "name": "QA",
       "code": "qa"
     },
-    "localCompany": "110",
-    "totalTestCaseCount": "15",
-    "executedTestCaseCount": "15",
-    "passedTestCaseCount": "15",
+    "localCompany": "322",
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "14",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
       "code": "PASSED"
     },
     "executedBy": {
-      "name": "Gopesh",
-      "code": "Gopesh"
+      "name": "Prabhath",
+      "code": "Prabhath"
     },
     "applicationMode": {
-      "name": "In-Sprint",
-      "code": "inSprint"
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
     },
     "applicationType": {
-      "name": "API",
-      "code": "API"
+      "name": "Angular",
+      "code": "ANGULAR"
     },
     "comments": "",
     "date": "2024-11-04T18:30:00.000Z",
@@ -621,9 +621,9 @@
       "code": "qa"
     },
     "localCompany": "695",
-    "totalTestCaseCount": "8",
-    "executedTestCaseCount": "8",
-    "passedTestCaseCount": "8",
+    "totalTestCaseCount": "13",
+    "executedTestCaseCount": "13",
+    "passedTestCaseCount": "13",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -644,5 +644,209 @@
     "comments": "",
     "date": "2024-11-12T18:30:00.000Z",
     "id": 2726
+  },
+  {
+    "testSuite": {
+      "name": "LCW - TMS",
+      "code": "TS14"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "431",
+    "totalTestCaseCount": "9",
+    "executedTestCaseCount": "9",
+    "passedTestCaseCount": "9",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-12-03T18:30:00.000Z",
+    "id": 3428
+  },
+  {
+    "testSuite": {
+      "name": "EDI - EDAS",
+      "code": "TS19"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "516",
+    "totalTestCaseCount": "3",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "3",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 1323
+  },
+  {
+    "testSuite": {
+      "name": "EDI - EDI",
+      "code": "TS19"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "516",
+    "totalTestCaseCount": "2",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 7553
+  },
+  {
+    "testSuite": {
+      "name": "Purchasing - Purchase Orders",
+      "code": "TS15"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "110",
+    "totalTestCaseCount": "16",
+    "executedTestCaseCount": "16",
+    "passedTestCaseCount": "16",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "API",
+      "code": "API"
+    },
+    "comments": "",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 9162
+  },
+  {
+    "testSuite": {
+      "name": "Pricing - Cost Price Sheets(SSPS)",
+      "code": "TS3"
+    },
+    "environment": {
+      "name": "Development",
+      "code": "DEV"
+    },
+    "localCompany": "110",
+    "totalTestCaseCount": "26",
+    "executedTestCaseCount": "26",
+    "passedTestCaseCount": "26",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Shiva",
+      "code": "Shiva"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-21T18:30:00.000Z",
+    "id": 4236
+  },
+  {
+    "testSuite": {
+      "name": "BI - SPW",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "746",
+    "totalTestCaseCount": "7",
+    "executedTestCaseCount": "7",
+    "passedTestCaseCount": "7",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Shiva",
+      "code": "Shiva"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "API",
+      "code": "API"
+    },
+    "comments": "",
+    "date": "2024-12-03T18:30:00.000Z",
+    "id": 3604
   }
 ]

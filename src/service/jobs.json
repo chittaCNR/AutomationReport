@@ -613,8 +613,8 @@
   },
   {
     "testSuite": {
-      "name": "AR - Collection Management App",
-      "code": "TS18"
+      "name": "AR - Collection Management",
+      "code": "TS43"
     },
     "environment": {
       "name": "QA",
@@ -689,9 +689,9 @@
       "code": "qa"
     },
     "localCompany": "516",
-    "totalTestCaseCount": "3",
-    "executedTestCaseCount": "3",
-    "passedTestCaseCount": "3",
+    "totalTestCaseCount": "4",
+    "executedTestCaseCount": "4",
+    "passedTestCaseCount": "4",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -791,9 +791,9 @@
       "code": "DEV"
     },
     "localCompany": "110",
-    "totalTestCaseCount": "26",
-    "executedTestCaseCount": "26",
-    "passedTestCaseCount": "26",
+    "totalTestCaseCount": "23",
+    "executedTestCaseCount": "23",
+    "passedTestCaseCount": "23",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -880,7 +880,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 669
   },
   {
@@ -914,7 +914,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 6953
   },
   {
@@ -948,7 +948,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 2999
   },
   {
@@ -982,7 +982,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 711
   },
   {
@@ -1004,8 +1004,8 @@
       "code": "PASSED"
     },
     "executedBy": {
-      "name": "Gopesh",
-      "code": "Gopesh"
+      "name": "Prabhath",
+      "code": "kiran"
     },
     "applicationMode": {
       "name": "Not In-Sprint",
@@ -1016,7 +1016,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 9164
   },
   {
@@ -1050,7 +1050,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 8650
   },
   {
@@ -1084,7 +1084,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 7534
   },
   {
@@ -1118,7 +1118,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 6836
   },
   {
@@ -1152,7 +1152,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 3920
   },
   {
@@ -1186,7 +1186,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 980
   },
   {
@@ -1220,7 +1220,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 9721
   },
   {
@@ -1235,11 +1235,11 @@
     "localCompany": "162",
     "totalTestCaseCount": "5",
     "executedTestCaseCount": "5",
-    "passedTestCaseCount": "4",
-    "passPercentage": 80,
+    "passedTestCaseCount": "5",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+     "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "Prabhath",
@@ -1254,7 +1254,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 641
   },
   {
@@ -1288,7 +1288,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 1178
   },
   {
@@ -1322,7 +1322,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 8612
   },
   {
@@ -1356,7 +1356,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 6241
   },
   {
@@ -1390,7 +1390,7 @@
       "code": "WISE"
     },
     "comments": "",
-    "date": "2024-11-10T18:30:00.000Z",
+    "date": "2024-11-17T18:30:00.000Z",
     "id": 8452
   },
   {

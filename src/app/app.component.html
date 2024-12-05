@@ -86,7 +86,7 @@
       </div>
     </div>
     <div class="mt-6">
-      <p-table #dt3 [value]="jobsData" dataKey="id" [rows]="10" [scrollHeight]="'100rem'" [scrollable]="true"
+      <p-table #dt3 [value]="jobsData" dataKey="id" [rows]="10" [scrollHeight]="'50rem'" [scrollable]="true"
         [paginator]="false" [tableStyle]="{ 'min-width': '75rem' }">
         <!-- Table Header with Column Titles -->
         <ng-template pTemplate="header">
@@ -132,8 +132,8 @@
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
             <th Class="max-w-20">
-              <input pInputText type="text" field="localCompany" [(ngModel)]="jobFilter.localCompany" showClear="true"
-                ariaLabel="Filter Local Company" (keydown.enter)="filter()" />
+              <p-dropdown [options]="applicationType" [(ngModel)]="jobFilter.applicationType" showClear="true"
+                (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
             <th>
               <p-dropdown [options]="statusOptions" showClear="true" [(ngModel)]="jobFilter.status"
@@ -147,11 +147,13 @@
             <th></th>
             <th></th>
             <th></th>
-            <th></th>
+            <th>
+            </th>
             <th>
               <p-dropdown [options]="executedByOptions" [(ngModel)]="jobFilter.executedBy" showClear="true"
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
+            <th></th>
           </tr>
         </ng-template>
 
@@ -205,7 +207,6 @@
       </p-table>
     </div>
     <br><br>
-
     <h6 class="text-right"> Last updated date : {{lastUpdateDate | date : "dd-MMM-yyyy hh:mm" }} </h6>
   </div>
 </main>

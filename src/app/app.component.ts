@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
   jobs: JobReport[] = [];
   jobsData: JobReport[] = [];
   domainStatus: DomainStatus[] = [];
-  lastUpdateDate: string = '';
+  lastUpdateDate: Date | undefined;
 
   jobFilter: JobReport = {
     id: 0,
@@ -64,7 +64,7 @@ export class AppComponent implements OnInit {
   }
   addOtherData() {
     this.jobService
-      .addOtherData({ lastUpdateDate: new Date().toLocaleDateString() })
+      .addOtherData({ lastUpdateDate: new Date() })
       .subscribe((data) => {
         console.log(data);
       });
@@ -120,7 +120,7 @@ export class AppComponent implements OnInit {
       this.jobsData = data;
     });
     this.jobService.getJobs('service/otherData.json').subscribe((data) => {
-      this.lastUpdateDate = data as unknown as string;
+      this.lastUpdateDate = data as unknown as Date;
     });
   }
   calculatePassPercentage(

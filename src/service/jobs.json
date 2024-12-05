@@ -848,5 +848,685 @@
     "comments": "",
     "date": "2024-12-03T18:30:00.000Z",
     "id": 3604
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Alternative Item Number",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "9",
+    "executedTestCaseCount": "9",
+    "passedTestCaseCount": "9",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 669
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Costs and Prices",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "12",
+    "executedTestCaseCount": "12",
+    "passedTestCaseCount": "4",
+    "passPercentage": 33.33,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 6953
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Item Ledger",
+      "code": "TS17"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "4",
+    "passPercentage": 28.57,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 2999
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Item Master",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "55",
+    "executedTestCaseCount": "55",
+    "passedTestCaseCount": "51",
+    "passPercentage": 92.73,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 711
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Item Search",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "9",
+    "executedTestCaseCount": "9",
+    "passedTestCaseCount": "9",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 9164
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Job Control Maintenance",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "7",
+    "executedTestCaseCount": "7",
+    "passedTestCaseCount": "7",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 8650
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - ICM (Live Shopping)",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "4",
+    "executedTestCaseCount": "4",
+    "passedTestCaseCount": "3",
+    "passPercentage": 75,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 7534
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Rename Obsolete Item Numbers",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "2",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Prabhath",
+      "code": "kiran"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 6836
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - SalesPerson Inquiry",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "32",
+    "executedTestCaseCount": "32",
+    "passedTestCaseCount": "29",
+    "passPercentage": 90.63,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 3920
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Serialized Tracking",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "18",
+    "executedTestCaseCount": "18",
+    "passedTestCaseCount": "14",
+    "passPercentage": 77.78,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 980
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Inventory Adjustments",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "8",
+    "executedTestCaseCount": "8",
+    "passedTestCaseCount": "3",
+    "passPercentage": 37.5,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 9721
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Kitting Menu",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "5",
+    "executedTestCaseCount": "5",
+    "passedTestCaseCount": "4",
+    "passPercentage": 80,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Prabhath",
+      "code": "kiran"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 641
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Stock Status",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "5",
+    "executedTestCaseCount": "5",
+    "passedTestCaseCount": "4",
+    "passPercentage": 80,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 1178
+  },
+  {
+    "testSuite": {
+      "name": "Inventory - Rename Obsolete Item Numbers",
+      "code": "TS18"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "2",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 8612
+  },
+  {
+    "testSuite": {
+      "name": "Purchasing - Purchase Orders",
+      "code": "TS15"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "516",
+    "totalTestCaseCount": "18",
+    "executedTestCaseCount": "18",
+    "passedTestCaseCount": "15",
+    "passPercentage": 83.33,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 6241
+  },
+  {
+    "testSuite": {
+      "name": "LCW - Inventory Receipts",
+      "code": "TS22"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "273",
+    "totalTestCaseCount": "41",
+    "executedTestCaseCount": "41",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 8452
+  },
+  {
+    "testSuite": {
+      "name": "SalesIT - Sales Quotes",
+      "code": "TS2"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "11",
+    "passPercentage": 78.57,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 6608
+  },
+  {
+    "testSuite": {
+      "name": "Pricing - Pricing Matrix",
+      "code": "TS4"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "2",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Prabhath",
+      "code": "kiran"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 3590
+  },
+  {
+    "testSuite": {
+      "name": "Pricing - Special Pricing Allowance",
+      "code": "TS5"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "42",
+    "executedTestCaseCount": "42",
+    "passedTestCaseCount": "42",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Shiva",
+      "code": "Shiva"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 2266
+  },
+  {
+    "testSuite": {
+      "name": "MarketingIT - Mailing Master",
+      "code": "TS23"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "10",
+    "passedTestCaseCount": "10",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 4268
   }
 ]

@@ -11,7 +11,7 @@
   { "name": "LCW - Item Bin Maintenance", "code": "TS10" },
   { "name": "LCW - Item Bin Ledger", "code": "TS11" },
   { "name": "LCW - Picking In Process", "code": "TS12" },
-  { "name": "LCW - Picking In Process Exception", "code": "TS13" },
+  { "name": "LCW - Exceptions Queue", "code": "TS13" },
   { "name": "LCW - Customer Returns in Process", "code": "TS14" },
   { "name": "LCW - Zones", "code": "TS15" },
   { "name": "LCW - Mass Bin Creation", "code": "TS16" },
@@ -45,7 +45,7 @@
   { "name": "AR - AR2WISE", "code": "TS44" },
   { "name": "AR - Make Payments", "code": "TS45" },
   { "name": "AR - Vertex Sales Tax", "code": "TS46" },
-  { "name": "AR - Credit Management App", "code": "TS47" },
+  
   { "name": "BI - SPW", "code": "TS48" },
   { "name": "MarketingIT - Relationship Management", "code": "TS49" },
   { "name": "MarketingIT - Digital Commerce", "code": "TS50" },

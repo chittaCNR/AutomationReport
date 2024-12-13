@@ -145,13 +145,13 @@
       "code": "DEV"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "20",
-    "executedTestCaseCount": "20",
-    "passedTestCaseCount": "16",
-    "passPercentage": 80,
+    "totalTestCaseCount": "25",
+    "executedTestCaseCount": "25",
+    "passedTestCaseCount": "25",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "CNR",
@@ -553,9 +553,9 @@
       "code": "DEV"
     },
     "localCompany": "746",
-    "totalTestCaseCount": "6",
-    "executedTestCaseCount": "6",
-    "passedTestCaseCount": "6",
+    "totalTestCaseCount": "9",
+    "executedTestCaseCount": "9",
+    "passedTestCaseCount": "9",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -655,17 +655,17 @@
       "code": "DEV"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "9",
-    "executedTestCaseCount": "9",
-    "passedTestCaseCount": "9",
+    "totalTestCaseCount": "19",
+    "executedTestCaseCount": "19",
+    "passedTestCaseCount": "19",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
       "code": "PASSED"
     },
     "executedBy": {
-      "name": "CNR",
-      "code": "CNR"
+      "name": "CNR/Prabhath",
+      "code": "CNR/Prabhath"
     },
     "applicationMode": {
       "name": "In-Sprint",

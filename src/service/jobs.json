@@ -621,9 +621,9 @@
       "code": "qa"
     },
     "localCompany": "695",
-    "totalTestCaseCount": "13",
-    "executedTestCaseCount": "13",
-    "passedTestCaseCount": "13",
+    "totalTestCaseCount": "20",
+    "executedTestCaseCount": "20",
+    "passedTestCaseCount": "20",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -651,13 +651,13 @@
       "code": "TS14"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "QA",
+      "code": "QA"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "19",
-    "executedTestCaseCount": "19",
-    "passedTestCaseCount": "19",
+    "totalTestCaseCount": "25",
+    "executedTestCaseCount": "25",
+    "passedTestCaseCount": "25",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -787,11 +787,11 @@
       "code": "TS3"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "QA",
+      "code": "QA"
     },
     "localCompany": "110",
-    "totalTestCaseCount": "23",
+    "totalTestCaseCount": "25",
     "executedTestCaseCount": "23",
     "passedTestCaseCount": "23",
     "passPercentage": 100,

@@ -138,7 +138,7 @@
   {
     "testSuite": {
       "name": "LCW - Shipping Manifest",
-      "code": "TS12"
+      "code": "TS19"
     },
     "environment": {
       "name": "Development",
@@ -545,17 +545,17 @@
   },
   {
     "testSuite": {
-      "name": "Finance - SPW",
-      "code": "TS18"
+      "name": "FinanceIT - SPW",
+      "code": "TS48"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "QA",
+      "code": "qa"
     },
     "localCompany": "746",
     "totalTestCaseCount": "14",
     "executedTestCaseCount": "14",
-    "passedTestCaseCount": "9",
+    "passedTestCaseCount": "14",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -648,7 +648,7 @@
   {
     "testSuite": {
       "name": "LCW - TMS",
-      "code": "TS14"
+      "code": "TS17"
     },
     "environment": {
       "name": "QA",
@@ -817,8 +817,8 @@
   },
   {
     "testSuite": {
-      "name": "Finance - SPW",
-      "code": "TS18"
+      "name": "FinanceIT - SPW",
+      "code": "TS48"
     },
     "environment": {
       "name": "QA",

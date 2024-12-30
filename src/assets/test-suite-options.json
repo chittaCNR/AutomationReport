@@ -16,7 +16,6 @@
   { "name": "LCW - Zones", "code": "TS15" },
   { "name": "LCW - Mass Bin Creation", "code": "TS16" },
   { "name": "LCW - TMS", "code": "TS17" },
-  { "name": "LCW - Transport Management Solutions", "code": "TS18" },
   { "name": "LCW - Shipping Manifest", "code": "TS19" },
   { "name": "LCW - Inventory Receipts", "code": "TS20" },
   { "name": "Purchasing - Purchase Orders", "code": "TS21" },
@@ -45,8 +44,7 @@
   { "name": "AR - AR2WISE", "code": "TS44" },
   { "name": "AR - Make Payments", "code": "TS45" },
   { "name": "AR - Vertex Sales Tax", "code": "TS46" },
-  
-  { "name": "BI - SPW", "code": "TS48" },
+  { "name": "FinanceIT - SPW", "code": "TS48" },
   { "name": "MarketingIT - Relationship Management", "code": "TS49" },
   { "name": "MarketingIT - Digital Commerce", "code": "TS50" },
   { "name": "MarketingIT - Enterprise Product Search", "code": "TS51" },

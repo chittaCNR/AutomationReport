@@ -138,17 +138,17 @@
   {
     "testSuite": {
       "name": "LCW - Shipping Manifest",
-      "code": "TS12"
+      "code": "TS19"
     },
     "environment": {
       "name": "Development",
       "code": "DEV"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "25",
-    "executedTestCaseCount": "25",
-    "passedTestCaseCount": "25",
-    "passPercentage": 100,
+    "totalTestCaseCount": "49",
+    "executedTestCaseCount": "49",
+    "passedTestCaseCount": "44",
+    "passPercentage": 90,
     "status": {
       "name": "Passed",
       "code": "PASSED"
@@ -545,17 +545,17 @@
   },
   {
     "testSuite": {
-      "name": "BI - SPW",
-      "code": "TS18"
+      "name": "FinanceIT - SPW",
+      "code": "TS48"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "QA",
+      "code": "qa"
     },
     "localCompany": "746",
-    "totalTestCaseCount": "9",
-    "executedTestCaseCount": "9",
-    "passedTestCaseCount": "9",
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "14",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -648,16 +648,16 @@
   {
     "testSuite": {
       "name": "LCW - TMS",
-      "code": "TS14"
+      "code": "TS17"
     },
     "environment": {
       "name": "QA",
       "code": "QA"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "25",
-    "executedTestCaseCount": "25",
-    "passedTestCaseCount": "25",
+    "totalTestCaseCount": "26",
+    "executedTestCaseCount": "26",
+    "passedTestCaseCount": "26",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -817,8 +817,8 @@
   },
   {
     "testSuite": {
-      "name": "BI - SPW",
-      "code": "TS18"
+      "name": "FinanceIT - SPW",
+      "code": "TS48"
     },
     "environment": {
       "name": "QA",

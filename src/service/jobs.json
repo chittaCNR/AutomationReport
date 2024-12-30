@@ -145,10 +145,10 @@
       "code": "DEV"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "25",
-    "executedTestCaseCount": "25",
-    "passedTestCaseCount": "25",
-    "passPercentage": 100,
+    "totalTestCaseCount": "49",
+    "executedTestCaseCount": "49",
+    "passedTestCaseCount": "44",
+    "passPercentage": 90,
     "status": {
       "name": "Passed",
       "code": "PASSED"
@@ -545,7 +545,7 @@
   },
   {
     "testSuite": {
-      "name": "BI - SPW",
+      "name": "Finance - SPW",
       "code": "TS18"
     },
     "environment": {
@@ -553,8 +553,8 @@
       "code": "DEV"
     },
     "localCompany": "746",
-    "totalTestCaseCount": "9",
-    "executedTestCaseCount": "9",
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "14",
     "passedTestCaseCount": "9",
     "passPercentage": 100,
     "status": {
@@ -655,9 +655,9 @@
       "code": "QA"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "25",
-    "executedTestCaseCount": "25",
-    "passedTestCaseCount": "25",
+    "totalTestCaseCount": "26",
+    "executedTestCaseCount": "26",
+    "passedTestCaseCount": "26",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -817,7 +817,7 @@
   },
   {
     "testSuite": {
-      "name": "BI - SPW",
+      "name": "Finance - SPW",
       "code": "TS18"
     },
     "environment": {

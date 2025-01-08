@@ -145,13 +145,13 @@
       "code": "DEV"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "49",
-    "executedTestCaseCount": "49",
-    "passedTestCaseCount": "44",
-    "passPercentage": 90,
+    "totalTestCaseCount": "56",
+    "executedTestCaseCount": "56",
+    "passedTestCaseCount": "52",
+    "passPercentage": 93,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "CNR/Mahender",
@@ -553,9 +553,9 @@
       "code": "qa"
     },
     "localCompany": "746",
-    "totalTestCaseCount": "14",
-    "executedTestCaseCount": "14",
-    "passedTestCaseCount": "14",
+    "totalTestCaseCount": "17",
+    "executedTestCaseCount": "17",
+    "passedTestCaseCount": "17",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -655,9 +655,9 @@
       "code": "QA"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "26",
-    "executedTestCaseCount": "26",
-    "passedTestCaseCount": "26",
+    "totalTestCaseCount": "28",
+    "executedTestCaseCount": "28",
+    "passedTestCaseCount": "28",
     "passPercentage": 100,
     "status": {
       "name": "Passed",

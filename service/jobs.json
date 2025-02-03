@@ -9,13 +9,13 @@
       "code": "qa"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "50",
+    "totalTestCaseCount": "49",
     "executedTestCaseCount": "49",
-    "passedTestCaseCount": "48",
-    "passPercentage": 97.96,
+    "passedTestCaseCount": "46",
+    "passPercentage": 93.88,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "CNR",
@@ -77,10 +77,10 @@
       "code": "qa"
     },
     "localCompany": "695",
-    "totalTestCaseCount": "90",
-    "executedTestCaseCount": "88",
-    "passedTestCaseCount": "0",
-    "passPercentage": 0,
+    "totalTestCaseCount": "74",
+    "executedTestCaseCount": "72",
+    "passedTestCaseCount": "2",
+    "passPercentage": 97,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -145,8 +145,8 @@
       "code": "DEV"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "56",
-    "executedTestCaseCount": "56",
+    "totalTestCaseCount": "57",
+    "executedTestCaseCount": "57",
     "passedTestCaseCount": "52",
     "passPercentage": 93,
     "status": {
@@ -165,8 +165,8 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "Work In Progress",
-    "date": "2024-11-10T18:30:00.000Z",
+    "comments": "Deployed in QA. Needs full run(03-Feb-2025)",
+    "date": "2025-11-10T18:30:00.000Z",
     "id": 4920
   },
   {
@@ -249,11 +249,11 @@
     "localCompany": "162",
     "totalTestCaseCount": "5",
     "executedTestCaseCount": "5",
-    "passedTestCaseCount": "4",
-    "passPercentage": 80,
+    "passedTestCaseCount": "5",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "Abram",
@@ -315,10 +315,10 @@
       "code": "DEV"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "15",
-    "executedTestCaseCount": "15",
-    "passedTestCaseCount": "0",
-    "passPercentage": 0,
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "9",
+    "passPercentage": 64,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -385,8 +385,8 @@
     "localCompany": "162",
     "totalTestCaseCount": "40",
     "executedTestCaseCount": "40",
-    "passedTestCaseCount": "22",
-    "passPercentage": 55,
+    "passedTestCaseCount": "31",
+    "passPercentage": 78,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -553,9 +553,9 @@
       "code": "qa"
     },
     "localCompany": "746",
-    "totalTestCaseCount": "17",
-    "executedTestCaseCount": "17",
-    "passedTestCaseCount": "17",
+    "totalTestCaseCount": "21",
+    "executedTestCaseCount": "21",
+    "passedTestCaseCount": "21",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -607,7 +607,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "",
+    "comments": "Work In Progress",
     "date": "2024-11-04T18:30:00.000Z",
     "id": 6999
   },
@@ -621,13 +621,13 @@
       "code": "qa"
     },
     "localCompany": "695",
-    "totalTestCaseCount": "20",
+    "totalTestCaseCount": "21",
     "executedTestCaseCount": "20",
     "passedTestCaseCount": "20",
-    "passPercentage": 100,
+    "passPercentage": 95,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Gopesh",
@@ -655,9 +655,9 @@
       "code": "QA"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "28",
-    "executedTestCaseCount": "28",
-    "passedTestCaseCount": "28",
+    "totalTestCaseCount": "31",
+    "executedTestCaseCount": "31",
+    "passedTestCaseCount": "31",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -757,13 +757,13 @@
       "code": "qa"
     },
     "localCompany": "110",
-    "totalTestCaseCount": "16",
-    "executedTestCaseCount": "16",
-    "passedTestCaseCount": "16",
-    "passPercentage": 100,
+    "totalTestCaseCount": "17",
+    "executedTestCaseCount": "17",
+    "passedTestCaseCount": "12",
+    "passPercentage": 70.5,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Gopesh",
@@ -929,11 +929,11 @@
     "localCompany": "162",
     "totalTestCaseCount": "14",
     "executedTestCaseCount": "14",
-    "passedTestCaseCount": "4",
-    "passPercentage": 28.57,
+    "passedTestCaseCount": "14",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "CNR",
@@ -961,10 +961,10 @@
       "code": "qa"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "55",
-    "executedTestCaseCount": "55",
-    "passedTestCaseCount": "51",
-    "passPercentage": 92.73,
+    "totalTestCaseCount": "58",
+    "executedTestCaseCount": "58",
+    "passedTestCaseCount": "49",
+    "passPercentage": 84.48,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -1038,8 +1038,8 @@
       "code": "PASSED"
     },
     "executedBy": {
-      "name": "CNR",
-      "code": "CNR"
+      "name": "Gopesh",
+      "code": "Gopesh"
     },
     "applicationMode": {
       "name": "Not In-Sprint",
@@ -1131,13 +1131,13 @@
       "code": "qa"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "32",
-    "executedTestCaseCount": "32",
-    "passedTestCaseCount": "29",
-    "passPercentage": 90.63,
+    "totalTestCaseCount": "31",
+    "executedTestCaseCount": "31",
+    "passedTestCaseCount": "31",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "CNR",
@@ -1165,13 +1165,13 @@
       "code": "qa"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "18",
-    "executedTestCaseCount": "18",
-    "passedTestCaseCount": "14",
-    "passPercentage": 77.78,
+    "totalTestCaseCount": "16",
+    "executedTestCaseCount": "16",
+    "passedTestCaseCount": "16",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "CNR",
@@ -1201,11 +1201,11 @@
     "localCompany": "162",
     "totalTestCaseCount": "8",
     "executedTestCaseCount": "8",
-    "passedTestCaseCount": "3",
-    "passPercentage": 37.5,
+    "passedTestCaseCount": "8",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "Gopesh",
@@ -1238,7 +1238,7 @@
     "passedTestCaseCount": "5",
     "passPercentage": 100,
     "status": {
-     "name": "Passed",
+      "name": "Passed",
       "code": "PASSED"
     },
     "executedBy": {
@@ -1335,10 +1335,10 @@
       "code": "qa"
     },
     "localCompany": "516",
-    "totalTestCaseCount": "18",
-    "executedTestCaseCount": "18",
+    "totalTestCaseCount": "19",
+    "executedTestCaseCount": "19",
     "passedTestCaseCount": "15",
-    "passPercentage": 83.33,
+    "passPercentage": 79,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -1369,13 +1369,13 @@
       "code": "qa"
     },
     "localCompany": "273",
-    "totalTestCaseCount": "41",
-    "executedTestCaseCount": "41",
+    "totalTestCaseCount": "42",
+    "executedTestCaseCount": "42",
     "passedTestCaseCount": "0",
     "passPercentage": 0,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "Gopesh",
@@ -1405,11 +1405,11 @@
     "localCompany": "162",
     "totalTestCaseCount": "14",
     "executedTestCaseCount": "14",
-    "passedTestCaseCount": "11",
-    "passPercentage": 78.57,
+    "passedTestCaseCount": "14",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "Abram",
@@ -1437,9 +1437,9 @@
       "code": "qa"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "2",
-    "executedTestCaseCount": "2",
-    "passedTestCaseCount": "2",
+    "totalTestCaseCount": "24",
+    "executedTestCaseCount": "24",
+    "passedTestCaseCount": "24",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -1506,8 +1506,110 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "10",
-    "executedTestCaseCount": "10",
-    "passedTestCaseCount": "10",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "7",
+    "passPercentage": 30,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "Acccess Issue",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 4268
+  },
+  {
+    "testSuite": {
+      "name": "AR - ECommerce",
+      "code": "TS62"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "13",
+    "executedTestCaseCount": "13",
+    "passedTestCaseCount": "2",
+    "passPercentage": 15.38,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "Purchase Order is not flowing into the Ecommerce",
+    "date": "2025-01-08T18:30:00.000Z",
+    "id": 3403
+  },
+  {
+    "testSuite": {
+      "name": "AR - Vertex Sales Tax",
+      "code": "TS46"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "23",
+    "executedTestCaseCount": "8",
+    "passedTestCaseCount": "15",
+    "passPercentage": 187.5,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "Failed to create a Customer, User Access Issue",
+    "date": "2025-01-13T18:30:00.000Z",
+    "id": 16
+  },
+  {
+    "testSuite": {
+      "name": "LCW - Picking In Process Exception",
+      "code": "TS63"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "695",
+    "totalTestCaseCount": "18",
+    "executedTestCaseCount": "18",
+    "passedTestCaseCount": "18",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -1522,11 +1624,45 @@
       "code": "notInSprint"
     },
     "applicationType": {
-      "name": "WISE Menu",
-      "code": "WISE"
+      "name": "Angular",
+      "code": "ANGULAR"
     },
     "comments": "",
-    "date": "2024-11-17T18:30:00.000Z",
-    "id": 4268
+    "date": "2025-01-09T18:30:00.000Z",
+    "id": 8590
+  },
+  {
+    "testSuite": {
+      "name": "Purchasing - Vendor Part Number",
+      "code": "TS64"
+    },
+    "environment": {
+      "name": "QA",
+      "code": "qa"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "14",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-01-13T18:30:00.000Z",
+    "id": 4888
   }
 ]

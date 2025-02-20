@@ -1,15 +1,9 @@
 [
   {
-    "label": "Project Management",
-    "value": "Project Management",
+    "label": "OperationsIT",
+    "value": "OperationsIT",
     "items": [
-      { "label": "Project Management", "value": "Project Management" }
-    ]
-  },
-  {
-    "label": "Sales",
-    "value": "Sales",
-    "items": [
+      { "label": "Project Management", "value": "Project Management" },
       { "label": "Sales", "value": "Sales" }
     ]
   },

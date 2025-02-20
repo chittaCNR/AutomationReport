@@ -3,6 +3,7 @@ import { ServicesService } from '../services/services.service';
 import { JobReport } from '../models/report';
 import { DomainStatus } from '../models/domain-status';
 import { DropdownItem } from '../models/dropdown-item';
+import { TestCaseProgress } from '../models/testcase-progress';
 
 @Component({
   selector: 'app-root',
@@ -23,7 +24,10 @@ export class AppComponent implements OnInit {
   jobs: JobReport[] = [];
   jobsData: JobReport[] = [];
   domainStatus: DomainStatus[] = [];
+  domains:any[] = []
+  testCasesProgress:TestCaseProgress[] = [];
   lastUpdateDate: Date | undefined;
+  selectedDomain:any;
 
   jobFilter: JobReport = {
     id: 0,
@@ -84,6 +88,11 @@ export class AppComponent implements OnInit {
     const applicationType = 'assets/application-type.json';
     const applicationMode = 'assets/application-mode.json';
     const domainStatus = 'assets/domain-status.json';
+    const testCaseProgress = 'assets/testcases-progress.json';
+    const domain = 'assets/domains.json';
+
+
+
 
     this.jobService.getJobs(testSuiteUrl).subscribe((data) => {
       this.testSuiteOptions = data;
@@ -115,6 +124,13 @@ export class AppComponent implements OnInit {
     this.jobService.getJobs(domainStatus).subscribe((data) => {
       this.domainStatus = data;
     });
+    this.jobService.getJobs(testCaseProgress).subscribe((data) => {
+      this.testCasesProgress = data;
+    });
+    this.jobService.getJobs(domain).subscribe((data) => {
+      this.domains = data;
+    });
+
     this.jobService.getJobs('service/jobs.json').subscribe((data) => {
       this.jobs = data;
       this.jobsData = data;

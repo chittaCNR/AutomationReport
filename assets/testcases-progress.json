@@ -1,7 +1,32 @@
 [
   {
-    "appName":"test",
+    "appName":"Pricing Matrix",
+    "manualTestCases":36,
+    "automatedPercentage":"36%"
+  },
+  {
+    "appName":"Cost Price Sheets",
+    "manualTestCases":22,
+    "automatedPercentage":"100%"
+  },
+  {
+    "appName":"Zones",
+    "manualTestCases":8,
+    "automatedPercentage":"100%"
+  },
+  {
+    "appName":"Mass Bin Creation",
+    "manualTestCases":10,
+    "automatedPercentage":"30%"
+  },
+  {
+    "appName":"Shipping Manifest",
+    "manualTestCases":49,
+    "automatedPercentage":"100%"
+  },
+  {
+    "appName":"Item Bin Maintenance",
     "manualTestCases":0,
-    "automatedPercentage":"20%"
+    "automatedPercentage":"0%"
   }
 ]

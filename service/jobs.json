@@ -1641,13 +1641,13 @@
       "code": "qa"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "14",
-    "executedTestCaseCount": "14",
-    "passedTestCaseCount": "14",
-    "passPercentage": 100,
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "10",
+    "passedTestCaseCount": "9",
+    "passPercentage": 90,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Gopesh",

@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Project Management",
+    "value": "Project Management",
+    "items": [
+      { "label": "Project Management", "value": "Project Management" }
+    ]
+  },
+  {
+    "label": "Sales",
+    "value": "Sales",
+    "items": [
+      { "label": "Sales", "value": "Sales" }
+    ]
+  },
+  {
+    "label": "Pricing",
+    "value": "Pricing",
+    "items": [
+      { "label": "Cost Price Sheets", "value": "Cost Price Sheets" },
+      { "label": "Pricing Matrix", "value": "Pricing Matrix" },
+      { "label": "Matrix Cost Warning", "value": "Matrix Cost Warning" },
+      { "label": "SPA", "value": "SPA" },
+      { "label": "NDQ", "value": "NDQ" }
+    ]
+  },
+  {
+    "label": "Shipping Solutions",
+    "value": "Shipping Solutions",
+    "items": [
+      { "label": "Item Maintenance Quick Entry", "value": "Item Maintenance Quick Entry" },
+      { "label": "Item Bin Maintanance", "value": "Item Bin Maintanance" },
+      { "label": "Item Bin Ledger", "value": "Item Bin Ledger" },
+      { "label": "Picking in Process", "value": "Picking in Process" },
+      { "label": "Zones", "value": " Zones " },
+      { "label": "Shipping Manifest", "value": "Shipping Manifest" },
+      { "label": "Mass Bin Creation", "value": "Mass Bin Creation" },
+      { "label": "Exception Queue", "value": "Exception Queue" },
+      { "label": "Transport Management Solution", "value": "Transport Management Solution" }
+    ]
+  }
+]

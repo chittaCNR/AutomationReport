@@ -71,13 +71,13 @@
     ]
   },
   {
-    "label": "Inventory & PurchasingIT - Purchasing",
-    "value": "Purchasing",
+    "label": "Inventory & PurchasingIT - EDI",
+    "value": "EDI",
     "items": [
-      { "label": "Purchasing Order", "value": "Purchasing Order" },
-      { "label": "Suggested Purchasing Order", "value": "Suggested Purchasing Order" }
+      { "label": "EDI", "value": "EDI" }
     ]
   },
+
   {
     "label": "Accounts Receivable IT",
     "value": "ARIT",

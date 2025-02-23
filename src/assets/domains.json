@@ -1,36 +1,120 @@
 [
   {
-    "label": "OperationsIT",
-    "value": "OperationsIT",
+    "label": "Order and Pricing SolutionsIT - BMS",
+    "value": "Order and Pricing SolutionsIT",
     "items": [
       { "label": "Project Management", "value": "Project Management" },
       { "label": "Sales", "value": "Sales" }
     ]
   },
   {
-    "label": "Pricing",
+    "label": "Order and Pricing SolutionsIT - Pricing",
     "value": "Pricing",
     "items": [
       { "label": "Cost Price Sheets", "value": "Cost Price Sheets" },
       { "label": "Pricing Matrix", "value": "Pricing Matrix" },
       { "label": "Matrix Cost Warning", "value": "Matrix Cost Warning" },
-      { "label": "SPA", "value": "SPA" },
+      { "label": "Special Pricing Allowance(SPA)", "value": "SPA" },
       { "label": "NDQ", "value": "NDQ" }
     ]
   },
   {
-    "label": "Shipping Solutions",
+    "label": "Order and Pricing SolutionsIT - Shipping Solutions",
     "value": "Shipping Solutions",
     "items": [
       { "label": "Item Maintenance Quick Entry", "value": "Item Maintenance Quick Entry" },
       { "label": "Item Bin Maintanance", "value": "Item Bin Maintanance" },
-      { "label": "Item Bin Ledger", "value": "Item Bin Ledger" },
       { "label": "Picking in Process", "value": "Picking in Process" },
+      { "label": "Inventory Receipts", "value": "Inventory Receipts" },
+      { "label": "Customer Returns in Process", "value": "Customer Returns in Process" },
       { "label": "Zones", "value": " Zones " },
       { "label": "Shipping Manifest", "value": "Shipping Manifest" },
       { "label": "Mass Bin Creation", "value": "Mass Bin Creation" },
       { "label": "Exception Queue", "value": "Exception Queue" },
       { "label": "Transport Management Solution", "value": "Transport Management Solution" }
+    ]
+  },
+  {
+    "label": "MarketingIT - Relationship Management",
+    "value": "Relationship Management",
+    "items": [
+      { "label": "Customer Master", "value": "Customer Master" },
+      { "label": "Location Master", "value": "Location Master" },
+      { "label": "Vendor Master", "value": "Vendor Master" }
+      
+    ]
+  },
+  {
+    "label": "MarketingIT-  Search and Navigation(SNA)",
+    "value": "SNA",
+    "items": [
+      { "label": "Enterprise Product Search", "value": "Enterprise Product Search" },
+      { "label": "Term Record Search", "value": "Term Record Search" }
+      
+    ]
+  },
+  {
+    "label": "MarketingIT - DC/DCR",
+    "value": "DC/DCR",
+    "items": [
+      { "label": "Digital Commerce", "value": "Digital Commerce" }
+    ]
+  },
+  {
+    "label": "Inventory & PurchasingIT - Inventory",
+    "value": "Inventory",
+    "items": [
+      { "label": "Cycle Count Adjustments", "value": "Cycle Count Adjustments" },
+      { "label": "Cycle Count Recommendations", "value": "Cycle Count Recommentations" },
+      { "label": "Item Ledger", "value": "Item Ledger" },
+      { "label": "WinVision", "value": "WinVision" }
+    ]
+  },
+  {
+    "label": "Inventory & PurchasingIT - Purchasing",
+    "value": "Purchasing",
+    "items": [
+      { "label": "Purchasing Order", "value": "Purchasing Order" },
+      { "label": "Suggested Purchasing Order", "value": "Suggested Purchasing Order" }
+    ]
+  },
+  {
+    "label": "Accounts Receivable IT",
+    "value": "ARIT",
+    "items": [
+      { "label": "Collections Management App (CMA)", "value": "CMA" },
+      { "label": "AR2WISE", "value": "AR2WISE" },
+      { "label": "Vertex Sales Tax", "value": "Vertex Sales Tax" }
+    ]
+  },
+  {
+    "label": "Accounts Payable IT",
+    "value": "APIT",
+    "items": [
+      { "label": "Accounts Payable", "value": "Accounts Payable" }
+    ]
+  },
+  {
+    "label": "Finance IT - Finance People Services",
+    "value": "FinanceIT-FPS",
+    "items": [
+      { "label": "WinSavings", "value": "WinSavings" },
+      { "label": "Accounts Payable", "value": "Accounts Payable" },
+      { "label": "Time Sheets", "value": "Time Sheets" }
+    ]
+  },
+  {
+    "label": "Finance IT - Accounting and Finance",
+    "value": "FinanceIT-AF",
+    "items": [
+      { "label": "Target Bonus", "value": "Target Bonus" }
+    ]
+  },
+  {
+    "label": "Finance IT - Busniess Intelligence",
+    "value": "FinanceIT-BI",
+    "items": [
+      { "label": "SPW", "value": "SPW" }
     ]
   }
 ]

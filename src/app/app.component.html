@@ -1,9 +1,9 @@
 <main>
   <div class="mx-auto p-6">
     <div class="flex flex-wrap gap-6">
-      <h2 class="w-full text-xl font-semibold mb-4" style="text-align: center">
+      <h1 class="w-full text-xl font-semibold mb-4" style="text-align: center">
         Automation Test Execution Report
-      </h2>
+      </h1>
 
       <!-- Test Suite Name -->
       <div>
@@ -188,8 +188,9 @@
 
 
 <div class="card px-20 py-20">
+  
 
-  <h2 class="flex justify-center pb-10">Test Automation Progress - By Domain</h2>
+  <h1 class="w-full text-xl font-semibold mb-4" style="text-align: center">Automation Coverage By Domain</h1>
     <p-table
         [value]="testCasesProgress"
         sortMode="single"
@@ -199,9 +200,9 @@
         [tableStyle]="{'min-width': '60rem'}">
             <ng-template pTemplate="header">
                 <tr>
-                    <th>Application</th>
+                    <th style="text-align: center">Application</th>
                     <th>Date</th>
-                    <th>Total Manual Test Scenarios</th>
+                    <th>Manual Test Scenarios</th>
                     <th>% Automated</th>
                     <th>Comments</th>
                 </tr>
@@ -221,7 +222,7 @@
                     <td>
                        {{customer.data}}
                     </td>
-                    <td >
+                    <td>
                         {{customer.manualTestCases}}
                     </td>
                     <td [ngClass]="getBackgroundColor(customer.automatedPercentage)">

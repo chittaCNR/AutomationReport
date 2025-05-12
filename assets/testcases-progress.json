@@ -1,32 +1,219 @@
 [
   {
-    "appName":"Pricing Matrix",
-    "manualTestCases":36,
-    "automatedPercentage":"36%"
+    "domainName": "Sales",
+    "data": "2025-05-01",
+    "appName": "Project Management",
+    "manualTestCases": 61,
+    "automatedPercentage": "38%",
+    "comments": "Includes both UI and APIs."
   },
   {
-    "appName":"Cost Price Sheets",
-    "manualTestCases":22,
-    "automatedPercentage":"100%"
+    "domainName": "Sales",
+    "data": "2025-05-03",
+    "appName": "Sales",
+    "manualTestCases": 0,
+    "automatedPercentage": "0%",
+    "comments": "UI tests still under development."
   },
   {
-    "appName":"Zones",
-    "manualTestCases":8,
-    "automatedPercentage":"100%"
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-05",
+    "appName": "Customer Return in Process",
+    "manualTestCases": 0,
+    "automatedPercentage": "0%",
+    "comments": "Not Started."
   },
   {
-    "appName":"Mass Bin Creation",
-    "manualTestCases":10,
-    "automatedPercentage":"30%"
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-02",
+    "appName": "Item Maintenance Quick Entry",
+    "manualTestCases": 0,
+    "automatedPercentage": "0%",
+    "comments": "Not Started."
   },
   {
-    "appName":"Shipping Manifest",
-    "manualTestCases":49,
-    "automatedPercentage":"100%"
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-04",
+    "appName": "Item Bin Maintenance",
+    "manualTestCases": 44,
+    "automatedPercentage": "98%",
+    "comments": ""
   },
   {
-    "appName":"Item Bin Maintenance",
-    "manualTestCases":0,
-    "automatedPercentage":"0%"
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-06",
+    "appName": "Mass Bin Creation",
+    "manualTestCases": 11,
+    "automatedPercentage": "27%",
+    "comments": ""
+  },
+  {
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-06",
+    "appName": "Item Bin Ledger",
+    "manualTestCases": 5,
+    "automatedPercentage": "80%",
+    "comments": ""
+  },
+  {
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-06",
+    "appName": "Zones",
+    "manualTestCases": 9,
+    "automatedPercentage": "89%",
+    "comments": ""
+  },
+  {
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-06",
+    "appName": "Shipping Manifest",
+    "manualTestCases": 57,
+    "automatedPercentage": "86%",
+    "comments": ""
+  },
+  {
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-06",
+    "appName": "Transport Management System",
+    "manualTestCases": 0,
+    "automatedPercentage": "0%",
+    "comments": ""
+  },
+  {
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-06",
+    "appName": "Picking In Process",
+    "manualTestCases": 90,
+    "automatedPercentage": "91%",
+    "comments": ""
+  },
+  {
+    "domainName": "Shipping Solutions",
+    "data": "2025-05-06",
+    "appName": "Receiving  In Process",
+    "manualTestCases": 42,
+    "automatedPercentage": "0%",
+    "comments": "The test cases needs refactoring"
+  },
+  {
+    "domainName": "Purchasing",
+    "data": "2025-05-07",
+    "appName": "Vendor Part Number",
+    "manualTestCases": 9,
+    "automatedPercentage": "100%",
+    "comments": ""
+  },
+  {
+    "domainName": "Purchasing",
+    "data": "2025-05-08",
+    "appName": "Order By Item",
+    "manualTestCases": 0,
+    "automatedPercentage": "0%",
+    "comments": "New development."
+  },
+  {
+    "domainName": "Purchasing",
+    "data": "2025-05-09",
+    "appName": "Suggested Purchase Orders",
+    "manualTestCases": 51,
+    "automatedPercentage": "83%",
+    "comments": ""
+  },
+  {
+    "domainName": "Inventory",
+    "data": "2025-05-11",
+    "appName": "Item Ledger",
+    "manualTestCases": 22,
+    "automatedPercentage": "5%",
+    "comments": "New Item created is not reflecting because of ES Issue"
+  },
+  {
+    "domainName": "Inventory",
+    "data": "2025-05-11",
+    "appName": "ICM",
+    "manualTestCases": 10,
+    "automatedPercentage": "70%",
+    "comments": ""
+  },
+  {
+    "domainName": "Inventory",
+    "data": "2025-05-11",
+    "appName": "Rentals Management",
+    "manualTestCases": 6,
+    "automatedPercentage": "17%",
+    "comments": "In-sprint work"
+  },
+  {
+    "domainName": "Marketing IT",
+    "data": "2025-05-11",
+    "appName": "Customer Master",
+    "manualTestCases": 45,
+    "automatedPercentage": "33%",
+    "comments": "Need to update manual test cases."
+  },
+  {
+    "domainName": "Marketing IT",
+    "data": "2025-05-11",
+    "appName": "Digital Commerce",
+    "manualTestCases": 141,
+    "automatedPercentage": "57%",
+    "comments": ""
+  },
+  {
+    "domainName": "Marketing IT",
+    "data": "2025-05-11",
+    "appName": "Customer Part Manager",
+    "manualTestCases": 1,
+    "automatedPercentage": "0%",
+    "comments": ""
+  },
+  {
+    "domainName": "Marketing IT",
+    "data": "2025-05-11",
+    "appName": "Enterprise Search",
+    "manualTestCases": 121,
+    "automatedPercentage": "45%",
+    "comments": ""
+  },
+  {
+    "domainName": "Marketing IT",
+    "data": "2025-05-11",
+    "appName": "Location Master",
+    "manualTestCases": 14,
+    "automatedPercentage": "0%",
+    "comments": ""
+  },
+  {
+    "domainName": "EDI",
+    "data": "2025-05-11",
+    "appName": "EDI",
+    "manualTestCases": 119,
+    "automatedPercentage": "15%",
+    "comments": ""
+  },
+  {
+    "domainName": "EDI",
+    "data": "2025-05-11",
+    "appName": "EDAS",
+    "manualTestCases": 14,
+    "automatedPercentage": "0%",
+    "comments": ""
+  },
+  {
+    "domainName": "Accounts Receivable",
+    "data": "2025-05-11",
+    "appName": "Collection Management",
+    "manualTestCases": 23,
+    "automatedPercentage": "56%",
+    "comments": ""
+  },
+  {
+    "domainName": "Accounts Receivable",
+    "data": "2025-05-11",
+    "appName": "AR2WISE",
+    "manualTestCases": 38,
+    "automatedPercentage": "95%",
+    "comments": ""
   }
+  
 ]

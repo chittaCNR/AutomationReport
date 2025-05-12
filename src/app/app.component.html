@@ -87,7 +87,7 @@
     </div>
     <div class="mt-6">
       <p-table #dt3 [value]="jobsData" dataKey="id" [rows]="10" [scrollHeight]="'100rem'" [scrollable]="true"
-        [paginator]="false" [tableStyle]="{ 'min-width': '75rem' }">
+        [paginator]="true" [tableStyle]="{ 'min-width': '75rem' }">
         <!-- Table Header with Column Titles -->
         <ng-template pTemplate="header">
           <tr>
@@ -152,6 +152,7 @@
               <p-dropdown [options]="executedByOptions" [(ngModel)]="jobFilter.executedBy" showClear="true"
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
+            <th></th>
           </tr>
         </ng-template>
 
@@ -184,67 +185,56 @@
       </p-table>
     </div>
   </div>
-  <div class="w- full p-20 flex flex-col justify-center">
-    <div>
-      <h2 style="text-align: center;">Test Automation Run Summary - By Domain</h2>
-      <p-table [value]="domainStatus" [tableStyle]="{ width: '50rem' }">
-        <ng-template pTemplate="header">
-          <tr>
-            <th>Domain Name</th>
-            <th>Test Case Count</th>
-            <th>Pass %</th>
-          </tr>
-        </ng-template>
-        <ng-template pTemplate="body" let-domain>
-          <tr>
-            <td>{{ domain.domainName }}</td>
-            <td>{{ domain.testCaseCount }}</td>
-            <td>{{ domain.passPercentage }}</td>
-          </tr>
-        </ng-template>
-      </p-table>
-    </div>
-    <br><br>
-  </div>
 
-  <div class=" p-20 flex flex-col justify-center" >
-    <div>
-      <h2 style="text-align: center;">Test Automation Progress - By Domain</h2>
-      <p-table [value]="testCasesProgress" [tableStyle]="{ width: '50rem'}">
-        <ng-template pTemplate="header">
-          <tr>
-            <th>App Name
-              <p-columnFilter field="status" matchMode="equals" [showMenu]="false">
-                <ng-template pTemplate="filter" let-value let-filter="filterCallback">
-                  <p-dropdown [options]="domains" ngClass="z-10" [(ngModel)]="selectedDomain" [group]="true" showClear="true"
-                  (onChange)="filter($event.value)" >
-                  <ng-template let-group pTemplate="group">
-                    <div class="flex align-items-center">
-                        <span>{{ group.label }}</span>
-                    </div>
-                </ng-template>
-                </p-dropdown>
-                </ng-template>
-            </p-columnFilter>
-            </th>
-            <th>Manual Test Cases</th>
-            <th>Automated %</th>
-          </tr>
-        </ng-template>
-        <ng-template pTemplate="body" let-domain>
-          <tr>
-            <td>{{ domain.appName }}</td>
-            <td>{{ domain.manualTestCases }}</td>
-            <td>{{ domain.automatedPercentage }}</td>
-          </tr>
-        </ng-template>
-      </p-table>
-    </div>
-    <br><br>
+
+<div class="card">
+    <p-table
+        [value]="testCasesProgress"
+        sortMode="single"
+        [scrollable]="true"
+        scrollHeight="400px"
+        rowGroupMode="subheader"
+        groupRowsBy="domainName"
+        [tableStyle]="{'min-width': '60rem'}">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Application</th>
+                    <th>Date</th>
+                    <th>Total Manual Test Scenarios</th>
+                    <th>% Automated</th>
+                    <th>Comments</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="groupheader" let-customer>
+                <tr pRowGroupHeader>
+                    <td colspan="5">
+                        <span class="font-bold ml-2">{{customer.domainName}}</span>
+                    </td>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-customer let-rowIndex="rowIndex">
+                <tr>
+                    <td>
+                        {{customer.appName}}
+                    </td>
+                    <td>
+                       {{customer.data}}
+                    </td>
+                    <td >
+                        {{customer.manualTestCases}}
+                    </td>
+                    <td [ngClass]="getBackgroundColor(customer.manualTestCases)">
+                      {{customer.automatedPercentage}}
+                    </td>
+                    <td>
+                        {{customer.comments}}
+                    </td>
+                </tr>
+            </ng-template>
+    </p-table>
+</div>
 
     <h6 class="text-right"> Last updated date : {{lastUpdateDate | date : "dd-MMM-yyyy hh:mm" }} </h6>
-  </div>
-
 </main>
 
 <router-outlet />

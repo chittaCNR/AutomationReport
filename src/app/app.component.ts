@@ -23,8 +23,6 @@ export class AppComponent implements OnInit {
   applicationType: DropdownItem[] = [];
   jobs: JobReport[] = [];
   jobsData: JobReport[] = [];
-  domainStatus: DomainStatus[] = [];
-  domains:any[] = []
   testCasesProgress:TestCaseProgress[] = [];
   lastUpdateDate: Date | undefined;
   selectedDomain:any;
@@ -87,7 +85,6 @@ export class AppComponent implements OnInit {
     const executedByUrl = 'assets/executed-by-options.json';
     const applicationType = 'assets/application-type.json';
     const applicationMode = 'assets/application-mode.json';
-    const domainStatus = 'assets/domain-status.json';
     const testCaseProgress = 'assets/testcases-progress.json';
     const domain = 'assets/domains.json';
 
@@ -121,14 +118,8 @@ export class AppComponent implements OnInit {
     this.jobService.getJobs(applicationMode).subscribe((data) => {
       this.applicationModes = data;
     });
-    this.jobService.getJobs(domainStatus).subscribe((data) => {
-      this.domainStatus = data;
-    });
     this.jobService.getJobs(testCaseProgress).subscribe((data) => {
       this.testCasesProgress = data;
-    });
-    this.jobService.getJobs(domain).subscribe((data) => {
-      this.domains = data;
     });
 
     this.jobService.getJobs('service/jobs.json').subscribe((data) => {
@@ -338,5 +329,18 @@ export class AppComponent implements OnInit {
   resetFilter(event: any) {
     console.log(event);
     this.filter();
+  }
+
+  getBackgroundColor(percentage:any) {
+    percentage = Number(percentage)
+    if(percentage < 50) {
+      return 'red';
+    }
+    else if(percentage < 80) {
+      return 'orange';
+    }
+    else {
+      return 'green'
+    }
   }
 }

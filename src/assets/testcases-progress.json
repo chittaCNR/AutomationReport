@@ -1,32 +1,82 @@
 [
   {
-    "appName":"Pricing Matrix",
-    "manualTestCases":36,
-    "automatedPercentage":"36%"
+    "domainName": "Payments",
+    "data": "2025-05-01",
+    "appName": "PaymentGateway",
+    "manualTestCases": 100,
+    "automatedPercentage": "80%",
+    "comments": "High test coverage; pending new API updates."
   },
   {
-    "appName":"Cost Price Sheets",
-    "manualTestCases":22,
-    "automatedPercentage":"100%"
+    "domainName": "Payments",
+    "data": "2025-05-03",
+    "appName": "InvoiceManager",
+    "manualTestCases": 60,
+    "automatedPercentage": "65%",
+    "comments": "UI tests still under development."
   },
   {
-    "appName":"Zones",
-    "manualTestCases":8,
-    "automatedPercentage":"100%"
+    "domainName": "Payments",
+    "data": "2025-05-05",
+    "appName": "RefundService",
+    "manualTestCases": 90,
+    "automatedPercentage": "70%",
+    "comments": "Coverage improving; integration with billing service pending."
   },
   {
-    "appName":"Mass Bin Creation",
-    "manualTestCases":10,
-    "automatedPercentage":"30%"
+    "domainName": "UserManagement",
+    "data": "2025-05-02",
+    "appName": "AuthService",
+    "manualTestCases": 50,
+    "automatedPercentage": "90%",
+    "comments": "Authentication flow fully automated."
   },
   {
-    "appName":"Shipping Manifest",
-    "manualTestCases":49,
-    "automatedPercentage":"100%"
+    "domainName": "UserManagement",
+    "data": "2025-05-04",
+    "appName": "UserProfileManager",
+    "manualTestCases": 40,
+    "automatedPercentage": "60%",
+    "comments": "Tests cover most user profile features."
   },
   {
-    "appName":"Item Bin Maintenance",
-    "manualTestCases":0,
-    "automatedPercentage":"0%"
+    "domainName": "UserManagement",
+    "data": "2025-05-06",
+    "appName": "RoleAccessControl",
+    "manualTestCases": 75,
+    "automatedPercentage": "85%",
+    "comments": "Admin features automated; edge cases under review."
+  },
+  {
+    "domainName": "Inventory",
+    "data": "2025-05-07",
+    "appName": "StockMonitor",
+    "manualTestCases": 110,
+    "automatedPercentage": "50%",
+    "comments": "Basic automation in place, expansion in progress."
+  },
+  {
+    "domainName": "Inventory",
+    "data": "2025-05-08",
+    "appName": "WarehouseTracker",
+    "manualTestCases": 95,
+    "automatedPercentage": "55%",
+    "comments": "Warehouse mapping not fully covered."
+  },
+  {
+    "domainName": "Inventory",
+    "data": "2025-05-09",
+    "appName": "SupplyChainDashboard",
+    "manualTestCases": 130,
+    "automatedPercentage": "60%",
+    "comments": "Needs more end-to-end testing."
+  },
+  {
+    "domainName": "Payments",
+    "data": "2025-05-11",
+    "appName": "CurrencyExchange",
+    "manualTestCases": 80,
+    "automatedPercentage": "78%",
+    "comments": "Automation stable, pending support for new currencies."
   }
 ]

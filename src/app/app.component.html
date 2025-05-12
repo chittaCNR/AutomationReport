@@ -194,7 +194,6 @@
         [value]="testCasesProgress"
         sortMode="single"
         [scrollable]="true"
-        scrollHeight="400px"
         rowGroupMode="subheader"
         groupRowsBy="domainName"
         [tableStyle]="{'min-width': '60rem'}">
@@ -210,7 +209,7 @@
             <ng-template pTemplate="groupheader" let-customer>
                 <tr pRowGroupHeader>
                     <td colspan="5">
-                        <span class="font-bold ml-2">{{customer.domainName}}</span>
+                        <span class="font-extrabold ml-2">{{customer.domainName}}</span>
                     </td>
                 </tr>
             </ng-template>

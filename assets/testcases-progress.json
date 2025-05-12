@@ -214,6 +214,46 @@
     "manualTestCases": 38,
     "automatedPercentage": "95%",
     "comments": ""
+  },
+  {
+    "domainName": "Pricing",
+    "data": "2025-05-11",
+    "appName": "Pricing Matrix",
+    "manualTestCases": 61,
+    "automatedPercentage": "54%",
+    "comments": ""
+  },
+  {
+    "domainName": "Pricing",
+    "data": "2025-05-11",
+    "appName": "Pricing Cost Warning",
+    "manualTestCases": 24,
+    "automatedPercentage": "100%",
+    "comments": ""
+  },
+  {
+    "domainName": "Pricing",
+    "data": "2025-05-11",
+    "appName": "Special Pricing",
+    "manualTestCases": 0,
+    "automatedPercentage": "0%",
+    "comments": "New In Sprint Work"
+  },
+  {
+    "domainName": "Accounting and Finance",
+    "data": "2025-05-11",
+    "appName": "SPW",
+    "manualTestCases": 15,
+    "automatedPercentage": "100%",
+    "comments": ""
+  },
+  {
+    "domainName": "Accounting and Finance",
+    "data": "2025-05-11",
+    "appName": "Loans",
+    "manualTestCases": 32,
+    "automatedPercentage": "84%",
+    "comments": ""
   }
   
 ]

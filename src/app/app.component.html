@@ -85,7 +85,7 @@
           class="bg-blue-500 text-white rounded py-2 px-4 hover:bg-blue-600"></button>
       </div>
     </div>
-    <div class="mt-6">
+    <div class="mt-6 px-10">
       <p-table #dt3 [value]="jobsData" dataKey="id" [rows]="10" [scrollHeight]="'100rem'" [scrollable]="true"
         [paginator]="true" [tableStyle]="{ 'min-width': '75rem' }">
         <!-- Table Header with Column Titles -->
@@ -187,7 +187,9 @@
   </div>
 
 
-<div class="card">
+<div class="card px-20 py-20">
+
+  <h2 class="flex justify-center pb-10">Test Automation Progress - By Domain</h2>
     <p-table
         [value]="testCasesProgress"
         sortMode="single"
@@ -223,7 +225,7 @@
                     <td >
                         {{customer.manualTestCases}}
                     </td>
-                    <td [ngClass]="getBackgroundColor(customer.manualTestCases)">
+                    <td [ngClass]="getBackgroundColor(customer.automatedPercentage)">
                       {{customer.automatedPercentage}}
                     </td>
                     <td>

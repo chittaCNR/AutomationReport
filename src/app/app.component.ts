@@ -331,16 +331,22 @@ export class AppComponent implements OnInit {
     this.filter();
   }
 
-  getBackgroundColor(percentage:any) {
-    percentage = Number(percentage)
-    if(percentage < 50) {
-      return 'red';
-    }
-    else if(percentage < 80) {
-      return 'orange';
-    }
-    else {
-      return 'green'
-    }
+getBackgroundColor(percentage: string | number): string {
+  const cleaned = String(percentage).replace("%", "");
+  const percentageValue = Number(cleaned);
+
+  if (isNaN(percentageValue)) {
+    return 'gray';
   }
+
+  if (percentageValue <= 50) {
+    return 'red';
+  } else if (percentageValue < 80) {
+    return 'orange';
+  } else {
+    return 'green';
+  }
+}
+
+
 }

@@ -31,7 +31,11 @@
     },
     "comments": "",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 8984
+    "id": 8984,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -65,7 +69,11 @@
     },
     "comments": "",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 555
+    "id": 555,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -99,7 +107,11 @@
     },
     "comments": "",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 7163
+    "id": 7163,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -133,7 +145,11 @@
     },
     "comments": "",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 9628
+    "id": 9628,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -167,7 +183,11 @@
     },
     "comments": "Deployed in QA. Needs full run(03-Feb-2025)",
     "date": "2025-11-10T18:30:00.000Z",
-    "id": 4920
+    "id": 4920,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -201,7 +221,11 @@
     },
     "comments": "10 More tests to be added - AUTO-682",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 2098
+    "id": 2098,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -235,7 +259,11 @@
     },
     "comments": "5 more tests to be added - AUTO-743-747",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 7834
+    "id": 7834,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -269,7 +297,11 @@
     },
     "comments": "",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 3080
+    "id": 3080,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -303,7 +335,11 @@
     },
     "comments": "More tests to be added - AUTO-725",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 872
+    "id": 872,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -337,7 +373,11 @@
     },
     "comments": "",
     "date": "2024-11-01T18:30:00.000Z",
-    "id": 4846
+    "id": 4846,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -371,7 +411,11 @@
     },
     "comments": "",
     "date": "2024-11-19T18:30:00.000Z",
-    "id": 8684
+    "id": 8684,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -405,7 +449,11 @@
     },
     "comments": "Require a user credential having the access for all the tab. ",
     "date": "2024-11-10T18:30:00.000Z",
-    "id": 4761
+    "id": 4761,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -439,7 +487,11 @@
     },
     "comments": "The app is being rewritten entirely next year, further automation would not be helpful",
     "date": "2024-11-14T18:30:00.000Z",
-    "id": 5859
+    "id": 5859,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -473,7 +525,11 @@
     },
     "comments": "",
     "date": "2024-09-17T18:30:00.000Z",
-    "id": 7467
+    "id": 7467,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -507,7 +563,11 @@
     },
     "comments": "",
     "date": "2024-11-07T18:30:00.000Z",
-    "id": 807
+    "id": 807,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -541,7 +601,11 @@
     },
     "comments": "",
     "date": "2024-10-01T18:30:00.000Z",
-    "id": 6760
+    "id": 6760,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -575,7 +639,11 @@
     },
     "comments": "",
     "date": "2024-11-18T18:30:00.000Z",
-    "id": 6971
+    "id": 6971,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -609,7 +677,11 @@
     },
     "comments": "Work In Progress",
     "date": "2024-11-04T18:30:00.000Z",
-    "id": 6999
+    "id": 6999,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -643,7 +715,11 @@
     },
     "comments": "",
     "date": "2024-11-12T18:30:00.000Z",
-    "id": 2726
+    "id": 2726,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -677,7 +753,11 @@
     },
     "comments": "",
     "date": "2024-12-03T18:30:00.000Z",
-    "id": 3428
+    "id": 3428,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -711,7 +791,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 1323
+    "id": 1323,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -745,7 +829,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 7553
+    "id": 7553,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -779,7 +867,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 9162
+    "id": 9162,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -813,7 +905,11 @@
     },
     "comments": "",
     "date": "2024-11-21T18:30:00.000Z",
-    "id": 4236
+    "id": 4236,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -847,7 +943,11 @@
     },
     "comments": "",
     "date": "2024-12-03T18:30:00.000Z",
-    "id": 3604
+    "id": 3604,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -881,7 +981,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 669
+    "id": 669,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -915,7 +1019,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 6953
+    "id": 6953,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -949,7 +1057,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 2999
+    "id": 2999,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -983,7 +1095,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 711
+    "id": 711,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1017,7 +1133,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 9164
+    "id": 9164,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1051,7 +1171,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 8650
+    "id": 8650,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1085,7 +1209,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 7534
+    "id": 7534,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1119,7 +1247,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 6836
+    "id": 6836,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1153,7 +1285,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 3920
+    "id": 3920,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1187,7 +1323,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 980
+    "id": 980,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1221,7 +1361,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 9721
+    "id": 9721,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1255,7 +1399,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 641
+    "id": 641,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1289,7 +1437,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 1178
+    "id": 1178,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1323,7 +1475,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 8612
+    "id": 8612,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1357,7 +1513,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 6241
+    "id": 6241,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1391,7 +1551,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 8452
+    "id": 8452,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1425,7 +1589,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 6608
+    "id": 6608,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1459,7 +1627,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 3590
+    "id": 3590,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1493,7 +1665,11 @@
     },
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 2266
+    "id": 2266,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1527,7 +1703,11 @@
     },
     "comments": "Acccess Issue",
     "date": "2024-11-17T18:30:00.000Z",
-    "id": 4268
+    "id": 4268,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1561,7 +1741,11 @@
     },
     "comments": "Purchase Order is not flowing into the Ecommerce",
     "date": "2025-01-08T18:30:00.000Z",
-    "id": 3403
+    "id": 3403,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1595,7 +1779,11 @@
     },
     "comments": "Failed to create a Customer, User Access Issue",
     "date": "2025-01-13T18:30:00.000Z",
-    "id": 16
+    "id": 16,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1629,7 +1817,11 @@
     },
     "comments": "",
     "date": "2025-01-09T18:30:00.000Z",
-    "id": 8590
+    "id": 8590,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   },
   {
     "testSuite": {
@@ -1663,6 +1855,10 @@
     },
     "comments": "",
     "date": "2025-01-13T18:30:00.000Z",
-    "id": 4888
+    "id": 4888,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
   }
 ]

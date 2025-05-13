@@ -3,7 +3,8 @@ import { DropdownItem } from './dropdown-item';
 export interface JobReport {
   id: number;
   testSuite: DropdownItem | null;
-  environment: DropdownItem | null;
+  tool: DropdownItem | null;
+  domainName: DropdownItem | null;
   localCompany: string;
   totalTestCaseCount: number;
   executedTestCaseCount: number;

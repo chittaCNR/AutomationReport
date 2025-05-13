@@ -16,6 +16,8 @@ export class AppComponent implements OnInit {
   constructor(private jobService: ServicesService) {}
 
   testSuiteOptions: DropdownItem[] = [];
+  toolOptions: DropdownItem[] = [];
+  domainOptions: DropdownItem[] = [];
   environmentOptions: DropdownItem[] = [];
   statusOptions: DropdownItem[] = [];
   executedByOptions: DropdownItem[] = [];
@@ -23,14 +25,14 @@ export class AppComponent implements OnInit {
   applicationType: DropdownItem[] = [];
   jobs: JobReport[] = [];
   jobsData: JobReport[] = [];
-  testCasesProgress:TestCaseProgress[] = [];
+  testCasesProgress: TestCaseProgress[] = [];
   lastUpdateDate: Date | undefined;
-  selectedDomain:any;
+  selectedDomain: any;
 
   jobFilter: JobReport = {
     id: 0,
     testSuite: null,
-    environment: null,
+    tool: null,
     localCompany: '',
     totalTestCaseCount: 0,
     executedTestCaseCount: 0,
@@ -42,12 +44,13 @@ export class AppComponent implements OnInit {
     applicationType: null,
     comments: '',
     date: null,
+    domainName: null,
   };
 
   report: JobReport = {
     id: 0,
     testSuite: null,
-    environment: null,
+    tool: null,
     localCompany: '',
     totalTestCaseCount: 0,
     executedTestCaseCount: 0,
@@ -59,6 +62,7 @@ export class AppComponent implements OnInit {
     date: null,
     applicationMode: null,
     applicationType: null,
+    domainName: null,
   };
   ngOnInit() {
     this.loadOptions();
@@ -81,15 +85,13 @@ export class AppComponent implements OnInit {
   loadOptions() {
     const testSuiteUrl = 'assets/test-suite-options.json';
     const environmentUrl = 'assets/environment-options.json';
+    const toolUrl = 'assets/tool-options.json';
     const statusUrl = 'assets/type-options.json';
     const executedByUrl = 'assets/executed-by-options.json';
     const applicationType = 'assets/application-type.json';
     const applicationMode = 'assets/application-mode.json';
     const testCaseProgress = 'assets/testcases-progress.json';
-    const domain = 'assets/domains.json';
-
-
-
+    const domainUrl = 'assets/domain-options.json';
 
     this.jobService.getJobs(testSuiteUrl).subscribe((data) => {
       this.testSuiteOptions = data;
@@ -105,6 +107,12 @@ export class AppComponent implements OnInit {
     });
     this.jobService.getJobs(environmentUrl).subscribe((data) => {
       this.environmentOptions = data;
+    });
+    this.jobService.getJobs(toolUrl).subscribe((data) => {
+      this.toolOptions = data;
+    });
+    this.jobService.getJobs(domainUrl).subscribe((data) => {
+      this.domainOptions = data;
     });
     this.jobService.getJobs(statusUrl).subscribe((data) => {
       this.statusOptions = data;
@@ -146,7 +154,7 @@ export class AppComponent implements OnInit {
     this.report = {
       id: 0,
       testSuite: null,
-      environment: null,
+      tool: null,
       localCompany: '',
       totalTestCaseCount: 0,
       executedTestCaseCount: 0,
@@ -158,12 +166,13 @@ export class AppComponent implements OnInit {
       date: null,
       applicationMode: null,
       applicationType: null,
+      domainName: null,
     };
   }
 
   addReport() {
     this.updatePassPercentage();
-    if(!this.report.passPercentage){
+    if (!this.report.passPercentage) {
       this.report.passPercentage = 0;
     }
     const modifiedReport: any = {
@@ -216,11 +225,8 @@ export class AppComponent implements OnInit {
       }
 
       // Filter by Environment (if environment is selected)
-      if (this.jobFilter.environment && this.jobFilter.environment.name) {
-        if (
-          !job.environment ||
-          job.environment.name !== this.jobFilter.environment.name
-        ) {
+      if (this.jobFilter.tool && this.jobFilter.tool.name) {
+        if (!job.tool || job.tool.name !== this.jobFilter.tool.name) {
           match = false;
         }
       }
@@ -331,22 +337,20 @@ export class AppComponent implements OnInit {
     this.filter();
   }
 
-getBackgroundColor(percentage: string | number): string {
-  const cleaned = String(percentage).replace("%", "");
-  const percentageValue = Number(cleaned);
+  getBackgroundColor(percentage: string | number): string {
+    const cleaned = String(percentage).replace('%', '');
+    const percentageValue = Number(cleaned);
 
-  if (isNaN(percentageValue)) {
-    return 'gray';
+    if (isNaN(percentageValue)) {
+      return 'gray';
+    }
+
+    if (percentageValue <= 50) {
+      return 'red';
+    } else if (percentageValue < 80) {
+      return 'orange';
+    } else {
+      return 'green';
+    }
   }
-
-  if (percentageValue <= 50) {
-    return 'red';
-  } else if (percentageValue < 80) {
-    return 'orange';
-  } else {
-    return 'green';
-  }
-}
-
-
 }

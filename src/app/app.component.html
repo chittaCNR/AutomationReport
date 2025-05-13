@@ -5,6 +5,11 @@
         Automation Test Execution Report
       </h1>
 
+            <div>
+        <label for="testSuiteName" class="font-medium block">Domain Name</label>
+        <p-dropdown [options]="domainOptions" styleClass="m-w-350" [(ngModel)]="report.domainName"
+          optionLabel="name"></p-dropdown>
+      </div>
       <!-- Test Suite Name -->
       <div>
         <label for="testSuiteName" class="font-medium block">Test Suite Name</label>
@@ -12,10 +17,10 @@
           optionLabel="name"></p-dropdown>
       </div>
 
-      <!-- Environment -->
+      <!-- Tool -->
       <div>
-        <label for="environment" class="font-medium block">Environment</label>
-        <p-dropdown [options]="environmentOptions" [(ngModel)]="report.environment" optionLabel="name"></p-dropdown>
+        <label for="environment" class="font-medium block">Tool</label>
+        <p-dropdown [options]="toolOptions" [(ngModel)]="report.tool" optionLabel="name"></p-dropdown>
       </div>
 
       <!-- Local Company -->
@@ -91,9 +96,9 @@
         <!-- Table Header with Column Titles -->
         <ng-template pTemplate="header">
           <tr>
-            <th>Run Date</th>
+            <th>Domain Name</th>
             <th>Test Suite Name</th>
-            <th>Environment</th>
+            <th>Tool</th>
             <th>Application Type</th>
             <th>Test Run Status</th>
             <th>Pass %</th>
@@ -108,8 +113,10 @@
           <!-- Filter Row with Dropdowns -->
           <tr>
             <th>
-              <p-calendar [(ngModel)]="jobFilter.date" showClear="true" (onClear)="filter()" (onSelect)="filter()"
-                appendTo="body"></p-calendar>
+                            <p-dropdown [options]="domainOptions" [(ngModel)]="jobFilter.domainName" showClear="true"
+                (onChange)="filter()" optionLabel="name"></p-dropdown>
+              <!-- <p-calendar [(ngModel)]="jobFilter.date" showClear="true" (onClear)="filter()" (onSelect)="filter()"
+                appendTo="body"></p-calendar> -->
             </th>
             <th>
               <p-dropdown styleClass="m-w-350" [options]="testSuiteOptions" [filter]="true" filterBy="name"
@@ -128,12 +135,12 @@
               </p-dropdown>
             </th>
             <th>
-              <p-dropdown [options]="environmentOptions" [(ngModel)]="jobFilter.environment" showClear="true"
+              <p-dropdown [options]="toolOptions" [(ngModel)]="jobFilter.tool" showClear="true"
                 (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
             <th Class="max-w-20">
-              <input pInputText type="text" field="localCompany" [(ngModel)]="jobFilter.localCompany" showClear="true"
-                ariaLabel="Filter Local Company" (keydown.enter)="filter()" />
+              <p-dropdown [options]="applicationType" showClear="true" [(ngModel)]="jobFilter.applicationType"
+                (onChange)="filter()" optionLabel="name"></p-dropdown>
             </th>
             <th>
               <p-dropdown [options]="statusOptions" showClear="true" [(ngModel)]="jobFilter.status"
@@ -159,7 +166,8 @@
         <!-- Table Body - Job Data Rows -->
         <ng-template pTemplate="body" let-job>
           <tr>
-            <td>{{ job.date ? (job.date | date : "dd-MMM-yyyy") : "N/A" }}</td>
+            <td>{{job.domainName.name}}</td>
+            <!-- <td>{{ job.date ? (job.date | date : "dd-MMM-yyyy") : "N/A" }}</td> -->
             <td class="m-w-350">{{ job.testSuite?.name || "N/A" }}</td>
             <td>{{ job.environment?.name || "N/A" }}</td>
             <td>{{ job.applicationType?.name || "N/A" }}</td>
@@ -188,7 +196,7 @@
 
 
 <div class="card px-20 py-20">
-  
+
 
   <h1 class="w-full text-xl font-semibold mb-4" style="text-align: center">Automation Coverage By Domain</h1>
     <p-table

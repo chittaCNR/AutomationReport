@@ -1,11 +1,10 @@
 [
   { "name": "SalesIT - Project Management", "code": "TS1" },
-  { "name": "SalesIT - Sales Quotes", "code": "TS2" },
-  { "name": "SalesIT - Quotes to Cash", "code": "TS3" },
+  { "name": "SalesIT - Sales", "code": "TS2" },
   { "name": "Pricing - Cost Price Sheets(SSPS)", "code": "TS4" },
   { "name": "Pricing - Pricing Matrix", "code": "TS5" },
-  { "name": "Pricing - Pricing Matrix Rewrite", "code": "TS6" },
-  { "name": "Pricing - Special Pricing Allowance", "code": "TS7" },
+  { "name": "Pricing - Special Pricing", "code": "TS6" },
+  { "name": "Pricing - Pricing Cost Warning", "code": "TS7" },
   { "name": "Pricing - Pricing Portal (Profit Optics)", "code": "TS8" },
   { "name": "LCW - Item Maintenance Quick Entry", "code": "TS9" },
   { "name": "LCW - Item Bin Maintenance", "code": "TS10" },
@@ -22,6 +21,7 @@
   { "name": "Purchasing - Purchase Orders", "code": "TS21" },
   { "name": "Purchasing - Suggested Purchase Orders", "code": "TS22" },
   { "name": "Purchasing - Vendor Part Number", "code": "TS64" },
+   { "name": "Purchasing - Order By Item", "code": "TS65" },
   { "name": "Inventory - Item Ledger", "code": "TS23" },
   { "name": "Inventory - Cycle Count Adjustments", "code": "TS24" },
   { "name": "Inventory - Average Cost Adjustments", "code": "TS25" },
@@ -59,6 +59,7 @@
   { "name": "FinanceIT - Timesheets", "code": "TS57" },
   { "name": "FinanceIT - Tora", "code": "TS58" },
   { "name": "FinanceIT - Target Bonus", "code": "TS59" },
+   { "name": "FinanceIT - Loans", "code": "TS3" },
   { "name": "EDI - EDI", "code": "TS60" },
   { "name": "EDI - EDAS", "code": "TS61" }
 ]

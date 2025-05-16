@@ -19,7 +19,7 @@
 
       <!-- Tool -->
       <div>
-        <label for="environment" class="font-medium block">Tool</label>
+        <label for="environment" class="font-medium block">Tool Used</label>
         <p-dropdown [options]="toolOptions" [(ngModel)]="report.tool" optionLabel="name"></p-dropdown>
       </div>
 
@@ -63,7 +63,7 @@
 
       <!-- Executed By -->
       <div>
-        <label for="executedBy" class="font-medium block">Executed By</label>
+        <label for="executedBy" class="font-medium block">Maintained By</label>
         <p-dropdown [options]="executedByOptions" [(ngModel)]="report.executedBy" optionLabel="name"></p-dropdown>
       </div>
       <!-- Application Mode -->
@@ -98,7 +98,7 @@
           <tr>
             <th>Domain Name</th>
             <th>Test Suite Name</th>
-            <th>Tool</th>
+            <th>Tool Used</th>
             <th>Application Type</th>
             <th>Test Run Status</th>
             <th>Pass %</th>
@@ -106,8 +106,8 @@
             <th>Total Test Cases</th>
             <th>Executed Test Cases</th>
             <th>Passed Test Cases</th>
-            <th>Local Company</th>
-            <th>Executed By</th>
+            <!-- <th>Local Company</th> -->
+            <th>Maintained By</th>
             <th>Comments</th>
           </tr>
           <!-- Filter Row with Dropdowns -->
@@ -196,7 +196,7 @@
     <p-table [value]="[{}]">
       <ng-template pTemplate="header">
         <tr>
-          <th>Total Test Cases (all domains)</th>
+          <th>Total Test Cases (All Domains)</th>
           <th>Total Executed Test Cases</th>
           <th>Total Passed Test Cases</th>
         </tr>

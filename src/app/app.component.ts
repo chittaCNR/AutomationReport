@@ -193,6 +193,7 @@ export class AppComponent implements OnInit {
   searchReport() {
     console.log('Searching Report...');
   }
+
   filter() {
     this.jobsData = this.jobs.filter((job) => {
       let match = true;
@@ -218,7 +219,7 @@ export class AppComponent implements OnInit {
       if (this.jobFilter.testSuite && this.jobFilter.testSuite.name) {
         if (
           !job.testSuite ||
-          job.testSuite.name !== this.jobFilter.testSuite.name
+          !this.jobFilter.testSuite.name.includes(job.testSuite.name)
         ) {
           match = false;
         }
@@ -257,6 +258,21 @@ export class AppComponent implements OnInit {
           !job.applicationMode ||
           job.applicationMode.name !== this.jobFilter.applicationMode.name
         ) {
+          match = false;
+        }
+      }
+
+      if (this.jobFilter.domainName && this.jobFilter.domainName.name) {
+        if (
+          !job.domainName ||
+          job.domainName.name !== this.jobFilter.domainName.name
+        ) {
+          match = false;
+        }
+      }
+
+      if (this.jobFilter.tool && this.jobFilter.tool.name) {
+        if (!job.tool || job.tool.name !== this.jobFilter.tool.name) {
           match = false;
         }
       }
@@ -352,5 +368,18 @@ export class AppComponent implements OnInit {
     } else {
       return 'green';
     }
+  }
+
+  getTotal(field: string): number {
+    const fieldMap: Record<string, keyof JobReport> = {
+      total: 'totalTestCaseCount',
+      executed: 'executedTestCaseCount',
+      passed: 'passedTestCaseCount',
+    };
+
+    const key = fieldMap[field];
+    if (!key) return 0;
+
+    return this.jobsData.reduce((sum, job) => sum + Number(job[key]), 0);
   }
 }

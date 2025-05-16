@@ -4,7 +4,7 @@
       "name": "Item Bin Maintenance",
       "code": "TS7"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -42,7 +42,7 @@
       "name": "Item Bin Ledger",
       "code": "TS8"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -80,7 +80,7 @@
       "name": "Picking In Process",
       "code": "TS9"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -118,7 +118,7 @@
       "name": "Zones",
       "code": "TS11"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -156,7 +156,7 @@
       "name": "Shipping Manifest",
       "code": "TS19"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -194,7 +194,7 @@
       "name": "Mass Bin Creation",
       "code": "TS13"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -232,7 +232,7 @@
       "name": "Item Ledger",
       "code": "TS17"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -270,7 +270,7 @@
       "name": "ICM (Live Shopping)",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -308,7 +308,7 @@
       "name": "WinVision",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -346,7 +346,7 @@
       "name": "Suggested Purchase Orders",
       "code": "TS16"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -384,7 +384,7 @@
       "name": "AR2WISE",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -422,7 +422,7 @@
       "name": "Enterprise Product Search",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -460,7 +460,7 @@
       "name": "Digital Commerce",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
       "code": "Selenium"
     },
@@ -498,9 +498,9 @@
       "name": "Project Management",
       "code": "TS1"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
-      "code": "Selenium"  
+      "code": "Selenium"
     },
     "localCompany": "155",
     "totalTestCaseCount": "10",
@@ -536,7 +536,7 @@
       "name": "Project Management",
       "code": "TS1"
     },
-    "environment": {
+    "tool": {
       "name": "Tosca",
       "code": "Tosca"
     },
@@ -574,7 +574,7 @@
       "name": "Sales",
       "code": "TS3"
     },
-    "environment": {
+    "tool": {
       "name": "Tosca",
       "code": "Tosca"
     },
@@ -612,9 +612,9 @@
       "name": "SPW",
       "code": "TS48"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "746",
     "totalTestCaseCount": "21",
@@ -650,9 +650,9 @@
       "name": "Pricing Matrix",
       "code": "TS4"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "322",
     "totalTestCaseCount": "14",
@@ -688,9 +688,9 @@
       "name": "Collection Management",
       "code": "TS43"
     },
-    "environment": {
+    "tool": {
         "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "695",
     "totalTestCaseCount": "21",
@@ -726,9 +726,9 @@
       "name": "Transport Management System",
       "code": "TS17"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "431",
     "totalTestCaseCount": "31",
@@ -764,9 +764,9 @@
       "name": "EDAS",
       "code": "TS19"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "516",
     "totalTestCaseCount": "4",
@@ -802,9 +802,9 @@
       "name": "EDI",
       "code": "TS19"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "516",
     "totalTestCaseCount": "2",
@@ -840,9 +840,9 @@
       "name": "Purchase Orders",
       "code": "TS15"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "110",
     "totalTestCaseCount": "17",
@@ -878,9 +878,9 @@
       "name": "Cost Price Sheets",
       "code": "TS3"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "110",
     "totalTestCaseCount": "25",
@@ -916,9 +916,9 @@
       "name": "SPW",
       "code": "TS48"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "746",
     "totalTestCaseCount": "7",
@@ -954,9 +954,9 @@
       "name": "Alternative Item Number",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "9",
@@ -992,9 +992,9 @@
       "name": "Costs and Prices",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "12",
@@ -1030,9 +1030,9 @@
       "name": "Item Ledger",
       "code": "TS17"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "14",
@@ -1068,9 +1068,9 @@
       "name": "Item Master",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "155",
     "totalTestCaseCount": "58",
@@ -1106,9 +1106,9 @@
       "name": "Item Search",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "9",
@@ -1144,9 +1144,9 @@
       "name": "Job Control Maintenance",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "7",
@@ -1182,9 +1182,9 @@
       "name": "ICM (Live Shopping)",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "4",
@@ -1220,9 +1220,9 @@
       "name": "Rename Obsolete Item Numbers",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "2",
@@ -1258,9 +1258,9 @@
       "name": "SalesPerson Inquiry",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
       "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "31",
@@ -1296,9 +1296,9 @@
       "name": "Serialized Tracking",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "16",
@@ -1334,9 +1334,9 @@
       "name": "Inventory Adjustments",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "8",
@@ -1372,9 +1372,9 @@
       "name": "Kitting Menu",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "5",
@@ -1410,9 +1410,9 @@
       "name": "Stock Status",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "5",
@@ -1448,9 +1448,9 @@
       "name": "Rename Obsolete Item Numbers",
       "code": "TS18"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "2",
@@ -1486,9 +1486,9 @@
       "name": "Purchase Orders",
       "code": "TS15"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "516",
     "totalTestCaseCount": "19",
@@ -1524,9 +1524,9 @@
       "name": "Inventory Receipts",
       "code": "TS22"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "273",
     "totalTestCaseCount": "42",
@@ -1562,9 +1562,9 @@
       "name": "Pricing Matrix",
       "code": "TS4"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "24",
@@ -1600,9 +1600,9 @@
       "name": " Special Pricing Allowance",
       "code": "TS5"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "42",
@@ -1638,9 +1638,9 @@
       "name": "Mailing Master",
       "code": "TS23"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "10",
@@ -1676,9 +1676,9 @@
       "name": "ECommerce",
       "code": "TS62"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "155",
     "totalTestCaseCount": "13",
@@ -1714,9 +1714,9 @@
       "name": "Vertex Sales Tax",
       "code": "TS46"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "23",
@@ -1752,9 +1752,9 @@
       "name": "Picking In Process Exception",
       "code": "TS63"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "695",
     "totalTestCaseCount": "18",
@@ -1790,9 +1790,9 @@
       "name": "Vendor Part Number",
       "code": "TS64"
     },
-    "environment": {
+    "tool": {
      "name": "Selenium",
-      "code": "Selenium" 
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "10",
@@ -1828,9 +1828,9 @@
       "name": "Loans",
       "code": "TS3"
     },
-    "environment": {
+    "tool": {
      "name": "Tosca",
-      "code": "Tosca" 
+      "code": "Tosca"
     },
     "localCompany": "183",
     "totalTestCaseCount": "32",

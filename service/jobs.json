@@ -1,12 +1,12 @@
 [
   {
     "testSuite": {
-      "name": "LCW - Item Bin Maintenance",
+      "name": "Item Bin Maintenance",
       "code": "TS7"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "49",
@@ -39,12 +39,12 @@
   },
   {
     "testSuite": {
-      "name": "LCW - Item Bin Ledger",
+      "name": "Item Bin Ledger",
       "code": "TS8"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "4",
@@ -77,12 +77,12 @@
   },
   {
     "testSuite": {
-      "name": "LCW - Picking In Process",
+      "name": "Picking In Process",
       "code": "TS9"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "695",
     "totalTestCaseCount": "74",
@@ -115,12 +115,12 @@
   },
   {
     "testSuite": {
-      "name": "LCW - Zones",
+      "name": "Zones",
       "code": "TS11"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "8",
@@ -153,12 +153,12 @@
   },
   {
     "testSuite": {
-      "name": "LCW - Shipping Manifest",
+      "name": "Shipping Manifest",
       "code": "TS19"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "57",
@@ -191,12 +191,12 @@
   },
   {
     "testSuite": {
-      "name": "LCW - Mass Bin Creation",
+      "name": "Mass Bin Creation",
       "code": "TS13"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "5",
@@ -229,12 +229,12 @@
   },
   {
     "testSuite": {
-      "name": "Inventory - Item Ledger",
+      "name": "Item Ledger",
       "code": "TS17"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "8",
@@ -261,18 +261,18 @@
     "date": "2024-11-10T18:30:00.000Z",
     "id": 7834,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - ICM (Live Shopping)",
+      "name": "ICM (Live Shopping)",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "5",
@@ -299,18 +299,18 @@
     "date": "2024-11-10T18:30:00.000Z",
     "id": 3080,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - WinVision",
+      "name": "WinVision",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "0",
     "totalTestCaseCount": "8",
@@ -337,18 +337,18 @@
     "date": "2024-11-10T18:30:00.000Z",
     "id": 872,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Purchasing - Suggested Purchase Orders",
+      "name": "Suggested Purchase Orders",
       "code": "TS16"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "155",
     "totalTestCaseCount": "14",
@@ -375,18 +375,18 @@
     "date": "2024-11-01T18:30:00.000Z",
     "id": 4846,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Purchasing",
+      "code": "Purchasing"
     }
   },
   {
     "testSuite": {
-      "name": "AR - AR2WISE",
+      "name": "AR2WISE",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "71",
@@ -413,18 +413,18 @@
     "date": "2024-11-19T18:30:00.000Z",
     "id": 8684,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Account Receivable",
+      "code": "Account Receivable"
     }
   },
   {
     "testSuite": {
-      "name": "MarketingIT - Enterprise Product Search",
+      "name": "Enterprise Product Search",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "162",
     "totalTestCaseCount": "40",
@@ -451,18 +451,18 @@
     "date": "2024-11-10T18:30:00.000Z",
     "id": 4761,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Marketing IT",
+      "code": "Marketing IT"
     }
   },
   {
     "testSuite": {
-      "name": "MarketingIT - Digital Commerce",
+      "name": "Digital Commerce",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium"
     },
     "localCompany": "155",
     "totalTestCaseCount": "12",
@@ -485,22 +485,22 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "The app is being rewritten entirely next year, further automation would not be helpful",
+    "comments": "",
     "date": "2024-11-14T18:30:00.000Z",
     "id": 5859,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Marketing IT",
+      "code": "Marketing IT"
     }
   },
   {
     "testSuite": {
-      "name": "SalesIT - Project Management",
+      "name": "Project Management",
       "code": "TS1"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "Selenium",
+      "code": "Selenium"  
     },
     "localCompany": "155",
     "totalTestCaseCount": "10",
@@ -527,18 +527,18 @@
     "date": "2024-09-17T18:30:00.000Z",
     "id": 7467,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Sales",
+      "code": "Sales"
     }
   },
   {
     "testSuite": {
-      "name": "SalesIT - Project Management",
+      "name": "Project Management",
       "code": "TS1"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "Tosca",
+      "code": "Tosca"
     },
     "localCompany": "155",
     "totalTestCaseCount": "8",
@@ -565,18 +565,18 @@
     "date": "2024-11-07T18:30:00.000Z",
     "id": 807,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Sales",
+      "code": "Sales"
     }
   },
   {
     "testSuite": {
-      "name": "SalesIT - Quotes to Cash",
+      "name": "Sales",
       "code": "TS3"
     },
     "environment": {
-      "name": "Development",
-      "code": "DEV"
+      "name": "Tosca",
+      "code": "Tosca"
     },
     "localCompany": "308",
     "totalTestCaseCount": "10",
@@ -588,8 +588,8 @@
       "code": "PASSED"
     },
     "executedBy": {
-      "name": "CNR",
-      "code": "CNR"
+      "name": "Deepali",
+      "code": "Deepali"
     },
     "applicationMode": {
       "name": "In-Sprint",
@@ -603,18 +603,18 @@
     "date": "2024-10-01T18:30:00.000Z",
     "id": 6760,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Sales",
+      "code": "Sales"
     }
   },
   {
     "testSuite": {
-      "name": "FinanceIT - SPW",
+      "name": "SPW",
       "code": "TS48"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "746",
     "totalTestCaseCount": "21",
@@ -641,18 +641,18 @@
     "date": "2024-11-18T18:30:00.000Z",
     "id": 6971,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Accounting and Finance",
+      "code": "Accounting and Finance"
     }
   },
   {
     "testSuite": {
-      "name": "Pricing - Pricing Matrix",
+      "name": "Pricing Matrix",
       "code": "TS4"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "322",
     "totalTestCaseCount": "14",
@@ -679,18 +679,18 @@
     "date": "2024-11-04T18:30:00.000Z",
     "id": 6999,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Pricing",
+      "code": "Pricing"
     }
   },
   {
     "testSuite": {
-      "name": "AR - Collection Management",
+      "name": "Collection Management",
       "code": "TS43"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+        "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "695",
     "totalTestCaseCount": "21",
@@ -717,18 +717,18 @@
     "date": "2024-11-12T18:30:00.000Z",
     "id": 2726,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Accounts Receivable",
+      "code": "Accounts Receivable"
     }
   },
   {
     "testSuite": {
-      "name": "LCW - TMS",
+      "name": "Transport Management System",
       "code": "TS17"
     },
     "environment": {
-      "name": "QA",
-      "code": "QA"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "431",
     "totalTestCaseCount": "31",
@@ -761,12 +761,12 @@
   },
   {
     "testSuite": {
-      "name": "EDI - EDAS",
+      "name": "EDAS",
       "code": "TS19"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "516",
     "totalTestCaseCount": "4",
@@ -793,18 +793,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 1323,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "EDI",
+      "code": "EDI"
     }
   },
   {
     "testSuite": {
-      "name": "EDI - EDI",
+      "name": "EDI",
       "code": "TS19"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "516",
     "totalTestCaseCount": "2",
@@ -831,18 +831,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 7553,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "EDI",
+      "code": "EDI"
     }
   },
   {
     "testSuite": {
-      "name": "Purchasing - Purchase Orders",
+      "name": "Purchase Orders",
       "code": "TS15"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "110",
     "totalTestCaseCount": "17",
@@ -869,18 +869,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 9162,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Purchasing",
+      "code": "Purchasing"
     }
   },
   {
     "testSuite": {
-      "name": "Pricing - Cost Price Sheets(SSPS)",
+      "name": "Cost Price Sheets",
       "code": "TS3"
     },
     "environment": {
-      "name": "QA",
-      "code": "QA"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "110",
     "totalTestCaseCount": "25",
@@ -907,18 +907,18 @@
     "date": "2024-11-21T18:30:00.000Z",
     "id": 4236,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Pricing",
+      "code": "Pricing"
     }
   },
   {
     "testSuite": {
-      "name": "FinanceIT - SPW",
+      "name": "SPW",
       "code": "TS48"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "746",
     "totalTestCaseCount": "7",
@@ -945,18 +945,18 @@
     "date": "2024-12-03T18:30:00.000Z",
     "id": 3604,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Finance IT",
+      "code": "Finance IT"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Alternative Item Number",
+      "name": "Alternative Item Number",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "9",
@@ -983,18 +983,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 669,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Costs and Prices",
+      "name": "Costs and Prices",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "12",
@@ -1021,18 +1021,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 6953,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Item Ledger",
+      "name": "Item Ledger",
       "code": "TS17"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "14",
@@ -1059,18 +1059,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 2999,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Item Master",
+      "name": "Item Master",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "155",
     "totalTestCaseCount": "58",
@@ -1097,18 +1097,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 711,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Item Search",
+      "name": "Item Search",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "9",
@@ -1135,18 +1135,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 9164,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Job Control Maintenance",
+      "name": "Job Control Maintenance",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "7",
@@ -1173,18 +1173,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 8650,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - ICM (Live Shopping)",
+      "name": "ICM (Live Shopping)",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "4",
@@ -1211,18 +1211,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 7534,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Rename Obsolete Item Numbers",
+      "name": "Rename Obsolete Item Numbers",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "2",
@@ -1249,18 +1249,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 6836,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - SalesPerson Inquiry",
+      "name": "SalesPerson Inquiry",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+      "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "31",
@@ -1287,18 +1287,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 3920,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Serialized Tracking",
+      "name": "Serialized Tracking",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "16",
@@ -1325,18 +1325,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 980,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Inventory Adjustments",
+      "name": "Inventory Adjustments",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "8",
@@ -1363,18 +1363,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 9721,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Kitting Menu",
+      "name": "Kitting Menu",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "5",
@@ -1401,18 +1401,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 641,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Stock Status",
+      "name": "Stock Status",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "5",
@@ -1439,18 +1439,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 1178,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Inventory - Rename Obsolete Item Numbers",
+      "name": "Rename Obsolete Item Numbers",
       "code": "TS18"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "2",
@@ -1477,18 +1477,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 8612,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Inventory",
+      "code": "Inventory"
     }
   },
   {
     "testSuite": {
-      "name": "Purchasing - Purchase Orders",
+      "name": "Purchase Orders",
       "code": "TS15"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "516",
     "totalTestCaseCount": "19",
@@ -1515,18 +1515,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 6241,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Purchasing",
+      "code": "Purchasing"
     }
   },
   {
     "testSuite": {
-      "name": "LCW - Inventory Receipts",
+      "name": "Inventory Receipts",
       "code": "TS22"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "273",
     "totalTestCaseCount": "42",
@@ -1559,50 +1559,12 @@
   },
   {
     "testSuite": {
-      "name": "SalesIT - Sales Quotes",
-      "code": "TS2"
-    },
-    "environment": {
-      "name": "QA",
-      "code": "qa"
-    },
-    "localCompany": "162",
-    "totalTestCaseCount": "14",
-    "executedTestCaseCount": "14",
-    "passedTestCaseCount": "14",
-    "passPercentage": 100,
-    "status": {
-      "name": "Passed",
-      "code": "PASSED"
-    },
-    "executedBy": {
-      "name": "Abram",
-      "code": "Abram"
-    },
-    "applicationMode": {
-      "name": "Not In-Sprint",
-      "code": "notInSprint"
-    },
-    "applicationType": {
-      "name": "WISE Menu",
-      "code": "WISE"
-    },
-    "comments": "",
-    "date": "2024-11-17T18:30:00.000Z",
-    "id": 6608,
-    "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
-    }
-  },
-  {
-    "testSuite": {
-      "name": "Pricing - Pricing Matrix",
+      "name": "Pricing Matrix",
       "code": "TS4"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "24",
@@ -1629,18 +1591,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 3590,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Pricing",
+      "code": "Pricing"
     }
   },
   {
     "testSuite": {
-      "name": "Pricing - Special Pricing Allowance",
+      "name": " Special Pricing Allowance",
       "code": "TS5"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "42",
@@ -1667,18 +1629,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 2266,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Pricing",
+      "code": "Pricing"
     }
   },
   {
     "testSuite": {
-      "name": "MarketingIT - Mailing Master",
+      "name": "Mailing Master",
       "code": "TS23"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "10",
@@ -1705,18 +1667,18 @@
     "date": "2024-11-17T18:30:00.000Z",
     "id": 4268,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Marketing IT",
+      "code": "Marketing IT"
     }
   },
   {
     "testSuite": {
-      "name": "AR - ECommerce",
+      "name": "ECommerce",
       "code": "TS62"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "155",
     "totalTestCaseCount": "13",
@@ -1743,23 +1705,23 @@
     "date": "2025-01-08T18:30:00.000Z",
     "id": 3403,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Marketing IT",
+      "code": "Marketing IT"
     }
   },
   {
     "testSuite": {
-      "name": "AR - Vertex Sales Tax",
+      "name": "Vertex Sales Tax",
       "code": "TS46"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "23",
     "executedTestCaseCount": "8",
-    "passedTestCaseCount": "15",
+    "passedTestCaseCount": "5",
     "passPercentage": 187.5,
     "status": {
       "name": "Failed",
@@ -1781,18 +1743,18 @@
     "date": "2025-01-13T18:30:00.000Z",
     "id": 16,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Account Receivable",
+      "code": "Account Receivable"
     }
   },
   {
     "testSuite": {
-      "name": "LCW - Picking In Process Exception",
+      "name": "Picking In Process Exception",
       "code": "TS63"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "695",
     "totalTestCaseCount": "18",
@@ -1819,18 +1781,18 @@
     "date": "2025-01-09T18:30:00.000Z",
     "id": 8590,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Accounts Reveivable",
+      "code": "Accounts Reveivable"
     }
   },
   {
     "testSuite": {
-      "name": "Purchasing - Vendor Part Number",
+      "name": "Vendor Part Number",
       "code": "TS64"
     },
     "environment": {
-      "name": "QA",
-      "code": "qa"
+     "name": "Selenium",
+      "code": "Selenium" 
     },
     "localCompany": "162",
     "totalTestCaseCount": "10",
@@ -1857,8 +1819,46 @@
     "date": "2025-01-13T18:30:00.000Z",
     "id": 4888,
     "domainName": {
-      "name": "Shipping Solutions",
-      "code": "Shipping Solutions"
+      "name": "Purchasing",
+      "code": "Purchasing"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Loans",
+      "code": "TS3"
+    },
+    "environment": {
+     "name": "Tosca",
+      "code": "Tosca" 
+    },
+    "localCompany": "183",
+    "totalTestCaseCount": "32",
+    "executedTestCaseCount": "27",
+    "passedTestCaseCount": "27",
+    "passPercentage": 100,
+    "status": {
+     "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Asritha",
+      "code": "Asritha"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-01-13T18:30:00.000Z",
+    "id": 4889,
+    "domainName": {
+      "name": "Accounting and Finance",
+      "code": "Accounting and Finance"
     }
   }
 ]

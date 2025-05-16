@@ -107,7 +107,8 @@
     "label": "Finance IT - Accounting and Finance",
     "value": "FinanceIT-AF",
     "items": [
-      { "label": "Target Bonus", "value": "Target Bonus" }
+      { "label": "Target Bonus", "value": "Target Bonus" },
+      { "label": "Loans", "value": "Loans" }
     ]
   },
   {

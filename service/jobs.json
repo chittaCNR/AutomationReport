@@ -9,10 +9,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "49",
-    "executedTestCaseCount": "49",
-    "passedTestCaseCount": "46",
-    "passPercentage": 93.88,
+    "totalTestCaseCount": "44",
+    "executedTestCaseCount": "43",
+    "passedTestCaseCount": "43",
+    "passPercentage": 100,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -47,13 +47,13 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "4",
+    "totalTestCaseCount": "5",
     "executedTestCaseCount": "4",
     "passedTestCaseCount": "4",
     "passPercentage": 100,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "CNR",
@@ -85,10 +85,10 @@
       "code": "Selenium"
     },
     "localCompany": "695",
-    "totalTestCaseCount": "74",
-    "executedTestCaseCount": "72",
-    "passedTestCaseCount": "2",
-    "passPercentage": 97,
+    "totalTestCaseCount": "90",
+    "executedTestCaseCount": "82",
+    "passedTestCaseCount": "82",
+    "passPercentage": 100,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -123,13 +123,13 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "8",
+    "totalTestCaseCount": "9",
     "executedTestCaseCount": "8",
     "passedTestCaseCount": "8",
     "passPercentage": 100,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "CNR",
@@ -161,17 +161,17 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "57",
-    "executedTestCaseCount": "57",
-    "passedTestCaseCount": "52",
+    "totalTestCaseCount": "60",
+    "executedTestCaseCount": "49",
+    "passedTestCaseCount": "49",
     "passPercentage": 93,
     "status": {
       "name": "Failed",
       "code": "FAILED"
     },
     "executedBy": {
-      "name": "CNR/Mahender",
-      "code": "CNR/Mahender"
+      "name": "Mahender",
+      "code": "Mahender"
     },
     "applicationMode": {
       "name": "In-Sprint",
@@ -181,7 +181,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "Deployed in QA. Needs full run(03-Feb-2025)",
+    "comments": "",
     "date": "2025-11-10T18:30:00.000Z",
     "id": 4920,
     "domainName": {
@@ -199,13 +199,13 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "5",
-    "executedTestCaseCount": "5",
-    "passedTestCaseCount": "5",
+    "totalTestCaseCount": "11",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "3",
     "passPercentage": 100,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "CNR",
@@ -237,10 +237,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "8",
-    "executedTestCaseCount": "8",
-    "passedTestCaseCount": "7",
-    "passPercentage": 87.5,
+    "totalTestCaseCount": "22",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -275,13 +275,13 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "5",
-    "executedTestCaseCount": "5",
-    "passedTestCaseCount": "5",
-    "passPercentage": 100,
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "7",
+    "passedTestCaseCount": "7",
+    "passPercentage": 70,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Abram",
@@ -351,9 +351,9 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "14",
-    "executedTestCaseCount": "14",
-    "passedTestCaseCount": "9",
+    "totalTestCaseCount": "51",
+    "executedTestCaseCount": "42",
+    "passedTestCaseCount": "42",
     "passPercentage": 64,
     "status": {
       "name": "Failed",
@@ -427,10 +427,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "40",
-    "executedTestCaseCount": "40",
-    "passedTestCaseCount": "31",
-    "passPercentage": 78,
+    "totalTestCaseCount": "121",
+    "executedTestCaseCount": "55",
+    "passedTestCaseCount": "55",
+    "passPercentage": 100,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -447,7 +447,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "Require a user credential having the access for all the tab. ",
+    "comments": "",
     "date": "2024-11-10T18:30:00.000Z",
     "id": 4761,
     "domainName": {
@@ -465,9 +465,9 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "12",
-    "executedTestCaseCount": "12",
-    "passedTestCaseCount": "12",
+    "totalTestCaseCount": "141",
+    "executedTestCaseCount": "8",
+    "passedTestCaseCount": "8",
     "passPercentage": 100,
     "status": {
       "name": "Failed",
@@ -579,13 +579,13 @@
       "code": "Tosca"
     },
     "localCompany": "308",
-    "totalTestCaseCount": "10",
-    "executedTestCaseCount": "10",
-    "passedTestCaseCount": "10",
-    "passPercentage": 100,
+    "totalTestCaseCount": "0",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Deepali",
@@ -675,7 +675,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "Work In Progress",
+    "comments": "",
     "date": "2024-11-04T18:30:00.000Z",
     "id": 6999,
     "domainName": {
@@ -693,9 +693,9 @@
       "code": "Selenium"
     },
     "localCompany": "695",
-    "totalTestCaseCount": "21",
-    "executedTestCaseCount": "20",
-    "passedTestCaseCount": "20",
+    "totalTestCaseCount": "23",
+    "executedTestCaseCount": "19",
+    "passedTestCaseCount": "19",
     "passPercentage": 95,
     "status": {
       "name": "Failed",
@@ -731,13 +731,13 @@
       "code": "Selenium"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "31",
-    "executedTestCaseCount": "31",
-    "passedTestCaseCount": "31",
-    "passPercentage": 100,
+    "totalTestCaseCount": "0",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "CNR/Prabhath",
@@ -807,13 +807,13 @@
       "code": "Selenium"
     },
     "localCompany": "516",
-    "totalTestCaseCount": "2",
-    "executedTestCaseCount": "2",
-    "passedTestCaseCount": "2",
-    "passPercentage": 100,
+    "totalTestCaseCount": "119",
+    "executedTestCaseCount": "18",
+    "passedTestCaseCount": "18",
+    "passPercentage": 115,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Abram",
@@ -845,10 +845,10 @@
       "code": "Selenium"
     },
     "localCompany": "110",
-    "totalTestCaseCount": "17",
-    "executedTestCaseCount": "17",
-    "passedTestCaseCount": "12",
-    "passPercentage": 70.5,
+    "totalTestCaseCount": "0",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -865,7 +865,7 @@
       "name": "API",
       "code": "API"
     },
-    "comments": "",
+    "comments": "No work planned",
     "date": "2024-11-17T18:30:00.000Z",
     "id": 9162,
     "domainName": {
@@ -883,9 +883,9 @@
       "code": "Selenium"
     },
     "localCompany": "110",
-    "totalTestCaseCount": "25",
-    "executedTestCaseCount": "23",
-    "passedTestCaseCount": "23",
+    "totalTestCaseCount": "29",
+    "executedTestCaseCount": "29",
+    "passedTestCaseCount": "29",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -1172,44 +1172,6 @@
     "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
     "id": 8650,
-    "domainName": {
-      "name": "Inventory",
-      "code": "Inventory"
-    }
-  },
-  {
-    "testSuite": {
-      "name": "ICM (Live Shopping)",
-      "code": "TS18"
-    },
-    "tool": {
-     "name": "Selenium",
-      "code": "Selenium"
-    },
-    "localCompany": "162",
-    "totalTestCaseCount": "4",
-    "executedTestCaseCount": "4",
-    "passedTestCaseCount": "3",
-    "passPercentage": 75,
-    "status": {
-      "name": "Passed",
-      "code": "PASSED"
-    },
-    "executedBy": {
-      "name": "Abram",
-      "code": "Abram"
-    },
-    "applicationMode": {
-      "name": "Not In-Sprint",
-      "code": "notInSprint"
-    },
-    "applicationType": {
-      "name": "WISE Menu",
-      "code": "WISE"
-    },
-    "comments": "",
-    "date": "2024-11-17T18:30:00.000Z",
-    "id": 7534,
     "domainName": {
       "name": "Inventory",
       "code": "Inventory"
@@ -1511,7 +1473,7 @@
       "name": "WISE Menu",
       "code": "WISE"
     },
-    "comments": "",
+    "comments": "No Work Planned",
     "date": "2024-11-17T18:30:00.000Z",
     "id": 6241,
     "domainName": {
@@ -1567,13 +1529,13 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "24",
-    "executedTestCaseCount": "24",
-    "passedTestCaseCount": "24",
+    "totalTestCaseCount": "61",
+    "executedTestCaseCount": "33",
+    "passedTestCaseCount": "33",
     "passPercentage": 100,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Prabhath",
@@ -1635,6 +1597,44 @@
   },
   {
     "testSuite": {
+      "name": " Special Pricing",
+      "code": "TS69"
+    },
+    "tool": {
+     "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "0",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Shiva",
+      "code": "Shiva"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-17T18:30:00.000Z",
+    "id": 2266,
+    "domainName": {
+      "name": "Pricing",
+      "code": "Pricing"
+    }
+  },
+  {
+    "testSuite": {
       "name": "Mailing Master",
       "code": "TS23"
     },
@@ -1663,7 +1663,7 @@
       "name": "WISE Menu",
       "code": "WISE"
     },
-    "comments": "Acccess Issue",
+    "comments": "",
     "date": "2024-11-17T18:30:00.000Z",
     "id": 4268,
     "domainName": {
@@ -1701,7 +1701,7 @@
       "name": "WISE Menu",
       "code": "WISE"
     },
-    "comments": "Purchase Order is not flowing into the Ecommerce",
+    "comments": "",
     "date": "2025-01-08T18:30:00.000Z",
     "id": 3403,
     "domainName": {
@@ -1719,10 +1719,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "23",
-    "executedTestCaseCount": "8",
-    "passedTestCaseCount": "5",
-    "passPercentage": 187.5,
+    "totalTestCaseCount": "29",
+    "executedTestCaseCount": "23",
+    "passedTestCaseCount": "23",
+    "passPercentage": 79,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -1739,7 +1739,7 @@
       "name": "WISE Menu",
       "code": "WISE"
     },
-    "comments": "Failed to create a Customer, User Access Issue",
+    "comments": "",
     "date": "2025-01-13T18:30:00.000Z",
     "id": 16,
     "domainName": {
@@ -1795,17 +1795,55 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "10",
-    "executedTestCaseCount": "10",
+    "totalTestCaseCount": "9",
+    "executedTestCaseCount": "9",
     "passedTestCaseCount": "9",
     "passPercentage": 90,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-01-13T18:30:00.000Z",
+    "id": 4888,
+    "domainName": {
+      "name": "Purchasing",
+      "code": "Purchasing"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Order By Item",
+      "code": "TS65"
+    },
+    "tool": {
+     "name": "Tosca",
+      "code": "Tosca"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "0",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "9",
+    "passPercentage": 0,
     "status": {
       "name": "Failed",
       "code": "FAILED"
     },
     "executedBy": {
-      "name": "Gopesh",
-      "code": "Gopesh"
+      "name": "Divya",
+      "code": "Divya"
     },
     "applicationMode": {
       "name": "Not In-Sprint",
@@ -1838,8 +1876,8 @@
     "passedTestCaseCount": "27",
     "passPercentage": 100,
     "status": {
-     "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Asritha",
@@ -1859,6 +1897,310 @@
     "domainName": {
       "name": "Accounting and Finance",
       "code": "Accounting and Finance"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Matrix Cost Warning",
+      "code": "TS7"
+    },
+    "tool": {
+     "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "24",
+    "executedTestCaseCount": "20",
+    "passedTestCaseCount": "20",
+    "passPercentage": 100,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Shiva",
+      "code": "Shiva"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-05-13T18:30:00.000Z",
+    "id": 4197,
+    "domainName": {
+      "name": "Pricing",
+      "code": "Pricing"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Customer Master",
+      "code": "TS54"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "45",
+    "executedTestCaseCount": "15",
+    "passedTestCaseCount": "15",
+    "passPercentage": 100,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-04-10T18:30:00.000Z",
+    "id": 4761,
+    "domainName": {
+      "name": "Marketing IT",
+      "code": "Marketing IT"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Location Master",
+      "code": "TS55"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "15",
+    "executedTestCaseCount": "4",
+    "passedTestCaseCount": "4",
+    "passPercentage": 100,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-05-10T18:30:00.000Z",
+    "id": 4761,
+    "domainName": {
+      "name": "Marketing IT",
+      "code": "Marketing IT"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Customer Part Manager",
+      "code": "TS66"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "11",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 100,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-05-11T18:30:00.000Z",
+    "id": 4761,
+    "domainName": {
+      "name": "Marketing IT",
+      "code": "Marketing IT"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Customer Returns in Process",
+      "code": "TS14"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "0",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 8986,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Item Maintenance Quick Entry",
+      "code": "TS9"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "0",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 8986,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Receiving In Process",
+      "code": "TS67"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "695",
+    "totalTestCaseCount": "42",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "CNR",
+      "code": "CNR"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 7165,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Rental Management",
+      "code": "TS68"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "0",
+    "totalTestCaseCount": "5",
+    "executedTestCaseCount": "1",
+    "passedTestCaseCount": "1",
+    "passPercentage": 20,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Prabhath",
+      "code": "Prabhath"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 8475,
+    "domainName": {
+      "name": "Inventory",
+      "code": "Inventory"
     }
   }
 ]

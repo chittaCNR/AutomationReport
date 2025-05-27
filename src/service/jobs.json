@@ -161,10 +161,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "60",
+    "totalTestCaseCount": "62",
     "executedTestCaseCount": "49",
     "passedTestCaseCount": "49",
-    "passPercentage": 93,
+    "passPercentage": 79,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -750,6 +750,44 @@
     "applicationType": {
       "name": "Angular",
       "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-12-03T18:30:00.000Z",
+    "id": 3428,
+    "domainName": {
+      "name": "Shipping Solutions",
+      "code": "Shipping Solutions"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Transport Management System",
+      "code": "TS17"
+    },
+    "tool": {
+     "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "431",
+    "totalTestCaseCount": "5",
+    "executedTestCaseCount": "1",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Prabhath",
+      "code": "Prabhath"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "API",
+      "code": "API"
     },
     "comments": "",
     "date": "2024-12-03T18:30:00.000Z",
@@ -1825,7 +1863,7 @@
   },
   {
     "testSuite": {
-      "name": "Order By Item",
+      "name": "Open Order By Item",
       "code": "TS65"
     },
     "tool": {
@@ -1833,13 +1871,13 @@
       "code": "Tosca"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "0",
-    "executedTestCaseCount": "0",
-    "passedTestCaseCount": "9",
-    "passPercentage": 0,
+    "totalTestCaseCount": "3",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "3",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "Divya",
@@ -1852,6 +1890,44 @@
     "applicationType": {
       "name": "Angular",
       "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-01-13T18:30:00.000Z",
+    "id": 4888,
+    "domainName": {
+      "name": "Purchasing",
+      "code": "Purchasing"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Open Order By Item",
+      "code": "TS65"
+    },
+    "tool": {
+     "name": "Tosca",
+      "code": "Tosca"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "3",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "3",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Divya",
+      "code": "Divya"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "API",
+      "code": "API"
     },
     "comments": "",
     "date": "2025-01-13T18:30:00.000Z",

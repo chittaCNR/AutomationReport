@@ -503,17 +503,17 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "10",
-    "executedTestCaseCount": "10",
-    "passedTestCaseCount": "5",
-    "passPercentage": 50,
+    "totalTestCaseCount": "39",
+    "executedTestCaseCount": "9",
+    "passedTestCaseCount": "9",
+    "passPercentage": 23,
     "status": {
       "name": "Failed",
       "code": "FAILED"
     },
     "executedBy": {
-      "name": "CNR",
-      "code": "CNR"
+      "name": "Shiva",
+      "code": "Shiva"
     },
     "applicationMode": {
       "name": "In-Sprint",
@@ -541,13 +541,13 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "8",
-    "executedTestCaseCount": "8",
-    "passedTestCaseCount": "8",
-    "passPercentage": 100,
+    "totalTestCaseCount": "49",
+    "executedTestCaseCount": "21",
+    "passedTestCaseCount": "21",
+    "passPercentage": 43,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "CNR",

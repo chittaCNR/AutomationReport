@@ -49,7 +49,7 @@
   { "name": "AR - AR2WISE", "code": "TS44" },
   { "name": "AR - Make Payments", "code": "TS45" },
   { "name": "AR - Vertex Sales Tax", "code": "TS46" },
-  { "name": "AR - ECommerce", "code": "TS62" },
+  { "name": "MarketingIT - ECommerce", "code": "TS62" },
   { "name": "FinanceIT - SPW", "code": "TS48" },
   { "name": "MarketingIT - Relationship Management", "code": "TS49" },
   { "name": "MarketingIT - Digital Commerce", "code": "TS50" },

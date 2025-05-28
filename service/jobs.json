@@ -352,9 +352,9 @@
     },
     "localCompany": "155",
     "totalTestCaseCount": "51",
-    "executedTestCaseCount": "42",
-    "passedTestCaseCount": "42",
-    "passPercentage": 64,
+    "executedTestCaseCount": "43",
+    "passedTestCaseCount": "43",
+    "passPercentage": 84,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -389,10 +389,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "71",
-    "executedTestCaseCount": "41",
-    "passedTestCaseCount": "28",
-    "passPercentage": 68.29,
+    "totalTestCaseCount": "38",
+    "executedTestCaseCount": "38",
+    "passedTestCaseCount": "36",
+    "passPercentage": 95,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -413,8 +413,8 @@
     "date": "2024-11-19T18:30:00.000Z",
     "id": 8684,
     "domainName": {
-      "name": "Account Receivable",
-      "code": "Account Receivable"
+      "name": "Accounts Receivable",
+      "code": "Accounts Receivable"
     }
   },
   {
@@ -430,7 +430,7 @@
     "totalTestCaseCount": "121",
     "executedTestCaseCount": "55",
     "passedTestCaseCount": "55",
-    "passPercentage": 100,
+    "passPercentage": 45,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -468,7 +468,7 @@
     "totalTestCaseCount": "141",
     "executedTestCaseCount": "8",
     "passedTestCaseCount": "8",
-    "passPercentage": 100,
+    "passPercentage": 6,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -694,9 +694,9 @@
     },
     "localCompany": "695",
     "totalTestCaseCount": "23",
-    "executedTestCaseCount": "19",
-    "passedTestCaseCount": "19",
-    "passPercentage": 95,
+    "executedTestCaseCount": "20",
+    "passedTestCaseCount": "20",
+    "passPercentage": 87,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -808,9 +808,9 @@
     },
     "localCompany": "516",
     "totalTestCaseCount": "4",
-    "executedTestCaseCount": "4",
-    "passedTestCaseCount": "4",
-    "passPercentage": 100,
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 50,
     "status": {
       "name": "Passed",
       "code": "PASSED"
@@ -848,7 +848,7 @@
     "totalTestCaseCount": "119",
     "executedTestCaseCount": "18",
     "passedTestCaseCount": "18",
-    "passPercentage": 115,
+    "passPercentage": 15,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -1111,10 +1111,10 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "58",
-    "executedTestCaseCount": "58",
-    "passedTestCaseCount": "49",
-    "passPercentage": 84.48,
+    "totalTestCaseCount": "59",
+    "executedTestCaseCount": "59",
+    "passedTestCaseCount": "52",
+    "passPercentage": 88,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -1491,10 +1491,10 @@
       "code": "Selenium"
     },
     "localCompany": "516",
-    "totalTestCaseCount": "19",
-    "executedTestCaseCount": "19",
-    "passedTestCaseCount": "15",
-    "passPercentage": 79,
+    "totalTestCaseCount": "42",
+    "executedTestCaseCount": "42",
+    "passedTestCaseCount": "22",
+    "passPercentage": 52,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -1682,8 +1682,8 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "10",
-    "executedTestCaseCount": "3",
-    "passedTestCaseCount": "7",
+    "executedTestCaseCount": "10",
+    "passedTestCaseCount": "3",
     "passPercentage": 30,
     "status": {
       "name": "Failed",
@@ -1781,8 +1781,8 @@
     "date": "2025-01-13T18:30:00.000Z",
     "id": 16,
     "domainName": {
-      "name": "Account Receivable",
-      "code": "Account Receivable"
+      "name": "Accounts Receivable",
+      "code": "Accounts Receivable"
     }
   },
   {
@@ -1834,9 +1834,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "9",
-    "executedTestCaseCount": "9",
-    "passedTestCaseCount": "9",
-    "passPercentage": 90,
+    "executedTestCaseCount": "8",
+    "passedTestCaseCount": "89",
+    "passPercentage": 100,
     "status": {
       "name": "Passed",
       "code": "PASSED"
@@ -2023,10 +2023,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "45",
-    "executedTestCaseCount": "15",
-    "passedTestCaseCount": "15",
-    "passPercentage": 100,
+    "totalTestCaseCount": "15",
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "14",
+    "passPercentage": 93,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -2061,10 +2061,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "15",
-    "executedTestCaseCount": "4",
-    "passedTestCaseCount": "4",
-    "passPercentage": 100,
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "12",
+    "passedTestCaseCount": "12",
+    "passPercentage": 85,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -2100,9 +2100,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "11",
-    "executedTestCaseCount": "0",
-    "passedTestCaseCount": "0",
-    "passPercentage": 100,
+    "executedTestCaseCount": "7",
+    "passedTestCaseCount": "7",
+    "passPercentage": 63,
     "status": {
       "name": "Failed",
       "code": "FAILED"

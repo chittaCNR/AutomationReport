@@ -124,8 +124,8 @@
     "data": "12-May-2025",
     "appName": "Item Ledger",
     "manualTestCases": 22,
-    "automatedPercentage": "5%",
-    "comments": "New Item created is not reflecting because of ES Issue"
+    "automatedPercentage": "0%",
+    "comments": ""
   },
   {
     "domainName": "Inventory",

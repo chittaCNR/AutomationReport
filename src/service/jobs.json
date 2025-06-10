@@ -161,10 +161,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "62",
-    "executedTestCaseCount": "49",
-    "passedTestCaseCount": "49",
-    "passPercentage": 79,
+    "totalTestCaseCount": "65",
+    "executedTestCaseCount": "57",
+    "passedTestCaseCount": "57",
+    "passPercentage": 88,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -202,7 +202,7 @@
     "totalTestCaseCount": "11",
     "executedTestCaseCount": "3",
     "passedTestCaseCount": "3",
-    "passPercentage": 100,
+    "passPercentage": 27,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -257,7 +257,45 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "5 more tests to be added - AUTO-743-747",
+    "comments": "Work on this is halted",
+    "date": "2024-11-10T18:30:00.000Z",
+    "id": 7834,
+    "domainName": {
+      "name": "Inventory",
+      "code": "Inventory"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Item Ledger",
+      "code": "TS17"
+    },
+    "tool": {
+      "name": "Tosca",
+      "code": "Tosca"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "22",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Asritha",
+      "code": "Asritha"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
     "date": "2024-11-10T18:30:00.000Z",
     "id": 7834,
     "domainName": {
@@ -276,9 +314,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "10",
-    "executedTestCaseCount": "7",
-    "passedTestCaseCount": "7",
-    "passPercentage": 70,
+    "executedTestCaseCount": "8",
+    "passedTestCaseCount": "8",
+    "passPercentage": 80,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -503,10 +541,10 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "39",
+    "totalTestCaseCount": "38",
     "executedTestCaseCount": "9",
     "passedTestCaseCount": "9",
-    "passPercentage": 23,
+    "passPercentage": 23.6,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -541,10 +579,10 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "49",
-    "executedTestCaseCount": "21",
-    "passedTestCaseCount": "21",
-    "passPercentage": 43,
+    "totalTestCaseCount": "46",
+    "executedTestCaseCount": "26",
+    "passedTestCaseCount": "26",
+    "passPercentage": 56.5,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -655,10 +693,10 @@
       "code": "Selenium"
     },
     "localCompany": "322",
-    "totalTestCaseCount": "14",
-    "executedTestCaseCount": "14",
-    "passedTestCaseCount": "14",
-    "passPercentage": 100,
+    "totalTestCaseCount": "61",
+    "executedTestCaseCount": "33",
+    "passedTestCaseCount": "33",
+    "passPercentage": 54,
     "status": {
       "name": "Passed",
       "code": "PASSED"
@@ -731,17 +769,17 @@
       "code": "Selenium"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "0",
-    "executedTestCaseCount": "0",
-    "passedTestCaseCount": "0",
-    "passPercentage": 0,
+    "totalTestCaseCount": "4",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "3",
+    "passPercentage": 75,
     "status": {
       "name": "Failed",
       "code": "FAILED"
     },
     "executedBy": {
-      "name": "CNR/Prabhath",
-      "code": "CNR/Prabhath"
+      "name": "Prabhath",
+      "code": "Prabhath"
     },
     "applicationMode": {
       "name": "In-Sprint",
@@ -921,9 +959,9 @@
       "code": "Selenium"
     },
     "localCompany": "110",
-    "totalTestCaseCount": "29",
-    "executedTestCaseCount": "29",
-    "passedTestCaseCount": "29",
+    "totalTestCaseCount": "40",
+    "executedTestCaseCount": "40",
+    "passedTestCaseCount": "40",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -1758,9 +1796,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "29",
-    "executedTestCaseCount": "23",
-    "passedTestCaseCount": "23",
-    "passPercentage": 79,
+    "executedTestCaseCount": "28",
+    "passedTestCaseCount": "28",
+    "passPercentage": 97,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -1985,10 +2023,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "24",
-    "executedTestCaseCount": "20",
-    "passedTestCaseCount": "20",
-    "passPercentage": 100,
+    "totalTestCaseCount": "28",
+    "executedTestCaseCount": "24",
+    "passedTestCaseCount": "24",
+    "passPercentage": 86,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -2268,8 +2306,8 @@
       "code": "inSprint"
     },
     "applicationType": {
-      "name": "Angular",
-      "code": "ANGULAR"
+      "name": "API",
+      "code": "API"
     },
     "comments": "",
     "date": "2024-11-10T18:30:00.000Z",

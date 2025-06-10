@@ -57,7 +57,7 @@
   { "name": "MarketingIT - Enterprise Term Record Search", "code": "TS52" },
   { "name": "MarketingIT - Mailing Master", "code": "TS53" },
   { "name": "MarketingIT - Customer Master", "code": "TS54" },
-   { "name": "MarketingIT - Customer Part Manager", "code": "TS66" },
+  { "name": "MarketingIT - Customer Part Manager", "code": "TS66" },
   { "name": "MarketingIT - Location Master", "code": "TS55" },
   { "name": "MarketingIT - Vendor Master", "code": "TS56" },
   { "name": "FinanceIT - Timesheets", "code": "TS57" },

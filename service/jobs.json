@@ -257,7 +257,7 @@
       "name": "Angular",
       "code": "ANGULAR"
     },
-    "comments": "Work on this is halted",
+    "comments": "Obsolete",
     "date": "2024-11-10T18:30:00.000Z",
     "id": 7834,
     "domainName": {
@@ -276,9 +276,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "22",
-    "executedTestCaseCount": "0",
-    "passedTestCaseCount": "0",
-    "passPercentage": 0,
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 9,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -542,9 +542,9 @@
     },
     "localCompany": "155",
     "totalTestCaseCount": "38",
-    "executedTestCaseCount": "9",
-    "passedTestCaseCount": "9",
-    "passPercentage": 23.6,
+    "executedTestCaseCount": "10",
+    "passedTestCaseCount": "10",
+    "passPercentage": 27,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -579,10 +579,10 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "46",
+    "totalTestCaseCount": "47",
     "executedTestCaseCount": "26",
     "passedTestCaseCount": "26",
-    "passPercentage": 56.5,
+    "passPercentage": 55,
     "status": {
       "name": "Failed",
       "code": "FAILED"

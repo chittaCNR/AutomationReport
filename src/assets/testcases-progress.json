@@ -1,47 +1,55 @@
 [
   {
     "domainName": "Sales",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Project Management",
-    "manualTestCases": 61,
-    "automatedPercentage": "38%",
+    "manualTestCases": 85,
+    "automatedPercentage": "43%",
     "comments": "Includes both UI and APIs."
   },
   {
     "domainName": "Sales",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Sales",
     "manualTestCases": 0,
     "automatedPercentage": "0%",
-    "comments": "UI tests still under development."
+    "comments": "Needs info."
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Customer Return in Process",
-    "manualTestCases": 0,
+    "manualTestCases": 18,
     "automatedPercentage": "0%",
     "comments": "Not Started."
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Item Maintenance Quick Entry",
-    "manualTestCases": 0,
+    "manualTestCases": 9,
     "automatedPercentage": "0%",
     "comments": "Not Started."
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Item Bin Maintenance",
     "manualTestCases": 44,
     "automatedPercentage": "98%",
     "comments": ""
   },
+   {
+    "domainName": "Shipping Solutions",
+    "data": "",
+    "appName": "'New' Bin Maintenance",
+    "manualTestCases": 20,
+    "automatedPercentage": "0%",
+    "comments": "Not Started"
+  },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Mass Bin Creation",
     "manualTestCases": 11,
     "automatedPercentage": "27%",
@@ -49,7 +57,7 @@
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Item Bin Ledger",
     "manualTestCases": 5,
     "automatedPercentage": "80%",
@@ -57,7 +65,7 @@
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Zones",
     "manualTestCases": 9,
     "automatedPercentage": "89%",
@@ -65,23 +73,23 @@
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Shipping Manifest",
-    "manualTestCases": 57,
-    "automatedPercentage": "86%",
+    "manualTestCases": 65,
+    "automatedPercentage": "88%",
     "comments": ""
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Transport Management System",
-    "manualTestCases": 0,
-    "automatedPercentage": "0%",
+    "manualTestCases": 39,
+    "automatedPercentage": "10%",
     "comments": ""
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Picking In Process",
     "manualTestCases": 90,
     "automatedPercentage": "91%",
@@ -89,7 +97,7 @@
   },
   {
     "domainName": "Shipping Solutions",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Receiving  In Process",
     "manualTestCases": 42,
     "automatedPercentage": "0%",
@@ -97,7 +105,7 @@
   },
   {
     "domainName": "Purchasing",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Vendor Part Number",
     "manualTestCases": 9,
     "automatedPercentage": "100%",
@@ -105,15 +113,15 @@
   },
   {
     "domainName": "Purchasing",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Order By Item",
-    "manualTestCases": 0,
-    "automatedPercentage": "0%",
-    "comments": "New development."
+    "manualTestCases": 6,
+    "automatedPercentage": "50%",
+    "comments": "."
   },
   {
     "domainName": "Purchasing",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Suggested Purchase Orders",
     "manualTestCases": 51,
     "automatedPercentage": "83%",
@@ -121,31 +129,31 @@
   },
   {
     "domainName": "Inventory",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Item Ledger",
     "manualTestCases": 22,
-    "automatedPercentage": "0%",
+    "automatedPercentage": "10%",
     "comments": ""
   },
   {
     "domainName": "Inventory",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "ICM",
     "manualTestCases": 10,
-    "automatedPercentage": "70%",
+    "automatedPercentage": "80%",
     "comments": ""
   },
   {
     "domainName": "Inventory",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Rentals Management",
-    "manualTestCases": 6,
-    "automatedPercentage": "17%",
-    "comments": "In-sprint work"
+    "manualTestCases": 5,
+    "automatedPercentage": "20%",
+    "comments": ""
   },
   {
     "domainName": "Inventory",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "WinVision",
     "manualTestCases": 8,
     "automatedPercentage": "100%",
@@ -153,15 +161,15 @@
   },
   {
     "domainName": "Marketing IT",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Customer Master",
     "manualTestCases": 45,
-    "automatedPercentage": "33%",
-    "comments": "Need to update manual test cases."
+    "automatedPercentage": "47%",
+    "comments": ""
   },
   {
     "domainName": "Marketing IT",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Digital Commerce",
     "manualTestCases": 141,
     "automatedPercentage": "57%",
@@ -169,15 +177,15 @@
   },
   {
     "domainName": "Marketing IT",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Customer Part Manager",
-    "manualTestCases": 1,
-    "automatedPercentage": "0%",
+    "manualTestCases": 11,
+    "automatedPercentage": "91%",
     "comments": ""
   },
   {
     "domainName": "Marketing IT",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Enterprise Search",
     "manualTestCases": 121,
     "automatedPercentage": "45%",
@@ -185,15 +193,15 @@
   },
   {
     "domainName": "Marketing IT",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Location Master",
     "manualTestCases": 14,
-    "automatedPercentage": "0%",
+    "automatedPercentage": "86%",
     "comments": ""
   },
   {
     "domainName": "EDI",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "EDI",
     "manualTestCases": 119,
     "automatedPercentage": "15%",
@@ -201,7 +209,7 @@
   },
   {
     "domainName": "EDI",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "EDAS",
     "manualTestCases": 14,
     "automatedPercentage": "0%",
@@ -209,23 +217,39 @@
   },
   {
     "domainName": "Accounts Receivable",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Collection Management",
     "manualTestCases": 23,
-    "automatedPercentage": "56%",
+    "automatedPercentage": "87%",
     "comments": ""
   },
   {
     "domainName": "Accounts Receivable",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "AR2WISE",
     "manualTestCases": 38,
-    "automatedPercentage": "95%",
+    "automatedPercentage": "100%",
+    "comments": ""
+  },
+  {
+    "domainName": "Accounts Receivable",
+    "data": "",
+    "appName": "Vertex Sales Tax",
+    "manualTestCases": 29,
+    "automatedPercentage": "97%",
+    "comments": ""
+  },
+   {
+    "domainName": "Accounts Receivable",
+    "data": "",
+    "appName": "Make Payments",
+    "manualTestCases": 43,
+    "automatedPercentage": "100%",
     "comments": ""
   },
   {
     "domainName": "Pricing",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Pricing Matrix",
     "manualTestCases": 61,
     "automatedPercentage": "54%",
@@ -233,15 +257,23 @@
   },
   {
     "domainName": "Pricing",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Pricing Cost Warning",
-    "manualTestCases": 24,
+    "manualTestCases": 28,
+    "automatedPercentage": "86%",
+    "comments": ""
+  },
+    {
+    "domainName": "Pricing",
+    "data": "",
+    "appName": "Cost Price Sheets",
+    "manualTestCases": 40,
     "automatedPercentage": "100%",
     "comments": ""
   },
   {
     "domainName": "Pricing",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Special Pricing",
     "manualTestCases": 0,
     "automatedPercentage": "0%",
@@ -249,7 +281,7 @@
   },
   {
     "domainName": "Accounting and Finance",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "SPW",
     "manualTestCases": 15,
     "automatedPercentage": "100%",
@@ -257,7 +289,7 @@
   },
   {
     "domainName": "Accounting and Finance",
-    "data": "12-May-2025",
+    "data": "",
     "appName": "Loans",
     "manualTestCases": 32,
     "automatedPercentage": "84%",

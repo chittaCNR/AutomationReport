@@ -3,15 +3,15 @@
     "domainName": "Sales",
     "data": "",
     "appName": "Project Management",
-    "manualTestCases": 85,
-    "automatedPercentage": "43%",
+    "manualTestCases": 87,
+    "automatedPercentage": "62%",
     "comments": "Includes both UI and APIs."
   },
   {
     "domainName": "Sales",
     "data": "",
     "appName": "Sales",
-    "manualTestCases": 0,
+    "manualTestCases": 3,
     "automatedPercentage": "0%",
     "comments": "Needs info."
   },
@@ -83,7 +83,7 @@
     "domainName": "Shipping Solutions",
     "data": "",
     "appName": "Transport Management System",
-    "manualTestCases": 39,
+    "manualTestCases": 28,
     "automatedPercentage": "10%",
     "comments": ""
   },
@@ -115,8 +115,8 @@
     "domainName": "Purchasing",
     "data": "",
     "appName": "Order By Item",
-    "manualTestCases": 6,
-    "automatedPercentage": "50%",
+    "manualTestCases": 9,
+    "automatedPercentage": "55%",
     "comments": "."
   },
   {
@@ -124,7 +124,7 @@
     "data": "",
     "appName": "Suggested Purchase Orders",
     "manualTestCases": 51,
-    "automatedPercentage": "83%",
+    "automatedPercentage": "94%",
     "comments": ""
   },
   {
@@ -147,8 +147,8 @@
     "domainName": "Inventory",
     "data": "",
     "appName": "Rentals Management",
-    "manualTestCases": 5,
-    "automatedPercentage": "20%",
+    "manualTestCases": 11,
+    "automatedPercentage": "9%",
     "comments": ""
   },
   {
@@ -164,7 +164,7 @@
     "data": "",
     "appName": "Customer Master",
     "manualTestCases": 45,
-    "automatedPercentage": "47%",
+    "automatedPercentage": "53%",
     "comments": ""
   },
   {
@@ -220,7 +220,7 @@
     "data": "",
     "appName": "Collection Management",
     "manualTestCases": 23,
-    "automatedPercentage": "87%",
+    "automatedPercentage": "100%",
     "comments": ""
   },
   {
@@ -235,8 +235,8 @@
     "domainName": "Accounts Receivable",
     "data": "",
     "appName": "Vertex Sales Tax",
-    "manualTestCases": 29,
-    "automatedPercentage": "97%",
+    "manualTestCases": 30,
+    "automatedPercentage": "93%",
     "comments": ""
   },
    {

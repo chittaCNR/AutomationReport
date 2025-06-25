@@ -1909,9 +1909,9 @@
       "code": "Tosca"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "9",
-    "executedTestCaseCount": "5",
-    "passedTestCaseCount": "5",
+    "totalTestCaseCount": "6",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
     "passPercentage": 55,
     "status": {
       "name": "Passed",
@@ -1928,6 +1928,44 @@
     "applicationType": {
       "name": "Angular",
       "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-01-13T18:30:00.000Z",
+    "id": 4888,
+    "domainName": {
+      "name": "Purchasing",
+      "code": "Purchasing"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Open Order By Item",
+      "code": "TS65"
+    },
+    "tool": {
+     "name": "Tosca",
+      "code": "Tosca"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "3",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "3",
+    "passPercentage": 100,
+    "status": {
+      "name": "Passed",
+      "code": "PASSED"
+    },
+    "executedBy": {
+      "name": "Divya",
+      "code": "Divya"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "API",
+      "code": "API"
     },
     "comments": "",
     "date": "2025-01-13T18:30:00.000Z",

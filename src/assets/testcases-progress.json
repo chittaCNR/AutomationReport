@@ -139,8 +139,8 @@
     "domainName": "Inventory",
     "data": "",
     "appName": "ICM",
-    "manualTestCases": 10,
-    "automatedPercentage": "80%",
+    "manualTestCases": 16,
+    "automatedPercentage": "50%",
     "comments": ""
   },
   {
@@ -293,6 +293,14 @@
     "appName": "Loans",
     "manualTestCases": 32,
     "automatedPercentage": "84%",
+    "comments": ""
+  },
+  {
+    "domainName": "Accounting and Finance",
+    "data": "",
+    "appName": "Payroll",
+    "manualTestCases": 51,
+    "automatedPercentage": "0%",
     "comments": ""
   }
   

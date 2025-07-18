@@ -161,10 +161,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "65",
-    "executedTestCaseCount": "57",
-    "passedTestCaseCount": "57",
-    "passPercentage": 88,
+    "totalTestCaseCount": "68",
+    "executedTestCaseCount": "64",
+    "passedTestCaseCount": "64",
+    "passPercentage": 94,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -238,9 +238,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "22",
-    "executedTestCaseCount": "0",
-    "passedTestCaseCount": "0",
-    "passPercentage": 0,
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "14",
+    "passPercentage": 64,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -276,9 +276,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "22",
-    "executedTestCaseCount": "2",
-    "passedTestCaseCount": "2",
-    "passPercentage": 9,
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "14",
+    "passPercentage": 64,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -313,10 +313,10 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "10",
+    "totalTestCaseCount": "16",
     "executedTestCaseCount": "8",
-    "passedTestCaseCount": "8",
-    "passPercentage": 80,
+    "passedTestCaseCount": "1",
+    "passPercentage": 50,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -541,10 +541,10 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "38",
-    "executedTestCaseCount": "17",
-    "passedTestCaseCount": "16",
-    "passPercentage": 45,
+    "totalTestCaseCount": "44",
+    "executedTestCaseCount": "37",
+    "passedTestCaseCount": "37",
+    "passPercentage": 84,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -579,10 +579,10 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "47",
-    "executedTestCaseCount": "37",
-    "passedTestCaseCount": "35",
-    "passPercentage": 74,
+    "totalTestCaseCount": "52",
+    "executedTestCaseCount": "50",
+    "passedTestCaseCount": "50",
+    "passPercentage": 85,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -617,10 +617,10 @@
       "code": "Tosca"
     },
     "localCompany": "308",
-    "totalTestCaseCount": "3",
-    "executedTestCaseCount": "0",
-    "passedTestCaseCount": "0",
-    "passPercentage": 0,
+    "totalTestCaseCount": "39",
+    "executedTestCaseCount": "10",
+    "passedTestCaseCount": "10",
+    "passPercentage": 25,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -678,6 +678,44 @@
     "comments": "",
     "date": "2024-11-18T18:30:00.000Z",
     "id": 6971,
+    "domainName": {
+      "name": "Accounting and Finance",
+      "code": "Accounting and Finance"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Payroll",
+      "code": "TS70"
+    },
+    "tool": {
+     "name": "Tosca",
+      "code": "Tosca"
+    },
+    "localCompany": "746",
+    "totalTestCaseCount": "51",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 39,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Asritha",
+      "code": "Asritha"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-11-18T18:30:00.000Z",
+    "id": 6972,
     "domainName": {
       "name": "Accounting and Finance",
       "code": "Accounting and Finance"
@@ -770,9 +808,9 @@
     },
     "localCompany": "431",
     "totalTestCaseCount": "28",
-    "executedTestCaseCount": "3",
-    "passedTestCaseCount": "3",
-    "passPercentage": 10,
+    "executedTestCaseCount": "12",
+    "passedTestCaseCount": "12",
+    "passPercentage": 43,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -1909,10 +1947,10 @@
       "code": "Tosca"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "6",
-    "executedTestCaseCount": "2",
-    "passedTestCaseCount": "2",
-    "passPercentage": 55,
+    "totalTestCaseCount": "16",
+    "executedTestCaseCount": "9",
+    "passedTestCaseCount": "9",
+    "passPercentage": 56,
     "status": {
       "name": "Passed",
       "code": "PASSED"
@@ -2289,10 +2327,10 @@
       "code": "Selenium"
     },
     "localCompany": "0",
-    "totalTestCaseCount": "11",
-    "executedTestCaseCount": "1",
-    "passedTestCaseCount": "1",
-    "passPercentage": 9,
+    "totalTestCaseCount": "16",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 12,
     "status": {
       "name": "Failed",
       "code": "FAILED"

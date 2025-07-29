@@ -67,7 +67,8 @@
       { "label": "Cycle Count Adjustments", "value": "Cycle Count Adjustments" },
       { "label": "Cycle Count Recommendations", "value": "Cycle Count Recommentations" },
       { "label": "Item Ledger", "value": "Item Ledger" },
-      { "label": "WinVision", "value": "WinVision" }
+      { "label": "WinVision", "value": "WinVision" },
+      { "label": "Cycle Counting", "value": "Cycle Counting" }
     ]
   },
   {
@@ -91,7 +92,8 @@
     "label": "Accounts Payable IT",
     "value": "APIT",
     "items": [
-      { "label": "Accounts Payable", "value": "Accounts Payable" }
+      { "label": "Accounts Payable", "value": "Accounts Payable" },
+       { "label": "AP Gateway", "value": "AP Gateway" }
     ]
   },
   {

@@ -655,9 +655,9 @@
       "code": "Selenium"
     },
     "localCompany": "746",
-    "totalTestCaseCount": "21",
-    "executedTestCaseCount": "21",
-    "passedTestCaseCount": "21",
+    "totalTestCaseCount": "14",
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "14",
     "passPercentage": 100,
     "status": {
       "name": "Passed",

@@ -43,6 +43,7 @@
   { "name": "Inventory - Job Control Maintenance", "code": "TS39" },
   { "name": "Inventory - WinVision", "code": "TS40" },
   { "name": "Inventory - Rental Management", "code": "TS68" },
+  { "name": "Inventory - Cycle Counting", "code": "TS71" },
   { "name": "AP - Accounts Payable", "code": "TS41" },
   { "name": "AP - AP Gateway", "code": "TS42" },
   { "name": "AR - Collection Management", "code": "TS43" },

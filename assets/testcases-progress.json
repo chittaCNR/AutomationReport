@@ -3,16 +3,16 @@
     "domainName": "Sales",
     "data": "",
     "appName": "Project Management",
-    "manualTestCases": 87,
-    "automatedPercentage": "62%",
+    "manualTestCases": 109,
+    "automatedPercentage": "85%",
     "comments": "Includes both UI and APIs."
   },
   {
     "domainName": "Sales",
     "data": "",
     "appName": "Sales",
-    "manualTestCases": 3,
-    "automatedPercentage": "0%",
+    "manualTestCases": 26,
+    "automatedPercentage": "73%",
     "comments": "Needs info."
   },
   {
@@ -75,8 +75,8 @@
     "domainName": "Shipping Solutions",
     "data": "",
     "appName": "Shipping Manifest",
-    "manualTestCases": 65,
-    "automatedPercentage": "88%",
+    "manualTestCases": 68,
+    "automatedPercentage": "100%",
     "comments": ""
   },
   {
@@ -84,7 +84,7 @@
     "data": "",
     "appName": "Transport Management System",
     "manualTestCases": 28,
-    "automatedPercentage": "10%",
+    "automatedPercentage": "57%",
     "comments": ""
   },
   {
@@ -132,7 +132,7 @@
     "data": "",
     "appName": "Item Ledger",
     "manualTestCases": 22,
-    "automatedPercentage": "10%",
+    "automatedPercentage": "64%",
     "comments": ""
   },
   {
@@ -140,7 +140,7 @@
     "data": "",
     "appName": "ICM",
     "manualTestCases": 16,
-    "automatedPercentage": "50%",
+    "automatedPercentage": "87%",
     "comments": ""
   },
   {
@@ -157,6 +157,14 @@
     "appName": "WinVision",
     "manualTestCases": 8,
     "automatedPercentage": "100%",
+    "comments": ""
+  },
+    {
+    "domainName": "Inventory",
+    "data": "",
+    "appName": "Cycle Counting",
+    "manualTestCases": 0,
+    "automatedPercentage": "0%",
     "comments": ""
   },
   {
@@ -247,6 +255,14 @@
     "automatedPercentage": "100%",
     "comments": ""
   },
+    {
+    "domainName": "Accounts Payable",
+    "data": "",
+    "appName": "AP Gateway",
+    "manualTestCases": 43,
+    "automatedPercentage": "100%",
+    "comments": ""
+  },
   {
     "domainName": "Pricing",
     "data": "",
@@ -260,7 +276,7 @@
     "data": "",
     "appName": "Pricing Cost Warning",
     "manualTestCases": 28,
-    "automatedPercentage": "86%",
+    "automatedPercentage": "100%",
     "comments": ""
   },
     {
@@ -300,7 +316,7 @@
     "data": "",
     "appName": "Payroll",
     "manualTestCases": 51,
-    "automatedPercentage": "0%",
+    "automatedPercentage": "39%",
     "comments": ""
   }
   

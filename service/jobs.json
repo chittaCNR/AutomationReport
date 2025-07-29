@@ -162,12 +162,12 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "68",
-    "executedTestCaseCount": "64",
-    "passedTestCaseCount": "64",
-    "passPercentage": 94,
+    "executedTestCaseCount": "68",
+    "passedTestCaseCount": "68",
+    "passPercentage": 100,
     "status": {
-      "name": "Failed",
-      "code": "FAILED"
+      "name": "Passed",
+      "code": "PASSED"
     },
     "executedBy": {
       "name": "Mahender",
@@ -314,9 +314,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "16",
-    "executedTestCaseCount": "8",
-    "passedTestCaseCount": "1",
-    "passPercentage": 50,
+    "executedTestCaseCount": "14",
+    "passedTestCaseCount": "14",
+    "passPercentage": 87,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -541,10 +541,10 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "44",
-    "executedTestCaseCount": "37",
-    "passedTestCaseCount": "37",
-    "passPercentage": 84,
+    "totalTestCaseCount": "48",
+    "executedTestCaseCount": "45",
+    "passedTestCaseCount": "45",
+    "passPercentage": 94,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -579,8 +579,8 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "52",
-    "executedTestCaseCount": "50",
+    "totalTestCaseCount": "61",
+    "executedTestCaseCount": "52",
     "passedTestCaseCount": "50",
     "passPercentage": 85,
     "status": {
@@ -616,11 +616,11 @@
       "name": "Tosca",
       "code": "Tosca"
     },
-    "localCompany": "308",
-    "totalTestCaseCount": "39",
-    "executedTestCaseCount": "10",
-    "passedTestCaseCount": "10",
-    "passPercentage": 25,
+    "localCompany": "155",
+    "totalTestCaseCount": "26",
+    "executedTestCaseCount": "18",
+    "passedTestCaseCount": "18",
+    "passPercentage": 69,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -808,9 +808,9 @@
     },
     "localCompany": "431",
     "totalTestCaseCount": "28",
-    "executedTestCaseCount": "12",
-    "passedTestCaseCount": "12",
-    "passPercentage": 43,
+    "executedTestCaseCount": "16",
+    "passedTestCaseCount": "16",
+    "passPercentage": 57,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -2062,8 +2062,8 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "28",
-    "executedTestCaseCount": "24",
-    "passedTestCaseCount": "24",
+    "executedTestCaseCount": "28",
+    "passedTestCaseCount": "23",
     "passPercentage": 86,
     "status": {
       "name": "Failed",
@@ -2353,6 +2353,82 @@
     "domainName": {
       "name": "Inventory",
       "code": "Inventory"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Cycle Counting",
+      "code": "TS71"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "0",
+    "totalTestCaseCount": "16",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Abram",
+      "code": "Abram"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-11-10T18:30:00.000Z",
+    "id": 8475,
+    "domainName": {
+      "name": "Inventory",
+      "code": "Inventory"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "AP Gateway",
+      "code": "TS42"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "0",
+    "totalTestCaseCount": "0",
+    "executedTestCaseCount": "0",
+    "passedTestCaseCount": "0",
+    "passPercentage": 0,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2025-11-10T18:30:00.000Z",
+    "id": 8476,
+    "domainName": {
+      "name": "Accounts Payable",
+      "code": "Accounts Payable"
     }
   }
 ]

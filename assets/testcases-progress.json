@@ -259,9 +259,9 @@
     "domainName": "Accounts Payable",
     "data": "",
     "appName": "AP Gateway",
-    "manualTestCases": 43,
-    "automatedPercentage": "100%",
-    "comments": ""
+    "manualTestCases": 0,
+    "automatedPercentage": "0%",
+    "comments": "Yet to start"
   },
   {
     "domainName": "Pricing",

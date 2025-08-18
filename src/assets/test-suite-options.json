@@ -1,6 +1,6 @@
 [
   { "name": "SalesIT - Project Management", "code": "TS1" },
-  { "name": "SalesIT - Sales", "code": "TS2" },
+  { "name": "SalesIT - Sales Quotes", "code": "TS2" },
   { "name": "Pricing - Cost Price Sheets(SSPS)", "code": "TS4" },
   { "name": "Pricing - Pricing Matrix", "code": "TS5" },
   { "name": "Pricing - Special Pricing Allowance", "code": "TS6" },

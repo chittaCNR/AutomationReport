@@ -10,10 +10,10 @@
   {
     "domainName": "Sales",
     "data": "",
-    "appName": "Sales",
-    "manualTestCases": 26,
-    "automatedPercentage": "73%",
-    "comments": "Needs info."
+    "appName": "Sales Quotes",
+    "manualTestCases": 54,
+    "automatedPercentage": "38%",
+    "comments": ""
   },
   {
     "domainName": "Shipping Solutions",

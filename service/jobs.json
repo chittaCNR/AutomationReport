@@ -541,17 +541,17 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "48",
-    "executedTestCaseCount": "45",
+    "totalTestCaseCount": "65",
+    "executedTestCaseCount": "48",
     "passedTestCaseCount": "45",
-    "passPercentage": 94,
+    "passPercentage": 70,
     "status": {
       "name": "Failed",
       "code": "FAILED"
     },
     "executedBy": {
-      "name": "Shiva",
-      "code": "Shiva"
+      "name": "Mahendra",
+      "code": "Mahendra"
     },
     "applicationMode": {
       "name": "In-Sprint",
@@ -609,7 +609,7 @@
   },
   {
     "testSuite": {
-      "name": "Sales",
+      "name": "Sales Quotes",
       "code": "TS3"
     },
     "tool": {
@@ -617,10 +617,10 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "26",
-    "executedTestCaseCount": "18",
-    "passedTestCaseCount": "18",
-    "passPercentage": 69,
+    "totalTestCaseCount": "54",
+    "executedTestCaseCount": "21",
+    "passedTestCaseCount": "21",
+    "passPercentage": 38,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -997,13 +997,13 @@
       "code": "Selenium"
     },
     "localCompany": "110",
-    "totalTestCaseCount": "40",
-    "executedTestCaseCount": "40",
-    "passedTestCaseCount": "40",
-    "passPercentage": 100,
+    "totalTestCaseCount": "51",
+    "executedTestCaseCount": "42",
+    "passedTestCaseCount": "31",
+    "passPercentage": 60,
     "status": {
-      "name": "Passed",
-      "code": "PASSED"
+      "name": "Failed",
+      "code": "FAILED"
     },
     "executedBy": {
       "name": "Shiva",
@@ -1946,11 +1946,11 @@
      "name": "Tosca",
       "code": "Tosca"
     },
-    "localCompany": "162",
+    "localCompany": "155",
     "totalTestCaseCount": "16",
-    "executedTestCaseCount": "9",
-    "passedTestCaseCount": "9",
-    "passPercentage": 56,
+    "executedTestCaseCount": "12",
+    "passedTestCaseCount": "12",
+    "passPercentage": 75,
     "status": {
       "name": "Passed",
       "code": "PASSED"

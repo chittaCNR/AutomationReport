@@ -541,10 +541,10 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "65",
-    "executedTestCaseCount": "56",
-    "passedTestCaseCount": "45",
-    "passPercentage": 70,
+    "totalTestCaseCount": "85",
+    "executedTestCaseCount": "77",
+    "passedTestCaseCount": "72",
+    "passPercentage": 84,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -579,10 +579,10 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "61",
-    "executedTestCaseCount": "60",
-    "passedTestCaseCount": "50",
-    "passPercentage": 84,
+    "totalTestCaseCount": "70",
+    "executedTestCaseCount": "68",
+    "passedTestCaseCount": "60",
+    "passPercentage": 85,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -617,10 +617,10 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "54",
-    "executedTestCaseCount": "22",
-    "passedTestCaseCount": "22",
-    "passPercentage": 40,
+    "totalTestCaseCount": "88",
+    "executedTestCaseCount": "34",
+    "passedTestCaseCount": "30",
+    "passPercentage": 34,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -655,9 +655,9 @@
       "code": "Selenium"
     },
     "localCompany": "746",
-    "totalTestCaseCount": "14",
-    "executedTestCaseCount": "14",
-    "passedTestCaseCount": "14",
+    "totalTestCaseCount": "17",
+    "executedTestCaseCount": "17",
+    "passedTestCaseCount": "17",
     "passPercentage": 100,
     "status": {
       "name": "Passed",
@@ -807,10 +807,10 @@
       "code": "Selenium"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "35",
-    "executedTestCaseCount": "23",
-    "passedTestCaseCount": "23",
-    "passPercentage": 65,
+    "totalTestCaseCount": "34",
+    "executedTestCaseCount": "28",
+    "passedTestCaseCount": "28",
+    "passPercentage": 82,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -2319,7 +2319,7 @@
   },
   {
     "testSuite": {
-      "name": "Rental Management",
+      "name": "Rental & Kits",
       "code": "TS68"
     },
     "tool": {
@@ -2327,10 +2327,10 @@
       "code": "Selenium"
     },
     "localCompany": "0",
-    "totalTestCaseCount": "16",
-    "executedTestCaseCount": "2",
-    "passedTestCaseCount": "2",
-    "passPercentage": 12,
+    "totalTestCaseCount": "43",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "3",
+    "passPercentage": 7,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -2366,9 +2366,9 @@
     },
     "localCompany": "0",
     "totalTestCaseCount": "17",
-    "executedTestCaseCount": "5",
-    "passedTestCaseCount": "0",
-    "passPercentage": 30,
+    "executedTestCaseCount": "13",
+    "passedTestCaseCount": "13",
+    "passPercentage": 76,
     "status": {
       "name": "Failed",
       "code": "FAILED"

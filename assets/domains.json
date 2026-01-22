@@ -85,7 +85,9 @@
     "items": [
       { "label": "Collections Management App (CMA)", "value": "CMA" },
       { "label": "AR2WISE", "value": "AR2WISE" },
-      { "label": "Vertex Sales Tax", "value": "Vertex Sales Tax" }
+      { "label": "Vertex Sales Tax", "value": "Vertex Sales Tax" },
+      { "label": "AR-Invoice-Service", "value": "AR-Invoice-Service" },
+      { "label": "AR-tax-certificate-service", "value": "AR-tax-certificate-service" }
     ]
   },
   {

@@ -161,9 +161,9 @@
       "code": "Selenium"
     },
     "localCompany": "162",
-    "totalTestCaseCount": "68",
+    "totalTestCaseCount": "69",
     "executedTestCaseCount": "67",
-    "passedTestCaseCount": "67",
+    "passedTestCaseCount": "66",
     "passPercentage": 99,
     "status": {
       "name": "Passed",
@@ -419,6 +419,82 @@
   },
   {
     "testSuite": {
+      "name": "Purchase Orders Application",
+      "code": "TS72"
+    },
+    "tool": {
+      "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "4",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 50,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Angular",
+      "code": "ANGULAR"
+    },
+    "comments": "",
+    "date": "2024-11-01T18:30:00.000Z",
+    "id": 4846,
+    "domainName": {
+      "name": "Purchasing",
+      "code": "Purchasing"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "Purchase Orders Application",
+      "code": "TS72"
+    },
+    "tool": {
+      "name": "Tosca",
+      "code": "Tosca"
+    },
+    "localCompany": "155",
+    "totalTestCaseCount": "4",
+    "executedTestCaseCount": "2",
+    "passedTestCaseCount": "2",
+    "passPercentage": 50,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "In-Sprint",
+      "code": "inSprint"
+    },
+    "applicationType": {
+      "name": "Tosca",
+      "code": "Tosca"
+    },
+    "comments": "",
+    "date": "2024-11-01T18:30:00.000Z",
+    "id": 4846,
+    "domainName": {
+      "name": "Purchasing",
+      "code": "Purchasing"
+    }
+  },
+  {
+    "testSuite": {
       "name": "AR2WISE",
       "code": "TS18"
     },
@@ -541,10 +617,10 @@
       "code": "Selenium"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "85",
-    "executedTestCaseCount": "77",
-    "passedTestCaseCount": "72",
-    "passPercentage": 84,
+    "totalTestCaseCount": "98",
+    "executedTestCaseCount": "94",
+    "passedTestCaseCount": "90",
+    "passPercentage": 95,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -579,10 +655,10 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "70",
+    "totalTestCaseCount": "71",
     "executedTestCaseCount": "68",
-    "passedTestCaseCount": "60",
-    "passPercentage": 85,
+    "passedTestCaseCount": "64",
+    "passPercentage": 94,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -617,10 +693,10 @@
       "code": "Tosca"
     },
     "localCompany": "155",
-    "totalTestCaseCount": "88",
-    "executedTestCaseCount": "34",
-    "passedTestCaseCount": "30",
-    "passPercentage": 34,
+    "totalTestCaseCount": "125",
+    "executedTestCaseCount": "67",
+    "passedTestCaseCount": "58",
+    "passPercentage": 86,
     "status": {
       "name": "Failed",
       "code": "FAILED"
@@ -731,10 +807,10 @@
       "code": "Selenium"
     },
     "localCompany": "322",
-    "totalTestCaseCount": "61",
-    "executedTestCaseCount": "33",
-    "passedTestCaseCount": "33",
-    "passPercentage": 54,
+    "totalTestCaseCount": "76",
+    "executedTestCaseCount": "59",
+    "passedTestCaseCount": "57",
+    "passPercentage": 96,
     "status": {
       "name": "Passed",
       "code": "PASSED"
@@ -807,7 +883,7 @@
       "code": "Selenium"
     },
     "localCompany": "431",
-    "totalTestCaseCount": "34",
+    "totalTestCaseCount": "35",
     "executedTestCaseCount": "28",
     "passedTestCaseCount": "28",
     "passPercentage": 82,
@@ -1720,8 +1796,8 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "25",
-    "executedTestCaseCount": "0",
-    "passedTestCaseCount": "0",
+    "executedTestCaseCount": "4",
+    "passedTestCaseCount": "4",
     "passPercentage": 0,
     "status": {
       "name": "Failed",
@@ -1863,6 +1939,82 @@
   },
   {
     "testSuite": {
+      "name": "AR-Invoice-service",
+      "code": "TS73"
+    },
+    "tool": {
+     "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "10",
+    "executedTestCaseCount": "3",
+    "passedTestCaseCount": "3",
+    "passPercentage": 97,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2025-01-13T18:30:00.000Z",
+    "id": 16,
+    "domainName": {
+      "name": "Accounts Receivable",
+      "code": "Accounts Receivable"
+    }
+  },
+  {
+    "testSuite": {
+      "name": "AR-tax-certificate-service",
+      "code": "TS74"
+    },
+    "tool": {
+     "name": "Selenium",
+      "code": "Selenium"
+    },
+    "localCompany": "162",
+    "totalTestCaseCount": "12",
+    "executedTestCaseCount": "12",
+    "passedTestCaseCount": "12",
+    "passPercentage": 100,
+    "status": {
+      "name": "Failed",
+      "code": "FAILED"
+    },
+    "executedBy": {
+      "name": "Gopesh",
+      "code": "Gopesh"
+    },
+    "applicationMode": {
+      "name": "Not In-Sprint",
+      "code": "notInSprint"
+    },
+    "applicationType": {
+      "name": "WISE Menu",
+      "code": "WISE"
+    },
+    "comments": "",
+    "date": "2025-01-13T18:30:00.000Z",
+    "id": 16,
+    "domainName": {
+      "name": "Accounts Receivable",
+      "code": "Accounts Receivable"
+    }
+  },
+  {
+    "testSuite": {
       "name": "Picking In Process Exception",
       "code": "TS63"
     },
@@ -1948,9 +2100,9 @@
     },
     "localCompany": "155",
     "totalTestCaseCount": "18",
-    "executedTestCaseCount": "13",
-    "passedTestCaseCount": "13",
-    "passPercentage": 72,
+    "executedTestCaseCount": "18",
+    "passedTestCaseCount": "18",
+    "passPercentage": 100,
     "status": {
       "name": "Passed",
       "code": "PASSED"
@@ -2062,9 +2214,9 @@
     },
     "localCompany": "162",
     "totalTestCaseCount": "31",
-    "executedTestCaseCount": "28",
-    "passedTestCaseCount": "23",
-    "passPercentage": 90,
+    "executedTestCaseCount": "31",
+    "passedTestCaseCount": "26",
+    "passPercentage": 85,
     "status": {
       "name": "Failed",
       "code": "FAILED"
